@@ -1,0 +1,73 @@
+{
+  "parse_contract": {
+    "sample_seconds": 0.5,
+    "max_round_seconds": 240,
+    "tick_rate": null,
+    "metadata_tick_rate": 128.0,
+    "schema": 7,
+    "observation_clock": "round-start grid + freeze + public deaths + friendly smoke lifecycle events"
+  },
+  "raw_bytes": 456614931,
+  "header": {
+    "demo_version_guid": "8e9d71ab-04a1-4c01-bb61-acfede27c046",
+    "demo_file_stamp": "PBDEMS2\u0000",
+    "fullpackets_version": "2",
+    "addons": "",
+    "demo_version_name": "valve_demo_2",
+    "client_name": "SourceTV Demo",
+    "game_directory": "/home/container/cs2/game/csgo",
+    "allow_clientside_entities": "true",
+    "patch_version": "14141",
+    "map_name": "de_dust2",
+    "allow_clientside_particles": "true",
+    "server_name": "Esplay.com"
+  },
+  "metadata_tick_rate": 128.0,
+  "measured_tick_rate": 64.0,
+  "effective_tick_rate": 64.0,
+  "clock_note": "demo game_time measured first; metadata fallback only if demo clock unavailable",
+  "frames": 5099,
+  "rounds": 19,
+  "skipped_frames": 0,
+  "radar_null_fraction": 0.0,
+  "incomplete_rounds_excluded": 0,
+  "radar_positive_fraction": 0.004179447852760736,
+  "observation_protocol": "intersection of approximate_spotted_by with currently alive CT steamids; identifiers discarded after per-frame fusion",
+  "round_frames": {
+    "0": 153,
+    "1": 208,
+    "2": 234,
+    "3": 308,
+    "4": 143,
+    "5": 311,
+    "6": 157,
+    "7": 190,
+    "8": 188,
+    "9": 251,
+    "10": 260,
+    "11": 249,
+    "12": 1124,
+    "13": 263,
+    "14": 231,
+    "15": 207,
+    "16": 139,
+    "17": 196,
+    "18": 287
+  },
+  "observation_clock": "round-start grid + freeze + public deaths + friendly smoke lifecycle events",
+  "public_clock_migration": {
+    "old_frames": 5216,
+    "new_frames": 5099,
+    "removed_frames": 117,
+    "rounds": 19,
+    "retention_reasons_nonexclusive": {
+      "regular_grid": 4915,
+      "freeze": 19,
+      "public_state_change": 194
+    },
+    "source_cache_sha256": "1c6fe229304341797ec25d40b5f58d69b7b1e92642c5fa48c899e1779bcaf5fa",
+    "raw_demos_reparsed": false,
+    "method": "retained start-aligned regular grid, freeze, observed alive-count and CT-smoke identity changes; CT velocity recomputed",
+    "limitation": "Friendly smoke lifetimes reused from old caches; entity lifecycle pairing cannot be re-proven without raw event metadata."
+  }
+}

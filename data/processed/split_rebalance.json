@@ -1,0 +1,2416 @@
+{
+  "status": "PASS",
+  "operation": "whole-match test-to-train rebalance requested by user",
+  "target_fraction_of_original_test_prefixes": 0.2,
+  "target_prefixes": 6758.6,
+  "moved_prefixes": 6759,
+  "actual_fraction_of_original_test_prefixes": 0.2000118367709289,
+  "moved_matches": [
+    "2393129",
+    "2393151",
+    "2393157"
+  ],
+  "moved_rounds": 75,
+  "selection_policy": "minimum absolute prefix-count error; then match-count distance from 20%; then sorted match IDs",
+  "selection_inputs": [
+    "existing test assignment",
+    "match ID",
+    "endpoint count"
+  ],
+  "selection_used_labels_or_model_scores": false,
+  "original_splits": {
+    "2391934": "train",
+    "2392347": "train",
+    "2391726": "train",
+    "2392194": "train",
+    "2392455": "train",
+    "2391729": "train",
+    "2391817": "train",
+    "2392279": "train",
+    "2392562": "train",
+    "2392464": "train",
+    "2392468": "train",
+    "2392469": "train",
+    "2392591": "train",
+    "2392566": "train",
+    "2391553": "train",
+    "2392599": "train",
+    "2392753": "train",
+    "2392378": "train",
+    "2392853": "train",
+    "2392655": "train",
+    "2391562": "train",
+    "2392775": "train",
+    "2392915": "train",
+    "2392292": "train",
+    "2392307": "train",
+    "2393073": "train",
+    "2391847": "train",
+    "2393049": "train",
+    "2393054": "train",
+    "2393007": "train",
+    "2392989": "train",
+    "2393100": "val",
+    "2392994": "val",
+    "2392909": "val",
+    "2393029": "val",
+    "2392912": "val",
+    "2392209": "test",
+    "2392941": "test",
+    "2393250": "test",
+    "2393151": "test",
+    "2393157": "test",
+    "2393129": "test",
+    "2393228": "test",
+    "2393331": "test",
+    "2393233": "test",
+    "2393237": "test",
+    "2393236": "test",
+    "2393241": "test",
+    "2393175": "test",
+    "2393242": "test",
+    "2393397": "test",
+    "2393302": "test",
+    "2393408": "test"
+  },
+  "new_splits": {
+    "2391934": "train",
+    "2392347": "train",
+    "2391726": "train",
+    "2392194": "train",
+    "2392455": "train",
+    "2391729": "train",
+    "2391817": "train",
+    "2392279": "train",
+    "2392562": "train",
+    "2392464": "train",
+    "2392468": "train",
+    "2392469": "train",
+    "2392591": "train",
+    "2392566": "train",
+    "2391553": "train",
+    "2392599": "train",
+    "2392753": "train",
+    "2392378": "train",
+    "2392853": "train",
+    "2392655": "train",
+    "2391562": "train",
+    "2392775": "train",
+    "2392915": "train",
+    "2392292": "train",
+    "2392307": "train",
+    "2393073": "train",
+    "2391847": "train",
+    "2393049": "train",
+    "2393054": "train",
+    "2393007": "train",
+    "2392989": "train",
+    "2393100": "val",
+    "2392994": "val",
+    "2392909": "val",
+    "2393029": "val",
+    "2392912": "val",
+    "2392209": "test",
+    "2392941": "test",
+    "2393250": "test",
+    "2393151": "train",
+    "2393157": "train",
+    "2393129": "train",
+    "2393228": "test",
+    "2393331": "test",
+    "2393233": "test",
+    "2393237": "test",
+    "2393236": "test",
+    "2393241": "test",
+    "2393175": "test",
+    "2393242": "test",
+    "2393397": "test",
+    "2393302": "test",
+    "2393408": "test"
+  },
+  "per_match": [
+    {
+      "match_id": "2391553",
+      "match_date": "2026-03-30 16:50:11+00:00",
+      "prefixes": 1951,
+      "rounds": 23,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2391562",
+      "match_date": "2026-04-01 19:50:14+00:00",
+      "prefixes": 2310,
+      "rounds": 23,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2391726",
+      "match_date": "2026-03-24 17:32:23+00:00",
+      "prefixes": 1301,
+      "rounds": 16,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2391729",
+      "match_date": "2026-03-25 16:45:30+00:00",
+      "prefixes": 1743,
+      "rounds": 18,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2391817",
+      "match_date": "2026-03-26 14:49:31+00:00",
+      "prefixes": 1669,
+      "rounds": 21,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2391847",
+      "match_date": "2026-04-03 17:45:41+00:00",
+      "prefixes": 1982,
+      "rounds": 23,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2391934",
+      "match_date": "2026-03-23 19:29:37+00:00",
+      "prefixes": 1132,
+      "rounds": 15,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2392194",
+      "match_date": "2026-03-24 18:37:22+00:00",
+      "prefixes": 1693,
+      "rounds": 24,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2392209",
+      "match_date": "2026-04-08 17:04:16+00:00",
+      "prefixes": 1865,
+      "rounds": 23,
+      "old_split": "test",
+      "new_split": "test"
+    },
+    {
+      "match_id": "2392279",
+      "match_date": "2026-03-26 14:59:55+00:00",
+      "prefixes": 2170,
+      "rounds": 22,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2392292",
+      "match_date": "2026-04-02 16:25:31+00:00",
+      "prefixes": 2071,
+      "rounds": 23,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2392307",
+      "match_date": "2026-04-03 01:07:24+00:00",
+      "prefixes": 2351,
+      "rounds": 24,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2392347",
+      "match_date": "2026-03-23 19:52:08+00:00",
+      "prefixes": 2169,
+      "rounds": 24,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2392378",
+      "match_date": "2026-03-31 15:34:47+00:00",
+      "prefixes": 1643,
+      "rounds": 20,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2392455",
+      "match_date": "2026-03-25 14:44:34+00:00",
+      "prefixes": 2198,
+      "rounds": 22,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2392464",
+      "match_date": "2026-03-27 21:14:42+00:00",
+      "prefixes": 1131,
+      "rounds": 15,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2392468",
+      "match_date": "2026-03-28 22:22:35+00:00",
+      "prefixes": 1459,
+      "rounds": 20,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2392469",
+      "match_date": "2026-03-29 00:14:50+00:00",
+      "prefixes": 1373,
+      "rounds": 18,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2392562",
+      "match_date": "2026-03-27 20:20:58+00:00",
+      "prefixes": 1703,
+      "rounds": 21,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2392566",
+      "match_date": "2026-03-29 21:32:44+00:00",
+      "prefixes": 2200,
+      "rounds": 25,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2392591",
+      "match_date": "2026-03-29 20:08:36+00:00",
+      "prefixes": 1437,
+      "rounds": 17,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2392599",
+      "match_date": "2026-03-30 17:18:16+00:00",
+      "prefixes": 1688,
+      "rounds": 18,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2392655",
+      "match_date": "2026-04-01 10:05:10+00:00",
+      "prefixes": 1503,
+      "rounds": 19,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2392753",
+      "match_date": "2026-03-31 15:27:07+00:00",
+      "prefixes": 1027,
+      "rounds": 17,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2392775",
+      "match_date": "2026-04-01 20:03:31+00:00",
+      "prefixes": 1996,
+      "rounds": 23,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2392853",
+      "match_date": "2026-04-01 09:44:13+00:00",
+      "prefixes": 1597,
+      "rounds": 19,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2392909",
+      "match_date": "2026-04-06 10:38:17+00:00",
+      "prefixes": 1417,
+      "rounds": 19,
+      "old_split": "val",
+      "new_split": "val"
+    },
+    {
+      "match_id": "2392912",
+      "match_date": "2026-04-07 12:18:12+00:00",
+      "prefixes": 1920,
+      "rounds": 24,
+      "old_split": "val",
+      "new_split": "val"
+    },
+    {
+      "match_id": "2392915",
+      "match_date": "2026-04-02 16:14:26+00:00",
+      "prefixes": 2185,
+      "rounds": 25,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2392941",
+      "match_date": "2026-04-08 17:06:29+00:00",
+      "prefixes": 3440,
+      "rounds": 37,
+      "old_split": "test",
+      "new_split": "test"
+    },
+    {
+      "match_id": "2392989",
+      "match_date": "2026-04-05 03:46:54+00:00",
+      "prefixes": 1442,
+      "rounds": 20,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2392994",
+      "match_date": "2026-04-06 04:10:14+00:00",
+      "prefixes": 4076,
+      "rounds": 46,
+      "old_split": "val",
+      "new_split": "val"
+    },
+    {
+      "match_id": "2393007",
+      "match_date": "2026-04-04 13:44:53+00:00",
+      "prefixes": 1561,
+      "rounds": 16,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2393029",
+      "match_date": "2026-04-07 10:54:57+00:00",
+      "prefixes": 2361,
+      "rounds": 24,
+      "old_split": "val",
+      "new_split": "val"
+    },
+    {
+      "match_id": "2393049",
+      "match_date": "2026-04-03 18:45:33+00:00",
+      "prefixes": 1523,
+      "rounds": 18,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2393054",
+      "match_date": "2026-04-04 13:34:44+00:00",
+      "prefixes": 473,
+      "rounds": 6,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2393073",
+      "match_date": "2026-04-03 01:19:41+00:00",
+      "prefixes": 2898,
+      "rounds": 37,
+      "old_split": "train",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2393100",
+      "match_date": "2026-04-05 09:37:05+00:00",
+      "prefixes": 1057,
+      "rounds": 14,
+      "old_split": "val",
+      "new_split": "val"
+    },
+    {
+      "match_id": "2393129",
+      "match_date": "2026-04-12 23:01:35+00:00",
+      "prefixes": 1450,
+      "rounds": 18,
+      "old_split": "test",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2393151",
+      "match_date": "2026-04-10 10:30:04+00:00",
+      "prefixes": 3248,
+      "rounds": 34,
+      "old_split": "test",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2393157",
+      "match_date": "2026-04-12 21:15:04+00:00",
+      "prefixes": 2061,
+      "rounds": 23,
+      "old_split": "test",
+      "new_split": "train"
+    },
+    {
+      "match_id": "2393175",
+      "match_date": "2026-04-18 13:03:39+00:00",
+      "prefixes": 2069,
+      "rounds": 21,
+      "old_split": "test",
+      "new_split": "test"
+    },
+    {
+      "match_id": "2393228",
+      "match_date": "2026-04-14 21:18:35+00:00",
+      "prefixes": 1634,
+      "rounds": 17,
+      "old_split": "test",
+      "new_split": "test"
+    },
+    {
+      "match_id": "2393233",
+      "match_date": "2026-04-15 14:35:22+00:00",
+      "prefixes": 1159,
+      "rounds": 14,
+      "old_split": "test",
+      "new_split": "test"
+    },
+    {
+      "match_id": "2393236",
+      "match_date": "2026-04-15 21:09:34+00:00",
+      "prefixes": 1719,
+      "rounds": 19,
+      "old_split": "test",
+      "new_split": "test"
+    },
+    {
+      "match_id": "2393237",
+      "match_date": "2026-04-15 19:55:37+00:00",
+      "prefixes": 2450,
+      "rounds": 24,
+      "old_split": "test",
+      "new_split": "test"
+    },
+    {
+      "match_id": "2393241",
+      "match_date": "2026-04-17 19:59:01+00:00",
+      "prefixes": 1668,
+      "rounds": 19,
+      "old_split": "test",
+      "new_split": "test"
+    },
+    {
+      "match_id": "2393242",
+      "match_date": "2026-04-18 16:40:15+00:00",
+      "prefixes": 1809,
+      "rounds": 20,
+      "old_split": "test",
+      "new_split": "test"
+    },
+    {
+      "match_id": "2393250",
+      "match_date": "2026-04-10 03:03:08+00:00",
+      "prefixes": 1964,
+      "rounds": 22,
+      "old_split": "test",
+      "new_split": "test"
+    },
+    {
+      "match_id": "2393302",
+      "match_date": "2026-04-20 17:47:39+00:00",
+      "prefixes": 1695,
+      "rounds": 18,
+      "old_split": "test",
+      "new_split": "test"
+    },
+    {
+      "match_id": "2393331",
+      "match_date": "2026-04-15 11:11:18+00:00",
+      "prefixes": 2421,
+      "rounds": 23,
+      "old_split": "test",
+      "new_split": "test"
+    },
+    {
+      "match_id": "2393397",
+      "match_date": "2026-04-19 10:54:25+00:00",
+      "prefixes": 1759,
+      "rounds": 17,
+      "old_split": "test",
+      "new_split": "test"
+    },
+    {
+      "match_id": "2393408",
+      "match_date": "2026-04-20 18:19:28+00:00",
+      "prefixes": 1382,
+      "rounds": 19,
+      "old_split": "test",
+      "new_split": "test"
+    }
+  ],
+  "before": {
+    "train": {
+      "matches": 31,
+      "prefixes": 53579,
+      "rounds": 632
+    },
+    "val": {
+      "matches": 5,
+      "prefixes": 10831,
+      "rounds": 127
+    },
+    "test": {
+      "matches": 17,
+      "prefixes": 33793,
+      "rounds": 368
+    }
+  },
+  "after": {
+    "train": {
+      "matches": 34,
+      "prefixes": 60338,
+      "rounds": 707
+    },
+    "val": {
+      "matches": 5,
+      "prefixes": 10831,
+      "rounds": 127
+    },
+    "test": {
+      "matches": 14,
+      "prefixes": 27034,
+      "rounds": 293
+    }
+  },
+  "validation_assignments_unchanged": true,
+  "strict_chronological_extrapolation": false,
+  "split_note": "User-requested group-disjoint rebalance: selected old test matches are now training data. Validation groups stay fixed. This is not a strictly chronological extrapolation split. All methods and seeds must share this version.",
+  "raw_demos_reparsed": false,
+  "downloads": false,
+  "training_performed": false,
+  "invariant_arrays_verified": [
+    "start",
+    "end",
+    "n",
+    "group",
+    "demo",
+    "round",
+    "tick",
+    "elapsed",
+    "contact_age",
+    "had_contact",
+    "ct_team",
+    "t_team",
+    "smoke_active",
+    "ct_elo",
+    "t_elo",
+    "skill_band",
+    "round_starts"
+  ],
+  "population_conservation": true,
+  "full_history_boundaries_unchanged": true,
+  "spatial_features_and_targets_recomputed": true,
+  "full_prefix_max": 1665,
+  "original_sources_unchanged": true,
+  "original_inventory_sha256": {
+    "data\\frames\\2391553_nemesis-vs-qwentry-m1-dust2.audit.json": "632ab9eae2164d915d510c4f3c9923eb7e996e1fa1f3b5e083877c853930329e",
+    "data\\frames\\2391553_nemesis-vs-qwentry-m1-dust2.npz": "7b2c6c72c504e9667b3671806071664bc9a9a30ffc53c64c264d69f54e5fbdf4",
+    "data\\frames\\2391562_nemiga-vs-nemesis-m3-dust2.audit.json": "4f035b33bd67503d00fc932ba17b8aaa875aee35f83d5260feafc476c586bb35",
+    "data\\frames\\2391562_nemiga-vs-nemesis-m3-dust2.npz": "0120d7df6d78af519e322379fce0aa3f427f6fe8b863dcb00eb4becc7686fcf6",
+    "data\\frames\\2391726_back-to-back-vs-keyd-stars-m2-dust2.audit.json": "891f02aef051d932484c0c4639e9c15026c295c83d43758faba21e74ff9f7f57",
+    "data\\frames\\2391726_back-to-back-vs-keyd-stars-m2-dust2.npz": "1128ab0a976eeca5b3ab0f6c311973f92f45f6aee534a3424d412e7d10e78c75",
+    "data\\frames\\2391729_fake-do-biru-vs-bounty-hunters-m1-dust2.audit.json": "5bafb0f31fd2a6890e35461d7e734025bbb47217af53e4c3d2a4f43998631bed",
+    "data\\frames\\2391729_fake-do-biru-vs-bounty-hunters-m1-dust2.npz": "50d261fa7dd07d9c585a6dea228bd735d24d18e757f7e997c5466409434266dd",
+    "data\\frames\\2391817_omega-vs-megoshort-m1-dust2.audit.json": "aa272b24116d05f28d7e8b63a0b7aca223aad398071ccbb5d0a79b15169e5a88",
+    "data\\frames\\2391817_omega-vs-megoshort-m1-dust2.npz": "0add568f87fa7700ba900f77ca38834220dcca01fe5dcf5090a364d455cec74c",
+    "data\\frames\\2391847_esc-vs-nemesis-m1-dust2.audit.json": "cdc85f0d037a6ebd2cbc0cdbe132d6bd8141132c9a09371e78f0b01d8248a1fb",
+    "data\\frames\\2391847_esc-vs-nemesis-m1-dust2.npz": "6d21cb5099c8d9c3348b8c0b8eb4613a4618249d665e7aeac229c141054fcfec",
+    "data\\frames\\2391934_sangal-vs-nemiga-m2-dust2.audit.json": "ac00ec0b502aff8e6734e142c9c02b640dc72ce9066bc4389fa049897b7dde8b",
+    "data\\frames\\2391934_sangal-vs-nemiga-m2-dust2.npz": "3a717e625a5aecebfd99fdae23f4056e9a97f40c5bbd37b5af2c1757a0021bff",
+    "data\\frames\\2392194_m1x-ks-vs-esc-m2-dust2.audit.json": "a1f181f80c1c1827227f9d8d05c3dc530fee9ccbe87d9cf788e46230f977af6b",
+    "data\\frames\\2392194_m1x-ks-vs-esc-m2-dust2.npz": "68cc45952ed86af7648c9467da1f6e23ed88ded216e470a721157afeeb48a1dc",
+    "data\\frames\\2392209_kolesie-vs-m1x-ks-m1-dust2.audit.json": "16826decde6b97a579ebbf3b97b7847d76c8bb1fa2cff4543e2abdc06f800849",
+    "data\\frames\\2392209_kolesie-vs-m1x-ks-m1-dust2.npz": "30634bce649a41afa260b64f63ee985f61e08c68b475c5f185789d9801fe320c",
+    "data\\frames\\2392279_hotu-vs-big-m2-dust2.audit.json": "296951c2d23a05901f51411f161eb4d7dc3564c9a69f3b8d888c3c6e8e008213",
+    "data\\frames\\2392279_hotu-vs-big-m2-dust2.npz": "2be1e019a470de17aab9a4c8a27d9f0c0ce5b98789a741fa0165a1e5f32f8695",
+    "data\\frames\\2392292_k27-vs-magic-m1-dust2.audit.json": "aa1dc5363812765a778d97adda5c79b6b72f985c9ab0c9f12c1e0005be910cab",
+    "data\\frames\\2392292_k27-vs-magic-m1-dust2.npz": "2ff56cca1c893287f6be147582a77c8d00d5bd3b784c57aa93bf0f75d6ced87e",
+    "data\\frames\\2392307_keyd-stars-vs-fake-do-biru-m1-dust2.audit.json": "09ea788875bd7517c49e11483c63a7f26ac3dc4fb98979cbd12af9eaba33c25e",
+    "data\\frames\\2392307_keyd-stars-vs-fake-do-biru-m1-dust2.npz": "342ff461baeaef144490c4079cfe3e9bbb3a23805b876ea345730c2e9d162387",
+    "data\\frames\\2392347_rustec-vs-hashiras-m1-dust2.audit.json": "f12768753762d361ef21e2222eb6a56cb4b7024e0439ebf8d7d6806fa97d5ea7",
+    "data\\frames\\2392347_rustec-vs-hashiras-m1-dust2.npz": "d014eb651c74725c31f0459add7cee63616be30b3c80407154a06ad7b698eb3b",
+    "data\\frames\\2392378_megoshort-vs-ursa-m1-dust2.audit.json": "0c375cb1c1b353c598be4e89d25620a5d831c88e2caeeff74b733230e91a63a4",
+    "data\\frames\\2392378_megoshort-vs-ursa-m1-dust2.npz": "4f89226c05e7a2bcd110f35af5f45179eb718c2f07db36544385ede922d56b2f",
+    "data\\frames\\2392455_infurity-vs-big-academy-m2-dust2.audit.json": "9077406dc4b2333df0c5348b6f4f0a4497b339dbc6f75dd5d7c74d725ed6c207",
+    "data\\frames\\2392455_infurity-vs-big-academy-m2-dust2.npz": "88e4490d5baa678019a880239024a179bb5d3ab2c659705ee7629d0988fa9d55",
+    "data\\frames\\2392464_atrix-vs-pain-academy-m1-dust2.audit.json": "43215c66e77ad6867f71dddf11b7e4e68da258a1768f684cec108ba9b1f72988",
+    "data\\frames\\2392464_atrix-vs-pain-academy-m1-dust2.npz": "b5bdcef090dbcf693e14233d41f465c98e352f8067f5970d78aa373081bd5bc6",
+    "data\\frames\\2392468_metanoia-vs-r2-m2-dust2.audit.json": "38832aef51aa162b9ae282b107751abbe555a006e226559862c981e2183910ce",
+    "data\\frames\\2392468_metanoia-vs-r2-m2-dust2.npz": "73d176a29a7b47542f98e8ef0ea7e7eb30c8067aa25ca7cca14bf002a853d2a6",
+    "data\\frames\\2392469_atrix-vs-bestia-academy-m1-dust2.audit.json": "a9a5ee4d2406378c51e3638f5c28a6d01a847228341db9fcfde34d01ead97774",
+    "data\\frames\\2392469_atrix-vs-bestia-academy-m1-dust2.npz": "860eeb48587251f238983d2ed99a838e1b0033a7bb3f6f4ce87d5b7f12d539a2",
+    "data\\frames\\2392562_misa-vs-rounds-m2-dust2.audit.json": "4e4f8c13b3cceb2291942c3018b8a7c2e66fbbacc65178a5451858e58828ebb0",
+    "data\\frames\\2392562_misa-vs-rounds-m2-dust2.npz": "262bcefc0f773e36b28f8568cf374730180bff427edf0f43d892af4906ffaddb",
+    "data\\frames\\2392566_tnt-vs-qwentry-m1-dust2.audit.json": "77a069fbf932c4557d208f79605ab03fa5ddd0337c1a362475254ef05a41e2ca",
+    "data\\frames\\2392566_tnt-vs-qwentry-m1-dust2.npz": "d1366236ce08a7c8d21c535cf1b45aa39265c579cc95df40471ea7ef44b5af2e",
+    "data\\frames\\2392591_partizan-vs-inner-circle-m2-dust2.audit.json": "76b4e994f360ecef61351803140d99cf67e599d054bad89d2fe4e2bb9edfa6c8",
+    "data\\frames\\2392591_partizan-vs-inner-circle-m2-dust2.npz": "1ff40719dccdcfc89016ecbec6b6bc85b268fe78a9614d1fa867150742918128",
+    "data\\frames\\2392599_fnatic-vs-sashi-m2-dust2.audit.json": "24d6c87c96c6ee433c00c36bce40f51cc69749848cc818f312b05674042bae6c",
+    "data\\frames\\2392599_fnatic-vs-sashi-m2-dust2.npz": "b700a265bc908dcfe87f97ff18bb239b077dff44b989c47e7876b4e26d1b1d5e",
+    "data\\frames\\2392655_3dmax-vs-wazabi-m2-dust2.audit.json": "203e878fd990330263b4fca0aaff2757cf8ec17736c9bc550b58dd0a68a867a2",
+    "data\\frames\\2392655_3dmax-vs-wazabi-m2-dust2.npz": "9ac1939ba3fb2e312603e8447f15c47d05600b28e5a66b6cf85ae763ddb9dc88",
+    "data\\frames\\2392753_m1x-ks-vs-omega-m1-dust2.audit.json": "d7f313e5999343803c66971324ca36f0a4a18cdd327c05f6aa4f97f36614d065",
+    "data\\frames\\2392753_m1x-ks-vs-omega-m1-dust2.npz": "d15e6fa348c9ec7f246aafe0b451f715f7fd4fa772245da6e68a8fdfc1c8b72f",
+    "data\\frames\\2392775_tnc-vs-heroic-academy-m1-dust2.audit.json": "e64f51de24c5854181d61c4315849fb45b48f8ac0b24048ea271181a6c09d80c",
+    "data\\frames\\2392775_tnc-vs-heroic-academy-m1-dust2.npz": "adfdef8d6f39ed80d457c04543aa37c87ea6059629613d958bf2697b1395c009",
+    "data\\frames\\2392853_chaos-vs-last-bullet-m1-dust2.audit.json": "051b5d1d196065e6fe02629ad8c76356ff485476c8cd2600e3775813a983336d",
+    "data\\frames\\2392853_chaos-vs-last-bullet-m1-dust2.npz": "26db69de62e162f5b8d079dd2f70ff6fe3eebc5a17a6ae4a912cac416e82e881",
+    "data\\frames\\2392909_rooster-vs-skele-m2-dust2.audit.json": "7f4792559f4b136d411a9076f62488e36e3ed99afa80132dd1fed7dfc19b1e0f",
+    "data\\frames\\2392909_rooster-vs-skele-m2-dust2.npz": "3f9c92189e145ceaac48ab8909942977d9abace8552b4af506c972f3618e8d2f",
+    "data\\frames\\2392912_rooster-vs-arcade-m1-dust2.audit.json": "fc900c098179a826cfaee8cb213108d6daa1e160f7a9c21a99febbdc081e2c0f",
+    "data\\frames\\2392912_rooster-vs-arcade-m1-dust2.npz": "e40965e52b18bb2dc78f5d02f847d051756be90bbc8a26cfdb34086bf752335d",
+    "data\\frames\\2392915_boring-players-vs-bmz-m3-dust2.audit.json": "fb3859142c8d0658e6d825c4888cae946ccf2f53766d1e9367b7377a49b03866",
+    "data\\frames\\2392915_boring-players-vs-bmz-m3-dust2.npz": "e12063a31e9392ceaf5371766de8addc3b0a8a55b6a388e07fe1c9810b4276e9",
+    "data\\frames\\2392941_nexvoid-vs-chinggis-warriors-m3-dust2.audit.json": "305e75dbd1c5865418081c9e0f4b313a3e6be7c098090101c16dfef9916097af",
+    "data\\frames\\2392941_nexvoid-vs-chinggis-warriors-m3-dust2.npz": "b76ade55d2db315b2783394bb1679f527f2ae763dde46c0f42b7473f0d0ef59c",
+    "data\\frames\\2392989_club-333-vs-tsg-m1-dust2.audit.json": "bf7cdab12154a0e451f5cd4808c87717fc5b0a435d021ab792c0427355fe09f5",
+    "data\\frames\\2392989_club-333-vs-tsg-m1-dust2.npz": "34eb2693d67ecabc52193dd85d4b651006e1f53795a1e23b868c006bb9f9910a",
+    "data\\frames\\2392994_zomblers-vs-regain-m2-dust2.audit.json": "6a5ee0bb0e8d0fe4374a3d033389d700d300358768194d955120f1501273cbf1",
+    "data\\frames\\2392994_zomblers-vs-regain-m2-dust2.npz": "9d4224c5c7da2edb6ff690966134cb25930ba294f516df5f9b6c72d10dd3a858",
+    "data\\frames\\2393007_the-mongolz-vs-bcgame-m1-dust2.audit.json": "6244acacb6d0ea916991dc195b7d5e69ff651f3c1b77df4cb7a0f8ae650355b9",
+    "data\\frames\\2393007_the-mongolz-vs-bcgame-m1-dust2.npz": "215ac819801c82d00a01b8857c3e09d11bf4a4470280dbce428ce7568fbfde8e",
+    "data\\frames\\2393029_the-mongolz-vs-wildcard-m1-dust2.audit.json": "135eff79e4b720016bd0eee4349aa4a2c8e62631391acae335664d45609bbae1",
+    "data\\frames\\2393029_the-mongolz-vs-wildcard-m1-dust2.npz": "484605b777ce2ccc100488726d2e59922dab3330c9d90d2ffdd7f9b95d5b9ea5",
+    "data\\frames\\2393049_illwill-vs-ex-zero-tenacity-m2-dust2.audit.json": "70366130bdef1d011b3343a5b33eb8d635572251425eef97c7678050bb73a164",
+    "data\\frames\\2393049_illwill-vs-ex-zero-tenacity-m2-dust2.npz": "82942bdae20ad455f01eee3ac1681574baadf70e3d6a50674172accf1b3c07e0",
+    "data\\frames\\2393054_magic-vs-cybershoke-m2-dust2.audit.json": "4d9721a1460ebbfac13244f1c6065be72b9a090e2d9acb90a847e3eef6f945f5",
+    "data\\frames\\2393054_magic-vs-cybershoke-m2-dust2.npz": "436a97b94483189871ab39d66e4064ec829c86c25f4af2052088f64168aae16b",
+    "data\\frames\\2393073_zomblers-vs-empire-m3-dust2.audit.json": "ce0152e9fdc667238a49a95b8c1ef478264ad777b651f04a28eea1037686b7fa",
+    "data\\frames\\2393073_zomblers-vs-empire-m3-dust2.npz": "bab03c990d84048e1228f7bf2e89510f9250c81e6745009c0f67471e5e965d7e",
+    "data\\frames\\2393100_prodigy-vs-subtop-de-france-m1-dust2.audit.json": "59268c6264a24221578099fc594ce73285a486a30b68abea806936270ab1d2ff",
+    "data\\frames\\2393100_prodigy-vs-subtop-de-france-m1-dust2.npz": "c4587e24a0bdfbeb88a4cbedfeb4f8f58508d6999582a974419180ace16936d7",
+    "data\\frames\\2393129_zomblers-vs-regain-m1-dust2.audit.json": "0081b4ce39e0a91a76e9ab70d91723ec6e693cad07ba3330f54a8510245b609e",
+    "data\\frames\\2393129_zomblers-vs-regain-m1-dust2.npz": "91cc081a807499ad8f3dae63251755099a29b4450ecdef4f8cad0c5b4bdbc735",
+    "data\\frames\\2393151_astral-vs-lavked-m1-dust2.audit.json": "49b5ed0e777c8dcc478b091d7038ebfb57281d3c47c2d72bcd481d9950b49dd2",
+    "data\\frames\\2393151_astral-vs-lavked-m1-dust2.npz": "4bc51d53b9269b7156eb790e08ba9cbd71627a0900a06b3eaa9a499176741bd9",
+    "data\\frames\\2393157_lavked-vs-rune-eaters-m1-dust2.audit.json": "e6537b9fa798b6a8ea4a49d61ed85bf92b4a5843d1989323702caa82e5208d9e",
+    "data\\frames\\2393157_lavked-vs-rune-eaters-m1-dust2.npz": "740b9da3954a9bd92f4d0ed8ca155ba0df0dd0737b09525ea078896dda82a5e9",
+    "data\\frames\\2393175_acend-vs-genone-m1-dust2.audit.json": "709f7fd8b84883aa52ee7cf501f5c1eece5cba0ed062dacd8b1581481f15b01c",
+    "data\\frames\\2393175_acend-vs-genone-m1-dust2.npz": "1c86328be99bafad0b62fab02832444cb6f42b71a1d34eb716e41d625ed4714d",
+    "data\\frames\\2393228_natus-vincere-vs-furia-m2-dust2.audit.json": "30cadf4a32b5923d355698e130cd04f8cd4e6819cbd261ef84b753b851c34da7",
+    "data\\frames\\2393228_natus-vincere-vs-furia-m2-dust2.npz": "882e91f2c071d6a48699e281fcf9ba8278d1ffeab3562ccd36a0b29ab486aa72",
+    "data\\frames\\2393233_g2-vs-3dmax-m2-dust2.audit.json": "ae4176166fa916f51c06f9323c782db20e5f9faae9c0f16cbc4dc5b951525c1e",
+    "data\\frames\\2393233_g2-vs-3dmax-m2-dust2.npz": "c0e3cde6ac0939bd4cb86153b4a9eb2fa972aa595bc5764a2b9d51535cdd7408",
+    "data\\frames\\2393236_vitality-vs-falcons-m2-dust2.audit.json": "14deaf6d4f89714323d7021ea1cf27c7c16079ed0986dd81ef67f72ee5919771",
+    "data\\frames\\2393236_vitality-vs-falcons-m2-dust2.npz": "b887eb70f0203a592f79dec771515b03fa05d9a93b3b2c75738d551552fdea5c",
+    "data\\frames\\2393237_g2-vs-spirit-m2-dust2.audit.json": "83c71e4fbc1cc13ec0259882104366ae570b62b2c019c815d11697112b05b78c",
+    "data\\frames\\2393237_g2-vs-spirit-m2-dust2.npz": "2f7dc8b6c54c6d29a4d27c9d3b61fa64d3bc642a72e14d18b9a2a69e87bb6193",
+    "data\\frames\\2393241_vitality-vs-natus-vincere-m2-dust2.audit.json": "6bf3893d11b0d0a395dcccb393866c30c45be293955e9155e7241a7b4954084b",
+    "data\\frames\\2393241_vitality-vs-natus-vincere-m2-dust2.npz": "32ad9e21cba0de295d09bf1b894ce7c94ba662105260f191c63bbc610ed79058",
+    "data\\frames\\2393242_falcons-vs-spirit-m1-dust2.audit.json": "4951c7f5afe43b63d27dc49a02652c2248341ff22d172d7e43a62d7523bf3fb6",
+    "data\\frames\\2393242_falcons-vs-spirit-m1-dust2.npz": "edb7f2b1287c0e80a056bd85b1e9cb3a8e7fa35b349c9d8a8d43e1a23f6b4167",
+    "data\\frames\\2393250_empire-vs-clockwork-m1-dust2.audit.json": "88055baa72d4931874aa1f26bf45370b32c3e9e7c3fb8e97328b5d2f8e6e5a2e",
+    "data\\frames\\2393250_empire-vs-clockwork-m1-dust2.npz": "e78489a3fce4f09ef58c8fcafba6348c32e06ca08380cb95d6b083ed3737bb2a",
+    "data\\frames\\2393302_sinners-vs-sashi-m2-dust2.audit.json": "578c90731748583f6977bc4ed96566f326cc1131ab9a4ae95c6ec75e560c1540",
+    "data\\frames\\2393302_sinners-vs-sashi-m2-dust2.npz": "a6c52e60b03b7e5e5a066e8b95645c3684bcbbcc5aaacf246c0ede3515650196",
+    "data\\frames\\2393331_brute-vs-fire-flux-m1-dust2.audit.json": "6dad70082201a9fbaeed922c6e9e8cf7750cc935efb73aece56cd684a1a5b7c2",
+    "data\\frames\\2393331_brute-vs-fire-flux-m1-dust2.npz": "412f8009ac06a453aa8413ec483e7bc83e559fa9eaad006a88b0a4f258be22a7",
+    "data\\frames\\2393397_xi-vs-rebels-m1-dust2.audit.json": "d010ac008cbf7780b3cbc61220cd4dea420d46c5187bf1a4b3075e1c45d2d5c4",
+    "data\\frames\\2393397_xi-vs-rebels-m1-dust2.npz": "e5d1ac851a2c93e13185cdb9786fe3cc1446aaa7af0e5bc97191786493899357",
+    "data\\frames\\2393408_infinite-vs-zajezdzacze-m1-dust2.audit.json": "7e2029a2cadd3f8b250ec64660ec7e936732610ad0d4f3231930833faa6b5c72",
+    "data\\frames\\2393408_infinite-vs-zajezdzacze-m1-dust2.npz": "5ef8235334f130c24c9275fefcc5d9b6f08db5ab72e3ae9c7583ecdbfe9cd8b8",
+    "data\\metadata\\metadata-europe-020c2c03.parquet": "f0dd23d8fcc48d293c4659fcc7e43ee7ee1f1440c85556e4d717a03dd1f126c7",
+    "data\\metadata\\metadata-europe-03d8d6ae.parquet": "343fb85fd688b06e6a8741ee638e21badeeb7cd9ec7f88454d6be8ad97ae730c",
+    "data\\metadata\\metadata-europe-0436c5b3.parquet": "a0f9f94f483b22c505144a6b74f26d7362a99b6061c6dcec8e97782dfef3e800",
+    "data\\metadata\\metadata-europe-06890d36.parquet": "b37d599adcaca3d490113b9f658de035c16115c20636e835a850b371d6b8c0ef",
+    "data\\metadata\\metadata-europe-07163fe3.parquet": "51f74b8516d275800d9055364ef6414a17717bf7b322353ac03bc269d2d12f75",
+    "data\\metadata\\metadata-europe-0a807cda.parquet": "dd18b655c2d479a1ce12780160377a5caad9f3e32f9c60c792eeeb7c02f598b1",
+    "data\\metadata\\metadata-europe-0b918d2e.parquet": "060aba072937a205df20b0c7003aa57cb53733b192ff605761b98a0678c1932e",
+    "data\\metadata\\metadata-europe-0d8132f5.parquet": "60856e035875c3d6b89c8c7a1345cfa06fe21301282ed6983a866b936ece8ca7",
+    "data\\metadata\\metadata-europe-0dd909b0.parquet": "4264958227b905cc1c774cc8f8e6d680a95989ccb29d9ee4b537987b61221dc2",
+    "data\\metadata\\metadata-europe-10892ed9.parquet": "d2a95808bbd9a8e6810193c7298b689a873fbaf5da7fc187c4c9ff79d658c476",
+    "data\\metadata\\metadata-europe-11bffb5d.parquet": "cad4e1640563e347bb7c1965b99b5e40565015d1daad9ef9e06010b87806f71a",
+    "data\\metadata\\metadata-europe-145090af.parquet": "b2065d5d917a849365a4f640c83244fc91d9447e503643224e6e8e5c6dacf66a",
+    "data\\metadata\\metadata-europe-1574a6a2.parquet": "e50920155ba6ad1799e5d12f62307420ce4ffca28880fc978d2e56804466bbf9",
+    "data\\metadata\\metadata-europe-1658a764.parquet": "06ab3ce996a55b880ab1942ad683f2064ca6e4449eed15c0ac65f4e3f3f1fe10",
+    "data\\metadata\\metadata-europe-1719c8b5.parquet": "eddfd15caecf8cbef6420d2537752c63fc5e0dd7cd9728100f990b02c98a7aea",
+    "data\\metadata\\metadata-europe-17bc5760.parquet": "6828fbffaaa89dfca5b2581de86cc48a91841a855e1cbb3f24cdfb3f4ad5f5f9",
+    "data\\metadata\\metadata-europe-185d0746.parquet": "905aa30a8400d53628410d94abd4989bbbb9f38295b047452d731f42cadb7f8c",
+    "data\\metadata\\metadata-europe-1b7c69d6.parquet": "bcc59483c94d5e3482c9f68e3e7b23374cb660bcc0be6a502d966f5acb9d3c57",
+    "data\\metadata\\metadata-europe-201e9876.parquet": "d9d036e87d4ef8d43de9f1c6a2be430a771e6775eeee25328573dddc2f2d5507",
+    "data\\metadata\\metadata-europe-2222352d.parquet": "5d40f5ef189625dbd4956af974424e555ef8c6ba273dcc067126348561c33b1f",
+    "data\\metadata\\metadata-europe-24246461.parquet": "569fe09e2a1d7ca4fbe5716ea9ee43bbc279d6af99677af1e9071c64b4a38147",
+    "data\\metadata\\metadata-europe-2586405b.parquet": "da8efee816922eaee21716c8907258654d6b3e5aa9f7794841bd08d7693b7b90",
+    "data\\metadata\\metadata-europe-25d1a04b.parquet": "8fb28ff8a5ea8f7239c179eb857b8af987e85a09f46c7de6f066ab03e25397e9",
+    "data\\metadata\\metadata-europe-2a508767.parquet": "de8fe9d003014b31fbc1ffd2313fa78769c016d06c4b2fb07c905a4b4aae0291",
+    "data\\metadata\\metadata-europe-2b1c115f.parquet": "9835477698a08d7b0bec15585c00774b15121b7463852ef8b9ffeec101ba75db",
+    "data\\metadata\\metadata-europe-2e680998.parquet": "683aadb12bef0a2f787e45810a83643b9ceb307ca872c0d50459a53c75996bf6",
+    "data\\metadata\\metadata-europe-32819ca3.parquet": "54d2d56e2473c1d5388d841eb3f620bb725ee00252e279c9325e041c78334f33",
+    "data\\metadata\\metadata-europe-347872a0.parquet": "ffce27cf3a3089c52cfb03dae60bf5bde73545db4ac5698a57baa7747bfba5e9",
+    "data\\metadata\\metadata-europe-34a48180.parquet": "0335b566f5457d0938b0d785f7a90edda6033143024eeef1452f04d705cfa6d2",
+    "data\\metadata\\metadata-europe-35b69f4b.parquet": "b042c3a9c1c01e4a0662f59bafcaf5bb22be3d5f96fde2bd21b26f70e6d51567",
+    "data\\metadata\\metadata-europe-35cb7a32.parquet": "f56cad036e904ede26dae1f8c605d9f32171ddc6f5d27e8839ba78852cd11ddf",
+    "data\\metadata\\metadata-europe-39b35e35.parquet": "e7715e9646e111cc298ccc33d3496032ea059173e77e2844af47a4c377a2a021",
+    "data\\metadata\\metadata-europe-3c6617e8.parquet": "d668172abc898e3adb258bc19da3033210ce7c86950194f99ab86cbb9d1bf452",
+    "data\\metadata\\metadata-europe-3dcb3b3d.parquet": "2057e0f96247817e598c81ed75541487e830cb00c01656130f0bfab6cf90277e",
+    "data\\metadata\\metadata-europe-3e2bacd0.parquet": "f45f3d609f5952026f2dd037872208b390b6fa7ac5aaf5b276a0e1b7b5a8428f",
+    "data\\metadata\\metadata-europe-3e71bbdb.parquet": "a3041789882b183cdcc8024d9cd4a3e211c13bd4b2f5b4c48a0b609dc8912eaa",
+    "data\\metadata\\metadata-europe-40e2d3ed.parquet": "9126ac74c11eb981e4cb4883c76dca7ced0e529f66c0384d1080ab8d6871be08",
+    "data\\metadata\\metadata-europe-42b2ab3b.parquet": "15b9140b2b1943de7e70eee66052691407f8508713e446803fb843e2496516ee",
+    "data\\metadata\\metadata-europe-444bdbeb.parquet": "499a80a781756ee65701b42a45a6886bf596e5285ea6bee2ef892d793c315b45",
+    "data\\metadata\\metadata-europe-4815b42d.parquet": "f6bb5b223925aba186a4b6085508aa2c12dd96ab321c033289bb16577e0644be",
+    "data\\metadata\\metadata-europe-489ea15e.parquet": "7b4780f051453f8032c7b5fc1fa3f83467180d7edd8a876a51d2a1d6157cf045",
+    "data\\metadata\\metadata-europe-48edc3ff.parquet": "1b0a25d8e5ddf1336fdca63994042ddfe76ec0652376243b00466bce53bce0ef",
+    "data\\metadata\\metadata-europe-4a0765cb.parquet": "f985ec7a469e11ff2890604c8577db616efd47f91020241134a59b9b19d0634e",
+    "data\\metadata\\metadata-europe-4bef6fe1.parquet": "2bf5fef3b18fbc83737fef3c3a22974a63ff1ec67e480dda0192182ce17a8cb9",
+    "data\\metadata\\metadata-europe-4ef6781d.parquet": "fec0ac31aa9ac96b56aaf88b1d277184a0741cffe6df94212996b8b6fb6a3149",
+    "data\\metadata\\metadata-europe-528b87f6.parquet": "98e422d93809387d428e04645077d6cb1ed41f8037191fe96aad0cb585826254",
+    "data\\metadata\\metadata-europe-54227c46.parquet": "ac2cc7fb21f61666930e51c71c0f6c4052f1b333509742d17dd898e9ac38084a",
+    "data\\metadata\\metadata-europe-54251ae7.parquet": "9bb633002ec5e1599438504af73bf25865571bf91ddd2e1a3a5fb2c9f13b4a85",
+    "data\\metadata\\metadata-europe-5457b143.parquet": "230e59ea8c674328702fb7a0f855c1a05a00ad2c461f30c7274bdf89ed2b04d9",
+    "data\\metadata\\metadata-europe-556ea573.parquet": "872b6e89d1d0ca498ad43ce35f85673d49a7c884533af5934783f1bef42f69fc",
+    "data\\metadata\\metadata-europe-55d96a26.parquet": "17697b68736d4b12b747a6cd8f649aafc40b0844ce8f862af1633989461fe9a4",
+    "data\\metadata\\metadata-europe-56c0f328.parquet": "b12eada04346afe882368cdfa2776c18dfb6cbfa0ec61de54d53c8368e2efe48",
+    "data\\metadata\\metadata-europe-5d30b5d7.parquet": "1fea18039ead94b88824909bdf8497ca5f5d69c96aea04563a7b3bd9a114da3b",
+    "data\\metadata\\metadata-europe-5d7684b2.parquet": "a6929a810fbcfe9fb35e2a1c114ec261738eae22e64477102eda81a97a3137ab",
+    "data\\metadata\\metadata-europe-61c1c73d.parquet": "1c51f52d8d7bb6466473b076a515c94088e6e15a1ff6c64aa066e229b652d310",
+    "data\\metadata\\metadata-europe-62d35235.parquet": "2d598e3672b0dc5a8a7224e3af206f493bfdc76fd86515eacfbe7c2a5d5a60c1",
+    "data\\metadata\\metadata-europe-644b975c.parquet": "972ba144aeffe88c861398e0130488716ef093e16c8c64078eca7465c7289e0a",
+    "data\\metadata\\metadata-europe-6672109a.parquet": "ee2753a82104bbc7c45c0cf18079efc37419143bf9bb242a586f4fc4f178cabd",
+    "data\\metadata\\metadata-europe-6706c8a2.parquet": "c2c1911543803c1e63985f2a223cd2e7f9237cfa718dac3c0a99dfc303530d9c",
+    "data\\metadata\\metadata-europe-6ac92abd.parquet": "6bb8280dc23dbda89d681a7c9e3cc71742e080c48cd1c7f5644814bbdde257f3",
+    "data\\metadata\\metadata-europe-6aee49bf.parquet": "0def3164afcc15893f12507886cc2f8c3a61a2b5961884e5e21196c040d82faf",
+    "data\\metadata\\metadata-europe-6df9d958.parquet": "1dc41ee39f6e8214ff91cc9ed0cfb64e53f7625837a434d8a809fac86edad711",
+    "data\\metadata\\metadata-europe-6edb5d54.parquet": "4bd952d4b838191d9a9f7ed38c8c2a5686920d4fe0a2fd1ad5fdaec6d5684928",
+    "data\\metadata\\metadata-europe-6f388a63.parquet": "24c77648929c1fd98f945eab56cd65c54296e070cc335f9bac76a3e271b85c14",
+    "data\\metadata\\metadata-europe-708e88a1.parquet": "f4a94cc58eb1a6ce36b7329b67f9c1589c5bc081df881db54513ee5c205220dd",
+    "data\\metadata\\metadata-europe-7268fedb.parquet": "8a551cb5b23356852eb310f4cc85a218415c4c036e1ffca9b3966457c30d27f0",
+    "data\\metadata\\metadata-europe-7311785c.parquet": "5afbb875ec1e75dad20f42ece1b11c965959eea7a7d85d092bd1994f1bf7e448",
+    "data\\metadata\\metadata-europe-751bd9c8.parquet": "be46ff50700bc17279fcee3ab2834064004e58b684822044f1e066d2ea24fe49",
+    "data\\metadata\\metadata-europe-76caf7f0.parquet": "85dcb552da57aecbbabc1df99c3f20457b85465f7fdce0e47928b1c99887b3ec",
+    "data\\metadata\\metadata-europe-7925bdd5.parquet": "f0a920042bf63a28e8e4a72527182a6930b212549b8d6fbe187323f6dd75862a",
+    "data\\metadata\\metadata-europe-7d474adc.parquet": "0746e4c715a2d446e96737d3b6cdac05628c82ea12e00ebcdb0bf244086ca28f",
+    "data\\metadata\\metadata-europe-7d852a7a.parquet": "ab477690dce89bb7beff53b48c4fa6f783d2ae21d31c1c71376b9199ae3f0314",
+    "data\\metadata\\metadata-europe-7f51e483.parquet": "0e46935001575053b3f87f983f62fd41cc2a220ebe4484ecd6219295e6dea5a3",
+    "data\\metadata\\metadata-europe-800ed771.parquet": "ff9b6173b048b1e4d6aadca7a17c84979677bc216560909d3dad1af5004d377a",
+    "data\\metadata\\metadata-europe-80e59117.parquet": "6fb1e514a0d919ba77f530b67f6dabd929399272bfe59e70790194ea8ad92d4f",
+    "data\\metadata\\metadata-europe-84a9c4a7.parquet": "b9f4cdd2149e8dffd632060d71e9a0227803532eafe04d1414ebfa94b2ffa282",
+    "data\\metadata\\metadata-europe-879a6745.parquet": "c8e6945098018cb7cdb2b304c64d4bfc6f9283ed7c8ca4c04c3c64d44c39d2da",
+    "data\\metadata\\metadata-europe-880b122e.parquet": "4c5c8a7190a17b2a05f6745de514ee6d07d195b0ea99689a0ef532b3a91f2b9f",
+    "data\\metadata\\metadata-europe-89712e19.parquet": "6a7349e3e60b94c49a320a90c0bd402287e4a6ed5e222abbf5b20dc061e32f2b",
+    "data\\metadata\\metadata-europe-8bebd74a.parquet": "17f226747670e32675524bf61a80889539fd60a9f89df3b8e84780d2076f13a1",
+    "data\\metadata\\metadata-europe-8db99cf1.parquet": "d4bc527b87b59e72a9b6f4f8b826005f28e3c67e5c203002d38326ec521ad435",
+    "data\\metadata\\metadata-europe-8de2f04b.parquet": "31ba293abbf65770572c28e22437586aac74ce771a5f8ee55d3b17639954a072",
+    "data\\metadata\\metadata-europe-8f27fcb8.parquet": "2a6ce42dedf1d5369ac3b7f19f1685b1a149e73f08658723120d768b9de225ff",
+    "data\\metadata\\metadata-europe-902420d9.parquet": "053a2d858149724fb8fc9c478e3b2350375ef040a7102a24276ef0b457d012bb",
+    "data\\metadata\\metadata-europe-90ba09e0.parquet": "27b25a667a4371faf5ee71147d36944ac0c639ca5009466e06fbdfba349aed15",
+    "data\\metadata\\metadata-europe-918d57f1.parquet": "4d6696fd0e73bb9324de1b3123625bceb0519cbc69b7ced14ed665d407438aaa",
+    "data\\metadata\\metadata-europe-91c30f72.parquet": "f6fc9b8fc4087cdc716dffe57735b9e92c696ceffc18fa5e83f386da6db61ce1",
+    "data\\metadata\\metadata-europe-939f6eaf.parquet": "47f6e8f9ee5157556e518b615ef0de7f5ce747eb932e87a503eb5e21bd2c3f71",
+    "data\\metadata\\metadata-europe-9b395901.parquet": "c0f6a6500b3f5365f83a795e093dce328969720e1488d562d3f756c6a1550bea",
+    "data\\metadata\\metadata-europe-9d7f162b.parquet": "561666014baf426f2955cdbca5c709a08acc1d757424c0812f44517e54c69b57",
+    "data\\metadata\\metadata-europe-a0327671.parquet": "2d48e464e3bb487caaad2fc0a9cd93053aff18fe75f6e665299f40fda30ec578",
+    "data\\metadata\\metadata-europe-a26ddce4.parquet": "c5fcc0c8948710c9b9b10808f59006383b73699e4dc6e4aca239f3f9f4e2e686",
+    "data\\metadata\\metadata-europe-a55efc7a.parquet": "68de8cf87aea1406427968e86f113e93632bc7e7a799728507d2a564cd4d109c",
+    "data\\metadata\\metadata-europe-a7396e87.parquet": "f26c9d915179889dd0c7d1a2b5736424de0e99f8ede67fe3c52019b9122a9051",
+    "data\\metadata\\metadata-europe-a86bcb3f.parquet": "6360dec987bee06d7248560b2f0168488ff80c818a381e51af7cdfa57303c73e",
+    "data\\metadata\\metadata-europe-a9f66529.parquet": "e2e4efc388faee2ad53df0369fc0e2fb23f0502a85791e1187dd4e19344e3d4c",
+    "data\\metadata\\metadata-europe-ac4f6840.parquet": "47cd2e9c38c852c512e7e30f180a0300a4128d79f6fcc24f98027bee2a672237",
+    "data\\metadata\\metadata-europe-b0cf7eb2.parquet": "7c3fe1b0ddcb57b69b778fa9bec4bda694cbb0b54a5dfe7b26a51387b409762a",
+    "data\\metadata\\metadata-europe-b271a63b.parquet": "be420f9128f14d4aecfffd33ce536381e00e51218294ee6b221e739d0188bf46",
+    "data\\metadata\\metadata-europe-b3609172.parquet": "a45c0277c402380d89e19d2673a8755ae012d05da375f9a31a5a29bec181c92e",
+    "data\\metadata\\metadata-europe-b3c43f3a.parquet": "dbdf742127c82dd8f6d6f3e7bbe70f14156c4874b48d85cd9c51ab54cababdfe",
+    "data\\metadata\\metadata-europe-b529dd16.parquet": "ffba1ad2dba962defe98d4b2666ed0c75ecd1716be8591a84320f704e1b43751",
+    "data\\metadata\\metadata-europe-b67709de.parquet": "9d6df13d2c0d2458e13e2d340a6083d74cdb449f1302423130fe86c8b5a55207",
+    "data\\metadata\\metadata-europe-bf60e994.parquet": "c39a8374151dd204f254b6d5408e5c8ea2ffed75c35860da718ef3ad6190cad4",
+    "data\\metadata\\metadata-europe-c07d234c.parquet": "3047805498a7814172b9d9692f7d1d94c71a395d51e05f88b2a41ca88c41b3b1",
+    "data\\metadata\\metadata-europe-ca8f1a92.parquet": "56daa2b8f2225ef96d83096ad911cd50578d0ef115ce03a0df7048d76bedf4d5",
+    "data\\metadata\\metadata-europe-cbbb591f.parquet": "bda4d4d489e6103d2e486be08930b7cb2596374c2795dded8e291543186eb533",
+    "data\\metadata\\metadata-europe-cd84925b.parquet": "3607509b7ae14552421dce42e3f2942fa2a2a8de92d672650d157cb4bcfe3aa9",
+    "data\\metadata\\metadata-europe-cee3a67c.parquet": "2cca29393c4dda51dc3b5517bb0f81689406c24d304d511e5bfa07daa8c759d5",
+    "data\\metadata\\metadata-europe-d2179ac5.parquet": "6454242279f7477d2abc9b0b81b3fac28ccc92437c35ca59e4e18e4f15024deb",
+    "data\\metadata\\metadata-europe-d369ca30.parquet": "995c675572ddcd7ab8838d0ffb5fedb55a5e2737e4ab330cb08ae6884d4a69af",
+    "data\\metadata\\metadata-europe-d587d230.parquet": "72b2a3a0404ed7e08fd7c67e17440114ab1514aead2fd260502a65c8e53fa42e",
+    "data\\metadata\\metadata-europe-db22335d.parquet": "392467031342d5f1d0790ddd3e5f711c0e81c0d7dec67db7df8a844d2fed6f0b",
+    "data\\metadata\\metadata-europe-db24520b.parquet": "fb6bc5dfe0b8c7911b94268e89f83980ebb895a3398814c894b5a265e43417f8",
+    "data\\metadata\\metadata-europe-ded04326.parquet": "29254fc65a0c1ac2088f72c943bad147b13303c0a5d74ea22a22a588c05a400d",
+    "data\\metadata\\metadata-europe-dee5f7a1.parquet": "4a2d5a6501806180181613251adc37e3e71144a189b48444d30d938f05b6c6a6",
+    "data\\metadata\\metadata-europe-e091ea28.parquet": "e2ea1b9187942bb766cafba1c1cfe7a64c795a7ec994a972b4c5d9c6575698c8",
+    "data\\metadata\\metadata-europe-e2593cb6.parquet": "795a6ceb0cec06c29434c50a3ec75e6a55decc44d04d59ab1f6fc350e24a2b2f",
+    "data\\metadata\\metadata-europe-e407f24a.parquet": "8c6ea2b20884217a393e62a639a8478434ecb424fa6a546d6b9ceb7404bfaf9a",
+    "data\\metadata\\metadata-europe-e73ea2a6.parquet": "da1fe9eec2e4bd24de5277c160d327f82f510eb63e60233162812ec94fbef47a",
+    "data\\metadata\\metadata-europe-e98868b4.parquet": "56a928ee074e17c735270549272f1333f4bbb8e0be68fc9883850f9a5f4aef93",
+    "data\\metadata\\metadata-europe-eb05a493.parquet": "4299cfd30530716fd7f2c237d5640c659250ae3c0e3c33b5a0aa0c4f43a55db0",
+    "data\\metadata\\metadata-europe-eba8d717.parquet": "83778104ada7804695341001ccc7b2a033d512e408462c3b146e40c4cc8c7f0e",
+    "data\\metadata\\metadata-europe-f048463e.parquet": "73bfb285c4ce024831f124d91421c7021dd2fd7df872a70dd35d0fba7ae56af9",
+    "data\\metadata\\metadata-europe-f0e90ede.parquet": "11fab10e349b71e61e24a4dd19227825248248cb5a1230df3e00b3afa53ac588",
+    "data\\metadata\\metadata-europe-f1d6eb33.parquet": "c98429262eeaa5d2c78cc22e88bf60188d960a92d77ba640d4704c46b67e2fb4",
+    "data\\metadata\\metadata-europe-f2b5dd02.parquet": "6d96a347f944a279288f8e1c24ecd8eea34c7fb38bdc1fe324f38da742b189b2",
+    "data\\metadata\\metadata-europe-f2c8008c.parquet": "f04b79c8ba0f493565694f0a38248f1cf01b46e61919d9974dd8b7f294f64713",
+    "data\\metadata\\metadata-europe-f426bac4.parquet": "aec64a5181f624926b7615fcef87bc2fbfff68a9d4c566ec62dfcfb02622da1b",
+    "data\\metadata\\metadata-europe-f49c7c76.parquet": "38ab9e6647c6d3f8c458860d489b0d9c7fa81c6fab9095b128ce925a38707589",
+    "data\\metadata\\metadata-europe-f5292d6a.parquet": "2a83d86178a5588551a7d5b379836d676a56bfbaaac8e027cb19d4a75b603029",
+    "data\\metadata\\metadata-europe-f5a1d44d.parquet": "a29779ee1225cc566605669c0adb38d104d32f818ea3809d9f5b616e89dfcb83",
+    "data\\metadata\\metadata-europe-f5c12bb2.parquet": "a631aa592f2706cb0d86e53a9bed5eacf37d5f1628564dda7876a8881c28bbd1",
+    "data\\metadata\\metadata-europe-f604ef6e.parquet": "9fc5e199aac91a5c404a37b650f67001f3179f659d56aaab48aa39d5f6b9af55",
+    "data\\metadata\\metadata-europe-fa2b6c25.parquet": "31c2721f6d432397bf9a8f09c045f42b87d5ce5e22666bf4a44ecb71529fe74c",
+    "data\\metadata\\metadata-europe-faadbe86.parquet": "ef88a5373c70ce5646ea08e296db7ee6d9e84878952fd6378aa247e3d432739a",
+    "data\\metadata\\metadata-europe-fc568125.parquet": "e140e628d9e931e4ab856d716db0e6a33b44234aed2ee50a8db184c573bfc2a8",
+    "data\\processed\\dataset.npz": "cb09603d096eec2798201fe8c82434a81d6e62ceb1e1ddca28babb6277a90994",
+    "data\\processed\\DATA_CARD.md": "3d02d7518c091d470a061d59c7530a6feb17445d026fafd3d9a178528b2dbc2d",
+    "data\\processed\\demo_audit.csv": "12e8acac5386fd63519c42135753182a3a6dd0956a87c4156998a2d6932dbd67",
+    "data\\processed\\raw_fingerprints.json": "a76d2946fd4a014aef8b64183014cdfc5f0574abd81530f763feafc81baec6be",
+    "data\\processed\\regions.json": "fae5952a1e38b4594daa0d26ee57d75570d5c5bf6ac685099c69daba67b4c656",
+    "data\\processed\\skill_context.json": "56781ec3951a850951403a50ef62a527f68a3b91c81357420ca22b3ca25763f2",
+    "data\\processed\\split_matches.json": "edd3b240972987014a305e13d9ac427406c063a08834fc386a00132619cada73",
+    "data\\processed\\summary.json": "5d6728dadf17c5ddb12aca0e6062ec3ce7582d43b0e14f4cfd711cd94a5f90c1",
+    "data\\sounds\\2391553_nemesis-vs-qwentry-m1-dust2.npz": "3958152a54e9869ce86c3be2eb52ceae1d7df5bcee0cdf0dbcb3095cad7dc472",
+    "data\\sounds\\2391562_nemiga-vs-nemesis-m3-dust2.npz": "7b8403185a50ab4a66d766f57d7f4f21949cb664bc34907ca7408866bee1f29f",
+    "data\\sounds\\2391726_back-to-back-vs-keyd-stars-m2-dust2.npz": "30bfa2a3c50a5efae9ef83c2c0cfd53236443b400d0b8d2518415541b51f4e2c",
+    "data\\sounds\\2391729_fake-do-biru-vs-bounty-hunters-m1-dust2.npz": "56c963faccf4d198c14602bfa918243f0b3cd9e431e137df168e72bb453ae3f7",
+    "data\\sounds\\2391817_omega-vs-megoshort-m1-dust2.npz": "d3384ad802113911f54d6c85e14c848af49ba1418aa8a12b00baeea18318634f",
+    "data\\sounds\\2391847_esc-vs-nemesis-m1-dust2.npz": "b366c936c737d483054dbd82409f7572ac35f4588a94ed2857cfefbf980e886e",
+    "data\\sounds\\2391934_sangal-vs-nemiga-m2-dust2.npz": "5b428b76a83d23c175c44cc27f2fc2a48b6e522be8be4dac8507e7916e7f72bc",
+    "data\\sounds\\2392194_m1x-ks-vs-esc-m2-dust2.npz": "dd72c79d93c07407d5920bdb6af2498c5928ee683c091907a02f46dc2b476415",
+    "data\\sounds\\2392209_kolesie-vs-m1x-ks-m1-dust2.npz": "4306d82755e6e361370c084e217f16949e899a0d3fd795d858a8714ac13404a9",
+    "data\\sounds\\2392279_hotu-vs-big-m2-dust2.npz": "961be9640d3a84e2806f9fcdaf0dd4eeb028c4b543371643364e95aa90e0f9df",
+    "data\\sounds\\2392292_k27-vs-magic-m1-dust2.npz": "2e9976039d4ece33eb6832bca090c25cf88467d056b776a691239ce45ee736f9",
+    "data\\sounds\\2392307_keyd-stars-vs-fake-do-biru-m1-dust2.npz": "e806c2660775890cd927706381c6b4a4c95b4a593e6e77e31838a6d01a729732",
+    "data\\sounds\\2392347_rustec-vs-hashiras-m1-dust2.npz": "fae1e61b1c2ca9a825bc8a55660ebeab555bb05e72acdd98ce245a0b7aff59ca",
+    "data\\sounds\\2392378_megoshort-vs-ursa-m1-dust2.npz": "f68ad14f85d9bf7d5e0b45341a35b4e7546cc9cd6643c9bc7a47e3c9edc25e48",
+    "data\\sounds\\2392455_infurity-vs-big-academy-m2-dust2.npz": "188799c3b40b42216484483a3b3b2df4662cca870553f01843998f2ce35aab6b",
+    "data\\sounds\\2392464_atrix-vs-pain-academy-m1-dust2.npz": "c480ec4a576ac9b4127ab01b319a21f8ed16484436c1e1e5b66203ad65969b41",
+    "data\\sounds\\2392468_metanoia-vs-r2-m2-dust2.npz": "697e9fe99d8bf8bc0d734548b7d2672a9d5914f544d4bb7d3f6bc9fe29f886cc",
+    "data\\sounds\\2392469_atrix-vs-bestia-academy-m1-dust2.npz": "1d33824a210e3f9769925862e38fd88708538e2bded46cf06b3d8c4afed011b2",
+    "data\\sounds\\2392562_misa-vs-rounds-m2-dust2.npz": "4ec4be3a4972212193063ba9dacf6744f9332d35e150179a76dfddda004e3dba",
+    "data\\sounds\\2392566_tnt-vs-qwentry-m1-dust2.npz": "6d0dbea79215da5d60f1d3b74484f8b72bc20adb8b12dc8b88872fd7cd07620c",
+    "data\\sounds\\2392591_partizan-vs-inner-circle-m2-dust2.npz": "ea62f8a4fbdc5b0ebb5e258cc999602be1e2dc727f18000722b99b5bba3a0937",
+    "data\\sounds\\2392599_fnatic-vs-sashi-m2-dust2.npz": "f613558bd8fe770b7de1e9abd25c18af1f00634298ee9d9e89889b2a19edeb78",
+    "data\\sounds\\2392655_3dmax-vs-wazabi-m2-dust2.npz": "161ef15a912dbb00319a690bbb3ef435e26706ca292940527ddcb1f5a0f0fa88",
+    "data\\sounds\\2392753_m1x-ks-vs-omega-m1-dust2.npz": "45369f9837d5e54493509680de4a5d0ff893777782d46fb072c023e62157e1e0",
+    "data\\sounds\\2392775_tnc-vs-heroic-academy-m1-dust2.npz": "5e2f98549f3126c95558b3f867a5b8c9e046c6640a8b0d197b0f6462c60cc7c9",
+    "data\\sounds\\2392853_chaos-vs-last-bullet-m1-dust2.npz": "aad78d6d1039fd672e812f6ab4821c71c57e5fb7cef20ac56550f3e3493260f2",
+    "data\\sounds\\2392909_rooster-vs-skele-m2-dust2.npz": "6f5848e9fef917e9012815d05fcb935f69ca9c8890d4eed7b7ecaae861fe3720",
+    "data\\sounds\\2392912_rooster-vs-arcade-m1-dust2.npz": "843f7490077b791d0cdc7534a9f99fc7e06f550a6701d74c8039ba1efc2049b7",
+    "data\\sounds\\2392915_boring-players-vs-bmz-m3-dust2.npz": "85198536ecda85c44f021c4eb9492e760ee767e6ed1d297899fb250ba7a6209a",
+    "data\\sounds\\2392941_nexvoid-vs-chinggis-warriors-m3-dust2.npz": "359e17a9685532b70891ccebdcf796a7def8ec2a930f0668bd50a02c9a900267",
+    "data\\sounds\\2392989_club-333-vs-tsg-m1-dust2.npz": "10452f3d9cd00814bd2332f7d3b0910a4fa9fe22a5bae77f0a71df38428729eb",
+    "data\\sounds\\2392994_zomblers-vs-regain-m2-dust2.npz": "c6d9289aaa2d8f2e386354d011de8fa5bb9385bf704a74e84b7a0d3beab5dc4a",
+    "data\\sounds\\2393007_the-mongolz-vs-bcgame-m1-dust2.npz": "93544d749a0ba09a7e0820c57bd882cb74ce210fc1a200258bdcd730bdd282fa",
+    "data\\sounds\\2393029_the-mongolz-vs-wildcard-m1-dust2.npz": "73a19625ffa9bc9ed39aee4f2e4d7c71eed8f189431d4845df021a8d1550a038",
+    "data\\sounds\\2393049_illwill-vs-ex-zero-tenacity-m2-dust2.npz": "3cc3541a6571358d7c8bdbb5dbbb5605bc2c330e010c8162d9a96961a120f93b",
+    "data\\sounds\\2393054_magic-vs-cybershoke-m2-dust2.npz": "7ab768521a8dbba09efb2ddbe06fd45236952c24eb870a0616f1739a916ba1b2",
+    "data\\sounds\\2393073_zomblers-vs-empire-m3-dust2.npz": "05a9557aeabdcbc072257807f08ff1fb3e71b67988c37a259c3f26db3af9f2ba",
+    "data\\sounds\\2393100_prodigy-vs-subtop-de-france-m1-dust2.npz": "399cdebda870c26e650428d88532d011d5b0528c84cbab76292ed3bec8acb65d",
+    "data\\sounds\\2393129_zomblers-vs-regain-m1-dust2.npz": "6aebe79f255eed96ba7a749519a07dd127d4067ed16d3d9bb89ba75135852c1b",
+    "data\\sounds\\2393151_astral-vs-lavked-m1-dust2.npz": "20442c014fc2b6781599c87fc4480ab0574057792020ccef10fadec57f1441a9",
+    "data\\sounds\\2393157_lavked-vs-rune-eaters-m1-dust2.npz": "f2465e3ab5936dc7a03cfd4667b652bdf02a5e98e1906627306325ec6d5043ee",
+    "data\\sounds\\2393175_acend-vs-genone-m1-dust2.npz": "035606196fac18f701d8b92de1828c9bf91329f4e35e704d6de59978de10e505",
+    "data\\sounds\\2393228_natus-vincere-vs-furia-m2-dust2.npz": "6e4be85433135a2ee9ebce90923ac1309be0be481b5dc990f4ddc50602923b3b",
+    "data\\sounds\\2393233_g2-vs-3dmax-m2-dust2.npz": "e5fe29020d3fad0fbd8c855489810590f793cfec537a59ab88d797a21e83daa3",
+    "data\\sounds\\2393236_vitality-vs-falcons-m2-dust2.npz": "5720f59d78ead86e09d50989137c2c8c3fca722878864c10bfdd68cfa340edf9",
+    "data\\sounds\\2393237_g2-vs-spirit-m2-dust2.npz": "b91854dc12babaf779a908430c34aa10cdaed1f796d2ea7ba9ebdfe2c0587fcd",
+    "data\\sounds\\2393241_vitality-vs-natus-vincere-m2-dust2.npz": "6a4cec90d02f445e363edf8b6a4d620b15be2530b967f65f7268dfe3ea957c64",
+    "data\\sounds\\2393242_falcons-vs-spirit-m1-dust2.npz": "6abe965f3aa1065c10a6e4c3fea4d8db40ea20feb9f13f3ffae93aba68e45e4c",
+    "data\\sounds\\2393250_empire-vs-clockwork-m1-dust2.npz": "6a576a187758b576537374c6148eb2ed2dc5e4c7e7ba7d7a8ba130b8845c23cf",
+    "data\\sounds\\2393302_sinners-vs-sashi-m2-dust2.npz": "6686da0acf474a87356d0ba93d5955e91bf2b6e53768c11f704bb86546c4251b",
+    "data\\sounds\\2393331_brute-vs-fire-flux-m1-dust2.npz": "0b2d9bd16ecdb9ceeb8be25deaedee4aafa6aac7579353d2128cc3410eafbab1",
+    "data\\sounds\\2393397_xi-vs-rebels-m1-dust2.npz": "e4699b917e254a4a578f9b5aa991de7f233a86bb301e396b8d32eeee38fa7d1b",
+    "data\\sounds\\2393408_infinite-vs-zajezdzacze-m1-dust2.npz": "bf7354e29c450f777b3cf259de11f02961d8a3c5d1ba3beac9b2327a9ae19c4d",
+    "frozen_483/dataset.npz": "261b56f92d3f129cefbd0176462da78f48dfefcbd227ed9139ab03ce8b43e400",
+    "frozen_483/summary.json": "cd1551c15b0517df40161fc098859b3af9fa6749eeacdb594544b9534ec6ba17",
+    "frozen_483/regions.json": "99eae4a9cb89478853754e1b713ecc1d250aaec2f2741b143cea5d57d6f2ab79",
+    "frozen_483/split_matches.json": "807c001101a4f52b9d03363a2e0ae92d7d24956b60c165fd570299437577be1a"
+  },
+  "copied_inputs": [
+    {
+      "path": "data\\frames\\2391553_nemesis-vs-qwentry-m1-dust2.audit.json",
+      "sha256": "632ab9eae2164d915d510c4f3c9923eb7e996e1fa1f3b5e083877c853930329e",
+      "bytes": 2487
+    },
+    {
+      "path": "data\\frames\\2391553_nemesis-vs-qwentry-m1-dust2.npz",
+      "sha256": "7b2c6c72c504e9667b3671806071664bc9a9a30ffc53c64c264d69f54e5fbdf4",
+      "bytes": 652522
+    },
+    {
+      "path": "data\\frames\\2391562_nemiga-vs-nemesis-m3-dust2.audit.json",
+      "sha256": "4f035b33bd67503d00fc932ba17b8aaa875aee35f83d5260feafc476c586bb35",
+      "bytes": 2489
+    },
+    {
+      "path": "data\\frames\\2391562_nemiga-vs-nemesis-m3-dust2.npz",
+      "sha256": "0120d7df6d78af519e322379fce0aa3f427f6fe8b863dcb00eb4becc7686fcf6",
+      "bytes": 719678
+    },
+    {
+      "path": "data\\frames\\2391726_back-to-back-vs-keyd-stars-m2-dust2.audit.json",
+      "sha256": "891f02aef051d932484c0c4639e9c15026c295c83d43758faba21e74ff9f7f57",
+      "bytes": 2372
+    },
+    {
+      "path": "data\\frames\\2391726_back-to-back-vs-keyd-stars-m2-dust2.npz",
+      "sha256": "1128ab0a976eeca5b3ab0f6c311973f92f45f6aee534a3424d412e7d10e78c75",
+      "bytes": 398754
+    },
+    {
+      "path": "data\\frames\\2391729_fake-do-biru-vs-bounty-hunters-m1-dust2.audit.json",
+      "sha256": "5bafb0f31fd2a6890e35461d7e734025bbb47217af53e4c3d2a4f43998631bed",
+      "bytes": 1719
+    },
+    {
+      "path": "data\\frames\\2391729_fake-do-biru-vs-bounty-hunters-m1-dust2.npz",
+      "sha256": "50d261fa7dd07d9c585a6dea228bd735d24d18e757f7e997c5466409434266dd",
+      "bytes": 536843
+    },
+    {
+      "path": "data\\frames\\2391817_omega-vs-megoshort-m1-dust2.audit.json",
+      "sha256": "aa272b24116d05f28d7e8b63a0b7aca223aad398071ccbb5d0a79b15169e5a88",
+      "bytes": 2453
+    },
+    {
+      "path": "data\\frames\\2391817_omega-vs-megoshort-m1-dust2.npz",
+      "sha256": "0add568f87fa7700ba900f77ca38834220dcca01fe5dcf5090a364d455cec74c",
+      "bytes": 532845
+    },
+    {
+      "path": "data\\frames\\2391847_esc-vs-nemesis-m1-dust2.audit.json",
+      "sha256": "cdc85f0d037a6ebd2cbc0cdbe132d6bd8141132c9a09371e78f0b01d8248a1fb",
+      "bytes": 1805
+    },
+    {
+      "path": "data\\frames\\2391847_esc-vs-nemesis-m1-dust2.npz",
+      "sha256": "6d21cb5099c8d9c3348b8c0b8eb4613a4618249d665e7aeac229c141054fcfec",
+      "bytes": 641675
+    },
+    {
+      "path": "data\\frames\\2391934_sangal-vs-nemiga-m2-dust2.audit.json",
+      "sha256": "ac00ec0b502aff8e6734e142c9c02b640dc72ce9066bc4389fa049897b7dde8b",
+      "bytes": 2370
+    },
+    {
+      "path": "data\\frames\\2391934_sangal-vs-nemiga-m2-dust2.npz",
+      "sha256": "3a717e625a5aecebfd99fdae23f4056e9a97f40c5bbd37b5af2c1757a0021bff",
+      "bytes": 358563
+    },
+    {
+      "path": "data\\frames\\2392194_m1x-ks-vs-esc-m2-dust2.audit.json",
+      "sha256": "a1f181f80c1c1827227f9d8d05c3dc530fee9ccbe87d9cf788e46230f977af6b",
+      "bytes": 1835
+    },
+    {
+      "path": "data\\frames\\2392194_m1x-ks-vs-esc-m2-dust2.npz",
+      "sha256": "68cc45952ed86af7648c9467da1f6e23ed88ded216e470a721157afeeb48a1dc",
+      "bytes": 525038
+    },
+    {
+      "path": "data\\frames\\2392209_kolesie-vs-m1x-ks-m1-dust2.audit.json",
+      "sha256": "16826decde6b97a579ebbf3b97b7847d76c8bb1fa2cff4543e2abdc06f800849",
+      "bytes": 2502
+    },
+    {
+      "path": "data\\frames\\2392209_kolesie-vs-m1x-ks-m1-dust2.npz",
+      "sha256": "30634bce649a41afa260b64f63ee985f61e08c68b475c5f185789d9801fe320c",
+      "bytes": 604454
+    },
+    {
+      "path": "data\\frames\\2392279_hotu-vs-big-m2-dust2.audit.json",
+      "sha256": "296951c2d23a05901f51411f161eb4d7dc3564c9a69f3b8d888c3c6e8e008213",
+      "bytes": 1780
+    },
+    {
+      "path": "data\\frames\\2392279_hotu-vs-big-m2-dust2.npz",
+      "sha256": "2be1e019a470de17aab9a4c8a27d9f0c0ce5b98789a741fa0165a1e5f32f8695",
+      "bytes": 685265
+    },
+    {
+      "path": "data\\frames\\2392292_k27-vs-magic-m1-dust2.audit.json",
+      "sha256": "aa1dc5363812765a778d97adda5c79b6b72f985c9ab0c9f12c1e0005be910cab",
+      "bytes": 1810
+    },
+    {
+      "path": "data\\frames\\2392292_k27-vs-magic-m1-dust2.npz",
+      "sha256": "2ff56cca1c893287f6be147582a77c8d00d5bd3b784c57aa93bf0f75d6ced87e",
+      "bytes": 686994
+    },
+    {
+      "path": "data\\frames\\2392307_keyd-stars-vs-fake-do-biru-m1-dust2.audit.json",
+      "sha256": "09ea788875bd7517c49e11483c63a7f26ac3dc4fb98979cbd12af9eaba33c25e",
+      "bytes": 1825
+    },
+    {
+      "path": "data\\frames\\2392307_keyd-stars-vs-fake-do-biru-m1-dust2.npz",
+      "sha256": "342ff461baeaef144490c4079cfe3e9bbb3a23805b876ea345730c2e9d162387",
+      "bytes": 723257
+    },
+    {
+      "path": "data\\frames\\2392347_rustec-vs-hashiras-m1-dust2.audit.json",
+      "sha256": "f12768753762d361ef21e2222eb6a56cb4b7024e0439ebf8d7d6806fa97d5ea7",
+      "bytes": 1821
+    },
+    {
+      "path": "data\\frames\\2392347_rustec-vs-hashiras-m1-dust2.npz",
+      "sha256": "d014eb651c74725c31f0459add7cee63616be30b3c80407154a06ad7b698eb3b",
+      "bytes": 719195
+    },
+    {
+      "path": "data\\frames\\2392378_megoshort-vs-ursa-m1-dust2.audit.json",
+      "sha256": "0c375cb1c1b353c598be4e89d25620a5d831c88e2caeeff74b733230e91a63a4",
+      "bytes": 1757
+    },
+    {
+      "path": "data\\frames\\2392378_megoshort-vs-ursa-m1-dust2.npz",
+      "sha256": "4f89226c05e7a2bcd110f35af5f45179eb718c2f07db36544385ede922d56b2f",
+      "bytes": 544317
+    },
+    {
+      "path": "data\\frames\\2392455_infurity-vs-big-academy-m2-dust2.audit.json",
+      "sha256": "9077406dc4b2333df0c5348b6f4f0a4497b339dbc6f75dd5d7c74d725ed6c207",
+      "bytes": 2482
+    },
+    {
+      "path": "data\\frames\\2392455_infurity-vs-big-academy-m2-dust2.npz",
+      "sha256": "88e4490d5baa678019a880239024a179bb5d3ab2c659705ee7629d0988fa9d55",
+      "bytes": 687636
+    },
+    {
+      "path": "data\\frames\\2392464_atrix-vs-pain-academy-m1-dust2.audit.json",
+      "sha256": "43215c66e77ad6867f71dddf11b7e4e68da258a1768f684cec108ba9b1f72988",
+      "bytes": 1694
+    },
+    {
+      "path": "data\\frames\\2392464_atrix-vs-pain-academy-m1-dust2.npz",
+      "sha256": "b5bdcef090dbcf693e14233d41f465c98e352f8067f5970d78aa373081bd5bc6",
+      "bytes": 354904
+    },
+    {
+      "path": "data\\frames\\2392468_metanoia-vs-r2-m2-dust2.audit.json",
+      "sha256": "38832aef51aa162b9ae282b107751abbe555a006e226559862c981e2183910ce",
+      "bytes": 1773
+    },
+    {
+      "path": "data\\frames\\2392468_metanoia-vs-r2-m2-dust2.npz",
+      "sha256": "73d176a29a7b47542f98e8ef0ea7e7eb30c8067aa25ca7cca14bf002a853d2a6",
+      "bytes": 425455
+    },
+    {
+      "path": "data\\frames\\2392469_atrix-vs-bestia-academy-m1-dust2.audit.json",
+      "sha256": "a9a5ee4d2406378c51e3638f5c28a6d01a847228341db9fcfde34d01ead97774",
+      "bytes": 2422
+    },
+    {
+      "path": "data\\frames\\2392469_atrix-vs-bestia-academy-m1-dust2.npz",
+      "sha256": "860eeb48587251f238983d2ed99a838e1b0033a7bb3f6f4ce87d5b7f12d539a2",
+      "bytes": 451201
+    },
+    {
+      "path": "data\\frames\\2392562_misa-vs-rounds-m2-dust2.audit.json",
+      "sha256": "4e4f8c13b3cceb2291942c3018b8a7c2e66fbbacc65178a5451858e58828ebb0",
+      "bytes": 2466
+    },
+    {
+      "path": "data\\frames\\2392562_misa-vs-rounds-m2-dust2.npz",
+      "sha256": "262bcefc0f773e36b28f8568cf374730180bff427edf0f43d892af4906ffaddb",
+      "bytes": 542459
+    },
+    {
+      "path": "data\\frames\\2392566_tnt-vs-qwentry-m1-dust2.audit.json",
+      "sha256": "77a069fbf932c4557d208f79605ab03fa5ddd0337c1a362475254ef05a41e2ca",
+      "bytes": 1853
+    },
+    {
+      "path": "data\\frames\\2392566_tnt-vs-qwentry-m1-dust2.npz",
+      "sha256": "d1366236ce08a7c8d21c535cf1b45aa39265c579cc95df40471ea7ef44b5af2e",
+      "bytes": 753134
+    },
+    {
+      "path": "data\\frames\\2392591_partizan-vs-inner-circle-m2-dust2.audit.json",
+      "sha256": "76b4e994f360ecef61351803140d99cf67e599d054bad89d2fe4e2bb9edfa6c8",
+      "bytes": 2381
+    },
+    {
+      "path": "data\\frames\\2392591_partizan-vs-inner-circle-m2-dust2.npz",
+      "sha256": "1ff40719dccdcfc89016ecbec6b6bc85b268fe78a9614d1fa867150742918128",
+      "bytes": 467618
+    },
+    {
+      "path": "data\\frames\\2392599_fnatic-vs-sashi-m2-dust2.audit.json",
+      "sha256": "24d6c87c96c6ee433c00c36bce40f51cc69749848cc818f312b05674042bae6c",
+      "bytes": 1716
+    },
+    {
+      "path": "data\\frames\\2392599_fnatic-vs-sashi-m2-dust2.npz",
+      "sha256": "b700a265bc908dcfe87f97ff18bb239b077dff44b989c47e7876b4e26d1b1d5e",
+      "bytes": 558081
+    },
+    {
+      "path": "data\\frames\\2392655_3dmax-vs-wazabi-m2-dust2.audit.json",
+      "sha256": "203e878fd990330263b4fca0aaff2757cf8ec17736c9bc550b58dd0a68a867a2",
+      "bytes": 2417
+    },
+    {
+      "path": "data\\frames\\2392655_3dmax-vs-wazabi-m2-dust2.npz",
+      "sha256": "9ac1939ba3fb2e312603e8447f15c47d05600b28e5a66b6cf85ae763ddb9dc88",
+      "bytes": 470105
+    },
+    {
+      "path": "data\\frames\\2392753_m1x-ks-vs-omega-m1-dust2.audit.json",
+      "sha256": "d7f313e5999343803c66971324ca36f0a4a18cdd327c05f6aa4f97f36614d065",
+      "bytes": 2403
+    },
+    {
+      "path": "data\\frames\\2392753_m1x-ks-vs-omega-m1-dust2.npz",
+      "sha256": "d15e6fa348c9ec7f246aafe0b451f715f7fd4fa772245da6e68a8fdfc1c8b72f",
+      "bytes": 317963
+    },
+    {
+      "path": "data\\frames\\2392775_tnc-vs-heroic-academy-m1-dust2.audit.json",
+      "sha256": "e64f51de24c5854181d61c4315849fb45b48f8ac0b24048ea271181a6c09d80c",
+      "bytes": 1819
+    },
+    {
+      "path": "data\\frames\\2392775_tnc-vs-heroic-academy-m1-dust2.npz",
+      "sha256": "adfdef8d6f39ed80d457c04543aa37c87ea6059629613d958bf2697b1395c009",
+      "bytes": 599868
+    },
+    {
+      "path": "data\\frames\\2392853_chaos-vs-last-bullet-m1-dust2.audit.json",
+      "sha256": "051b5d1d196065e6fe02629ad8c76356ff485476c8cd2600e3775813a983336d",
+      "bytes": 1789
+    },
+    {
+      "path": "data\\frames\\2392853_chaos-vs-last-bullet-m1-dust2.npz",
+      "sha256": "26db69de62e162f5b8d079dd2f70ff6fe3eebc5a17a6ae4a912cac416e82e881",
+      "bytes": 516784
+    },
+    {
+      "path": "data\\frames\\2392909_rooster-vs-skele-m2-dust2.audit.json",
+      "sha256": "7f4792559f4b136d411a9076f62488e36e3ed99afa80132dd1fed7dfc19b1e0f",
+      "bytes": 2436
+    },
+    {
+      "path": "data\\frames\\2392909_rooster-vs-skele-m2-dust2.npz",
+      "sha256": "3f9c92189e145ceaac48ab8909942977d9abace8552b4af506c972f3618e8d2f",
+      "bytes": 443523
+    },
+    {
+      "path": "data\\frames\\2392912_rooster-vs-arcade-m1-dust2.audit.json",
+      "sha256": "fc900c098179a826cfaee8cb213108d6daa1e160f7a9c21a99febbdc081e2c0f",
+      "bytes": 2517
+    },
+    {
+      "path": "data\\frames\\2392912_rooster-vs-arcade-m1-dust2.npz",
+      "sha256": "e40965e52b18bb2dc78f5d02f847d051756be90bbc8a26cfdb34086bf752335d",
+      "bytes": 640681
+    },
+    {
+      "path": "data\\frames\\2392915_boring-players-vs-bmz-m3-dust2.audit.json",
+      "sha256": "fb3859142c8d0658e6d825c4888cae946ccf2f53766d1e9367b7377a49b03866",
+      "bytes": 2531
+    },
+    {
+      "path": "data\\frames\\2392915_boring-players-vs-bmz-m3-dust2.npz",
+      "sha256": "e12063a31e9392ceaf5371766de8addc3b0a8a55b6a388e07fe1c9810b4276e9",
+      "bytes": 664590
+    },
+    {
+      "path": "data\\frames\\2392941_nexvoid-vs-chinggis-warriors-m3-dust2.audit.json",
+      "sha256": "305e75dbd1c5865418081c9e0f4b313a3e6be7c098090101c16dfef9916097af",
+      "bytes": 2047
+    },
+    {
+      "path": "data\\frames\\2392941_nexvoid-vs-chinggis-warriors-m3-dust2.npz",
+      "sha256": "b76ade55d2db315b2783394bb1679f527f2ae763dde46c0f42b7473f0d0ef59c",
+      "bytes": 1103149
+    },
+    {
+      "path": "data\\frames\\2392989_club-333-vs-tsg-m1-dust2.audit.json",
+      "sha256": "bf7cdab12154a0e451f5cd4808c87717fc5b0a435d021ab792c0427355fe09f5",
+      "bytes": 1776
+    },
+    {
+      "path": "data\\frames\\2392989_club-333-vs-tsg-m1-dust2.npz",
+      "sha256": "34eb2693d67ecabc52193dd85d4b651006e1f53795a1e23b868c006bb9f9910a",
+      "bytes": 480780
+    },
+    {
+      "path": "data\\frames\\2392994_zomblers-vs-regain-m2-dust2.audit.json",
+      "sha256": "6a5ee0bb0e8d0fe4374a3d033389d700d300358768194d955120f1501273cbf1",
+      "bytes": 2191
+    },
+    {
+      "path": "data\\frames\\2392994_zomblers-vs-regain-m2-dust2.npz",
+      "sha256": "9d4224c5c7da2edb6ff690966134cb25930ba294f516df5f9b6c72d10dd3a858",
+      "bytes": 1260789
+    },
+    {
+      "path": "data\\frames\\2393007_the-mongolz-vs-bcgame-m1-dust2.audit.json",
+      "sha256": "6244acacb6d0ea916991dc195b7d5e69ff651f3c1b77df4cb7a0f8ae650355b9",
+      "bytes": 1685
+    },
+    {
+      "path": "data\\frames\\2393007_the-mongolz-vs-bcgame-m1-dust2.npz",
+      "sha256": "215ac819801c82d00a01b8857c3e09d11bf4a4470280dbce428ce7568fbfde8e",
+      "bytes": 518035
+    },
+    {
+      "path": "data\\frames\\2393029_the-mongolz-vs-wildcard-m1-dust2.audit.json",
+      "sha256": "135eff79e4b720016bd0eee4349aa4a2c8e62631391acae335664d45609bbae1",
+      "bytes": 1814
+    },
+    {
+      "path": "data\\frames\\2393029_the-mongolz-vs-wildcard-m1-dust2.npz",
+      "sha256": "484605b777ce2ccc100488726d2e59922dab3330c9d90d2ffdd7f9b95d5b9ea5",
+      "bytes": 753919
+    },
+    {
+      "path": "data\\frames\\2393049_illwill-vs-ex-zero-tenacity-m2-dust2.audit.json",
+      "sha256": "70366130bdef1d011b3343a5b33eb8d635572251425eef97c7678050bb73a164",
+      "bytes": 2399
+    },
+    {
+      "path": "data\\frames\\2393049_illwill-vs-ex-zero-tenacity-m2-dust2.npz",
+      "sha256": "82942bdae20ad455f01eee3ac1681574baadf70e3d6a50674172accf1b3c07e0",
+      "bytes": 508177
+    },
+    {
+      "path": "data\\frames\\2393054_magic-vs-cybershoke-m2-dust2.audit.json",
+      "sha256": "4d9721a1460ebbfac13244f1c6065be72b9a090e2d9acb90a847e3eef6f945f5",
+      "bytes": 2210
+    },
+    {
+      "path": "data\\frames\\2393054_magic-vs-cybershoke-m2-dust2.npz",
+      "sha256": "436a97b94483189871ab39d66e4064ec829c86c25f4af2052088f64168aae16b",
+      "bytes": 168809
+    },
+    {
+      "path": "data\\frames\\2393073_zomblers-vs-empire-m3-dust2.audit.json",
+      "sha256": "ce0152e9fdc667238a49a95b8c1ef478264ad777b651f04a28eea1037686b7fa",
+      "bytes": 2711
+    },
+    {
+      "path": "data\\frames\\2393073_zomblers-vs-empire-m3-dust2.npz",
+      "sha256": "bab03c990d84048e1228f7bf2e89510f9250c81e6745009c0f67471e5e965d7e",
+      "bytes": 964586
+    },
+    {
+      "path": "data\\frames\\2393100_prodigy-vs-subtop-de-france-m1-dust2.audit.json",
+      "sha256": "59268c6264a24221578099fc594ce73285a486a30b68abea806936270ab1d2ff",
+      "bytes": 2352
+    },
+    {
+      "path": "data\\frames\\2393100_prodigy-vs-subtop-de-france-m1-dust2.npz",
+      "sha256": "c4587e24a0bdfbeb88a4cbedfeb4f8f58508d6999582a974419180ace16936d7",
+      "bytes": 350345
+    },
+    {
+      "path": "data\\frames\\2393129_zomblers-vs-regain-m1-dust2.audit.json",
+      "sha256": "0081b4ce39e0a91a76e9ab70d91723ec6e693cad07ba3330f54a8510245b609e",
+      "bytes": 2406
+    },
+    {
+      "path": "data\\frames\\2393129_zomblers-vs-regain-m1-dust2.npz",
+      "sha256": "91cc081a807499ad8f3dae63251755099a29b4450ecdef4f8cad0c5b4bdbc735",
+      "bytes": 494014
+    },
+    {
+      "path": "data\\frames\\2393151_astral-vs-lavked-m1-dust2.audit.json",
+      "sha256": "49b5ed0e777c8dcc478b091d7038ebfb57281d3c47c2d72bcd481d9950b49dd2",
+      "bytes": 2663
+    },
+    {
+      "path": "data\\frames\\2393151_astral-vs-lavked-m1-dust2.npz",
+      "sha256": "4bc51d53b9269b7156eb790e08ba9cbd71627a0900a06b3eaa9a499176741bd9",
+      "bytes": 992617
+    },
+    {
+      "path": "data\\frames\\2393157_lavked-vs-rune-eaters-m1-dust2.audit.json",
+      "sha256": "e6537b9fa798b6a8ea4a49d61ed85bf92b4a5843d1989323702caa82e5208d9e",
+      "bytes": 1806
+    },
+    {
+      "path": "data\\frames\\2393157_lavked-vs-rune-eaters-m1-dust2.npz",
+      "sha256": "740b9da3954a9bd92f4d0ed8ca155ba0df0dd0737b09525ea078896dda82a5e9",
+      "bytes": 686762
+    },
+    {
+      "path": "data\\frames\\2393175_acend-vs-genone-m1-dust2.audit.json",
+      "sha256": "709f7fd8b84883aa52ee7cf501f5c1eece5cba0ed062dacd8b1581481f15b01c",
+      "bytes": 1775
+    },
+    {
+      "path": "data\\frames\\2393175_acend-vs-genone-m1-dust2.npz",
+      "sha256": "1c86328be99bafad0b62fab02832444cb6f42b71a1d34eb716e41d625ed4714d",
+      "bytes": 678087
+    },
+    {
+      "path": "data\\frames\\2393228_natus-vincere-vs-furia-m2-dust2.audit.json",
+      "sha256": "30cadf4a32b5923d355698e130cd04f8cd4e6819cbd261ef84b753b851c34da7",
+      "bytes": 1717
+    },
+    {
+      "path": "data\\frames\\2393228_natus-vincere-vs-furia-m2-dust2.npz",
+      "sha256": "882e91f2c071d6a48699e281fcf9ba8278d1ffeab3562ccd36a0b29ab486aa72",
+      "bytes": 533212
+    },
+    {
+      "path": "data\\frames\\2393233_g2-vs-3dmax-m2-dust2.audit.json",
+      "sha256": "ae4176166fa916f51c06f9323c782db20e5f9faae9c0f16cbc4dc5b951525c1e",
+      "bytes": 2348
+    },
+    {
+      "path": "data\\frames\\2393233_g2-vs-3dmax-m2-dust2.npz",
+      "sha256": "c0e3cde6ac0939bd4cb86153b4a9eb2fa972aa595bc5764a2b9d51535cdd7408",
+      "bytes": 380808
+    },
+    {
+      "path": "data\\frames\\2393236_vitality-vs-falcons-m2-dust2.audit.json",
+      "sha256": "14deaf6d4f89714323d7021ea1cf27c7c16079ed0986dd81ef67f72ee5919771",
+      "bytes": 1750
+    },
+    {
+      "path": "data\\frames\\2393236_vitality-vs-falcons-m2-dust2.npz",
+      "sha256": "b887eb70f0203a592f79dec771515b03fa05d9a93b3b2c75738d551552fdea5c",
+      "bytes": 567445
+    },
+    {
+      "path": "data\\frames\\2393237_g2-vs-spirit-m2-dust2.audit.json",
+      "sha256": "83c71e4fbc1cc13ec0259882104366ae570b62b2c019c815d11697112b05b78c",
+      "bytes": 1830
+    },
+    {
+      "path": "data\\frames\\2393237_g2-vs-spirit-m2-dust2.npz",
+      "sha256": "2f7dc8b6c54c6d29a4d27c9d3b61fa64d3bc642a72e14d18b9a2a69e87bb6193",
+      "bytes": 791349
+    },
+    {
+      "path": "data\\frames\\2393241_vitality-vs-natus-vincere-m2-dust2.audit.json",
+      "sha256": "6bf3893d11b0d0a395dcccb393866c30c45be293955e9155e7241a7b4954084b",
+      "bytes": 1749
+    },
+    {
+      "path": "data\\frames\\2393241_vitality-vs-natus-vincere-m2-dust2.npz",
+      "sha256": "32ad9e21cba0de295d09bf1b894ce7c94ba662105260f191c63bbc610ed79058",
+      "bytes": 564471
+    },
+    {
+      "path": "data\\frames\\2393242_falcons-vs-spirit-m1-dust2.audit.json",
+      "sha256": "4951c7f5afe43b63d27dc49a02652c2248341ff22d172d7e43a62d7523bf3fb6",
+      "bytes": 2446
+    },
+    {
+      "path": "data\\frames\\2393242_falcons-vs-spirit-m1-dust2.npz",
+      "sha256": "edb7f2b1287c0e80a056bd85b1e9cb3a8e7fa35b349c9d8a8d43e1a23f6b4167",
+      "bytes": 627383
+    },
+    {
+      "path": "data\\frames\\2393250_empire-vs-clockwork-m1-dust2.audit.json",
+      "sha256": "88055baa72d4931874aa1f26bf45370b32c3e9e7c3fb8e97328b5d2f8e6e5a2e",
+      "bytes": 1790
+    },
+    {
+      "path": "data\\frames\\2393250_empire-vs-clockwork-m1-dust2.npz",
+      "sha256": "e78489a3fce4f09ef58c8fcafba6348c32e06ca08380cb95d6b083ed3737bb2a",
+      "bytes": 634221
+    },
+    {
+      "path": "data\\frames\\2393302_sinners-vs-sashi-m2-dust2.audit.json",
+      "sha256": "578c90731748583f6977bc4ed96566f326cc1131ab9a4ae95c6ec75e560c1540",
+      "bytes": 1729
+    },
+    {
+      "path": "data\\frames\\2393302_sinners-vs-sashi-m2-dust2.npz",
+      "sha256": "a6c52e60b03b7e5e5a066e8b95645c3684bcbbcc5aaacf246c0ede3515650196",
+      "bytes": 558423
+    },
+    {
+      "path": "data\\frames\\2393331_brute-vs-fire-flux-m1-dust2.audit.json",
+      "sha256": "6dad70082201a9fbaeed922c6e9e8cf7750cc935efb73aece56cd684a1a5b7c2",
+      "bytes": 1818
+    },
+    {
+      "path": "data\\frames\\2393331_brute-vs-fire-flux-m1-dust2.npz",
+      "sha256": "412f8009ac06a453aa8413ec483e7bc83e559fa9eaad006a88b0a4f258be22a7",
+      "bytes": 745888
+    },
+    {
+      "path": "data\\frames\\2393397_xi-vs-rebels-m1-dust2.audit.json",
+      "sha256": "d010ac008cbf7780b3cbc61220cd4dea420d46c5187bf1a4b3075e1c45d2d5c4",
+      "bytes": 1703
+    },
+    {
+      "path": "data\\frames\\2393397_xi-vs-rebels-m1-dust2.npz",
+      "sha256": "e5d1ac851a2c93e13185cdb9786fe3cc1446aaa7af0e5bc97191786493899357",
+      "bytes": 542972
+    },
+    {
+      "path": "data\\frames\\2393408_infinite-vs-zajezdzacze-m1-dust2.audit.json",
+      "sha256": "7e2029a2cadd3f8b250ec64660ec7e936732610ad0d4f3231930833faa6b5c72",
+      "bytes": 2415
+    },
+    {
+      "path": "data\\frames\\2393408_infinite-vs-zajezdzacze-m1-dust2.npz",
+      "sha256": "5ef8235334f130c24c9275fefcc5d9b6f08db5ab72e3ae9c7583ecdbfe9cd8b8",
+      "bytes": 489315
+    },
+    {
+      "path": "data\\sounds\\2391553_nemesis-vs-qwentry-m1-dust2.npz",
+      "sha256": "3958152a54e9869ce86c3be2eb52ceae1d7df5bcee0cdf0dbcb3095cad7dc472",
+      "bytes": 186382
+    },
+    {
+      "path": "data\\sounds\\2391562_nemiga-vs-nemesis-m3-dust2.npz",
+      "sha256": "7b8403185a50ab4a66d766f57d7f4f21949cb664bc34907ca7408866bee1f29f",
+      "bytes": 235912
+    },
+    {
+      "path": "data\\sounds\\2391726_back-to-back-vs-keyd-stars-m2-dust2.npz",
+      "sha256": "30bfa2a3c50a5efae9ef83c2c0cfd53236443b400d0b8d2518415541b51f4e2c",
+      "bytes": 127910
+    },
+    {
+      "path": "data\\sounds\\2391729_fake-do-biru-vs-bounty-hunters-m1-dust2.npz",
+      "sha256": "56c963faccf4d198c14602bfa918243f0b3cd9e431e137df168e72bb453ae3f7",
+      "bytes": 156582
+    },
+    {
+      "path": "data\\sounds\\2391817_omega-vs-megoshort-m1-dust2.npz",
+      "sha256": "d3384ad802113911f54d6c85e14c848af49ba1418aa8a12b00baeea18318634f",
+      "bytes": 172853
+    },
+    {
+      "path": "data\\sounds\\2391847_esc-vs-nemesis-m1-dust2.npz",
+      "sha256": "b366c936c737d483054dbd82409f7572ac35f4588a94ed2857cfefbf980e886e",
+      "bytes": 185363
+    },
+    {
+      "path": "data\\sounds\\2391934_sangal-vs-nemiga-m2-dust2.npz",
+      "sha256": "5b428b76a83d23c175c44cc27f2fc2a48b6e522be8be4dac8507e7916e7f72bc",
+      "bytes": 109013
+    },
+    {
+      "path": "data\\sounds\\2392194_m1x-ks-vs-esc-m2-dust2.npz",
+      "sha256": "dd72c79d93c07407d5920bdb6af2498c5928ee683c091907a02f46dc2b476415",
+      "bytes": 184348
+    },
+    {
+      "path": "data\\sounds\\2392209_kolesie-vs-m1x-ks-m1-dust2.npz",
+      "sha256": "4306d82755e6e361370c084e217f16949e899a0d3fd795d858a8714ac13404a9",
+      "bytes": 198319
+    },
+    {
+      "path": "data\\sounds\\2392279_hotu-vs-big-m2-dust2.npz",
+      "sha256": "961be9640d3a84e2806f9fcdaf0dd4eeb028c4b543371643364e95aa90e0f9df",
+      "bytes": 192176
+    },
+    {
+      "path": "data\\sounds\\2392292_k27-vs-magic-m1-dust2.npz",
+      "sha256": "2e9976039d4ece33eb6832bca090c25cf88467d056b776a691239ce45ee736f9",
+      "bytes": 948
+    },
+    {
+      "path": "data\\sounds\\2392307_keyd-stars-vs-fake-do-biru-m1-dust2.npz",
+      "sha256": "e806c2660775890cd927706381c6b4a4c95b4a593e6e77e31838a6d01a729732",
+      "bytes": 948
+    },
+    {
+      "path": "data\\sounds\\2392347_rustec-vs-hashiras-m1-dust2.npz",
+      "sha256": "fae1e61b1c2ca9a825bc8a55660ebeab555bb05e72acdd98ce245a0b7aff59ca",
+      "bytes": 197807
+    },
+    {
+      "path": "data\\sounds\\2392378_megoshort-vs-ursa-m1-dust2.npz",
+      "sha256": "f68ad14f85d9bf7d5e0b45341a35b4e7546cc9cd6643c9bc7a47e3c9edc25e48",
+      "bytes": 161763
+    },
+    {
+      "path": "data\\sounds\\2392455_infurity-vs-big-academy-m2-dust2.npz",
+      "sha256": "188799c3b40b42216484483a3b3b2df4662cca870553f01843998f2ce35aab6b",
+      "bytes": 215325
+    },
+    {
+      "path": "data\\sounds\\2392464_atrix-vs-pain-academy-m1-dust2.npz",
+      "sha256": "c480ec4a576ac9b4127ab01b319a21f8ed16484436c1e1e5b66203ad65969b41",
+      "bytes": 948
+    },
+    {
+      "path": "data\\sounds\\2392468_metanoia-vs-r2-m2-dust2.npz",
+      "sha256": "697e9fe99d8bf8bc0d734548b7d2672a9d5914f544d4bb7d3f6bc9fe29f886cc",
+      "bytes": 948
+    },
+    {
+      "path": "data\\sounds\\2392469_atrix-vs-bestia-academy-m1-dust2.npz",
+      "sha256": "1d33824a210e3f9769925862e38fd88708538e2bded46cf06b3d8c4afed011b2",
+      "bytes": 948
+    },
+    {
+      "path": "data\\sounds\\2392562_misa-vs-rounds-m2-dust2.npz",
+      "sha256": "4ec4be3a4972212193063ba9dacf6744f9332d35e150179a76dfddda004e3dba",
+      "bytes": 948
+    },
+    {
+      "path": "data\\sounds\\2392566_tnt-vs-qwentry-m1-dust2.npz",
+      "sha256": "6d0dbea79215da5d60f1d3b74484f8b72bc20adb8b12dc8b88872fd7cd07620c",
+      "bytes": 948
+    },
+    {
+      "path": "data\\sounds\\2392591_partizan-vs-inner-circle-m2-dust2.npz",
+      "sha256": "ea62f8a4fbdc5b0ebb5e258cc999602be1e2dc727f18000722b99b5bba3a0937",
+      "bytes": 144681
+    },
+    {
+      "path": "data\\sounds\\2392599_fnatic-vs-sashi-m2-dust2.npz",
+      "sha256": "f613558bd8fe770b7de1e9abd25c18af1f00634298ee9d9e89889b2a19edeb78",
+      "bytes": 152825
+    },
+    {
+      "path": "data\\sounds\\2392655_3dmax-vs-wazabi-m2-dust2.npz",
+      "sha256": "161ef15a912dbb00319a690bbb3ef435e26706ca292940527ddcb1f5a0f0fa88",
+      "bytes": 948
+    },
+    {
+      "path": "data\\sounds\\2392753_m1x-ks-vs-omega-m1-dust2.npz",
+      "sha256": "45369f9837d5e54493509680de4a5d0ff893777782d46fb072c023e62157e1e0",
+      "bytes": 127273
+    },
+    {
+      "path": "data\\sounds\\2392775_tnc-vs-heroic-academy-m1-dust2.npz",
+      "sha256": "5e2f98549f3126c95558b3f867a5b8c9e046c6640a8b0d197b0f6462c60cc7c9",
+      "bytes": 195546
+    },
+    {
+      "path": "data\\sounds\\2392853_chaos-vs-last-bullet-m1-dust2.npz",
+      "sha256": "aad78d6d1039fd672e812f6ab4821c71c57e5fb7cef20ac56550f3e3493260f2",
+      "bytes": 137007
+    },
+    {
+      "path": "data\\sounds\\2392909_rooster-vs-skele-m2-dust2.npz",
+      "sha256": "6f5848e9fef917e9012815d05fcb935f69ca9c8890d4eed7b7ecaae861fe3720",
+      "bytes": 148609
+    },
+    {
+      "path": "data\\sounds\\2392912_rooster-vs-arcade-m1-dust2.npz",
+      "sha256": "843f7490077b791d0cdc7534a9f99fc7e06f550a6701d74c8039ba1efc2049b7",
+      "bytes": 185746
+    },
+    {
+      "path": "data\\sounds\\2392915_boring-players-vs-bmz-m3-dust2.npz",
+      "sha256": "85198536ecda85c44f021c4eb9492e760ee767e6ed1d297899fb250ba7a6209a",
+      "bytes": 197011
+    },
+    {
+      "path": "data\\sounds\\2392941_nexvoid-vs-chinggis-warriors-m3-dust2.npz",
+      "sha256": "359e17a9685532b70891ccebdcf796a7def8ec2a930f0668bd50a02c9a900267",
+      "bytes": 334113
+    },
+    {
+      "path": "data\\sounds\\2392989_club-333-vs-tsg-m1-dust2.npz",
+      "sha256": "10452f3d9cd00814bd2332f7d3b0910a4fa9fe22a5bae77f0a71df38428729eb",
+      "bytes": 169600
+    },
+    {
+      "path": "data\\sounds\\2392994_zomblers-vs-regain-m2-dust2.npz",
+      "sha256": "c6d9289aaa2d8f2e386354d011de8fa5bb9385bf704a74e84b7a0d3beab5dc4a",
+      "bytes": 388206
+    },
+    {
+      "path": "data\\sounds\\2393007_the-mongolz-vs-bcgame-m1-dust2.npz",
+      "sha256": "93544d749a0ba09a7e0820c57bd882cb74ce210fc1a200258bdcd730bdd282fa",
+      "bytes": 135646
+    },
+    {
+      "path": "data\\sounds\\2393029_the-mongolz-vs-wildcard-m1-dust2.npz",
+      "sha256": "73a19625ffa9bc9ed39aee4f2e4d7c71eed8f189431d4845df021a8d1550a038",
+      "bytes": 219972
+    },
+    {
+      "path": "data\\sounds\\2393049_illwill-vs-ex-zero-tenacity-m2-dust2.npz",
+      "sha256": "3cc3541a6571358d7c8bdbb5dbbb5605bc2c330e010c8162d9a96961a120f93b",
+      "bytes": 156704
+    },
+    {
+      "path": "data\\sounds\\2393054_magic-vs-cybershoke-m2-dust2.npz",
+      "sha256": "7ab768521a8dbba09efb2ddbe06fd45236952c24eb870a0616f1739a916ba1b2",
+      "bytes": 157536
+    },
+    {
+      "path": "data\\sounds\\2393073_zomblers-vs-empire-m3-dust2.npz",
+      "sha256": "05a9557aeabdcbc072257807f08ff1fb3e71b67988c37a259c3f26db3af9f2ba",
+      "bytes": 948
+    },
+    {
+      "path": "data\\sounds\\2393100_prodigy-vs-subtop-de-france-m1-dust2.npz",
+      "sha256": "399cdebda870c26e650428d88532d011d5b0528c84cbab76292ed3bec8acb65d",
+      "bytes": 948
+    },
+    {
+      "path": "data\\sounds\\2393129_zomblers-vs-regain-m1-dust2.npz",
+      "sha256": "6aebe79f255eed96ba7a749519a07dd127d4067ed16d3d9bb89ba75135852c1b",
+      "bytes": 168529
+    },
+    {
+      "path": "data\\sounds\\2393151_astral-vs-lavked-m1-dust2.npz",
+      "sha256": "20442c014fc2b6781599c87fc4480ab0574057792020ccef10fadec57f1441a9",
+      "bytes": 279540
+    },
+    {
+      "path": "data\\sounds\\2393157_lavked-vs-rune-eaters-m1-dust2.npz",
+      "sha256": "f2465e3ab5936dc7a03cfd4667b652bdf02a5e98e1906627306325ec6d5043ee",
+      "bytes": 186654
+    },
+    {
+      "path": "data\\sounds\\2393175_acend-vs-genone-m1-dust2.npz",
+      "sha256": "035606196fac18f701d8b92de1828c9bf91329f4e35e704d6de59978de10e505",
+      "bytes": 172314
+    },
+    {
+      "path": "data\\sounds\\2393228_natus-vincere-vs-furia-m2-dust2.npz",
+      "sha256": "6e4be85433135a2ee9ebce90923ac1309be0be481b5dc990f4ddc50602923b3b",
+      "bytes": 148201
+    },
+    {
+      "path": "data\\sounds\\2393233_g2-vs-3dmax-m2-dust2.npz",
+      "sha256": "e5fe29020d3fad0fbd8c855489810590f793cfec537a59ab88d797a21e83daa3",
+      "bytes": 111420
+    },
+    {
+      "path": "data\\sounds\\2393236_vitality-vs-falcons-m2-dust2.npz",
+      "sha256": "5720f59d78ead86e09d50989137c2c8c3fca722878864c10bfdd68cfa340edf9",
+      "bytes": 141765
+    },
+    {
+      "path": "data\\sounds\\2393237_g2-vs-spirit-m2-dust2.npz",
+      "sha256": "b91854dc12babaf779a908430c34aa10cdaed1f796d2ea7ba9ebdfe2c0587fcd",
+      "bytes": 213413
+    },
+    {
+      "path": "data\\sounds\\2393241_vitality-vs-natus-vincere-m2-dust2.npz",
+      "sha256": "6a4cec90d02f445e363edf8b6a4d620b15be2530b967f65f7268dfe3ea957c64",
+      "bytes": 164480
+    },
+    {
+      "path": "data\\sounds\\2393242_falcons-vs-spirit-m1-dust2.npz",
+      "sha256": "6abe965f3aa1065c10a6e4c3fea4d8db40ea20feb9f13f3ffae93aba68e45e4c",
+      "bytes": 169951
+    },
+    {
+      "path": "data\\sounds\\2393250_empire-vs-clockwork-m1-dust2.npz",
+      "sha256": "6a576a187758b576537374c6148eb2ed2dc5e4c7e7ba7d7a8ba130b8845c23cf",
+      "bytes": 232897
+    },
+    {
+      "path": "data\\sounds\\2393302_sinners-vs-sashi-m2-dust2.npz",
+      "sha256": "6686da0acf474a87356d0ba93d5955e91bf2b6e53768c11f704bb86546c4251b",
+      "bytes": 150771
+    },
+    {
+      "path": "data\\sounds\\2393331_brute-vs-fire-flux-m1-dust2.npz",
+      "sha256": "0b2d9bd16ecdb9ceeb8be25deaedee4aafa6aac7579353d2128cc3410eafbab1",
+      "bytes": 222037
+    },
+    {
+      "path": "data\\sounds\\2393397_xi-vs-rebels-m1-dust2.npz",
+      "sha256": "e4699b917e254a4a578f9b5aa991de7f233a86bb301e396b8d32eeee38fa7d1b",
+      "bytes": 948
+    },
+    {
+      "path": "data\\sounds\\2393408_infinite-vs-zajezdzacze-m1-dust2.npz",
+      "sha256": "bf7354e29c450f777b3cf259de11f02961d8a3c5d1ba3beac9b2327a9ae19c4d",
+      "bytes": 948
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-020c2c03.parquet",
+      "sha256": "f0dd23d8fcc48d293c4659fcc7e43ee7ee1f1440c85556e4d717a03dd1f126c7",
+      "bytes": 100149
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-03d8d6ae.parquet",
+      "sha256": "343fb85fd688b06e6a8741ee638e21badeeb7cd9ec7f88454d6be8ad97ae730c",
+      "bytes": 96749
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-0436c5b3.parquet",
+      "sha256": "a0f9f94f483b22c505144a6b74f26d7362a99b6061c6dcec8e97782dfef3e800",
+      "bytes": 103685
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-06890d36.parquet",
+      "sha256": "b37d599adcaca3d490113b9f658de035c16115c20636e835a850b371d6b8c0ef",
+      "bytes": 115154
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-07163fe3.parquet",
+      "sha256": "51f74b8516d275800d9055364ef6414a17717bf7b322353ac03bc269d2d12f75",
+      "bytes": 70741
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-0a807cda.parquet",
+      "sha256": "dd18b655c2d479a1ce12780160377a5caad9f3e32f9c60c792eeeb7c02f598b1",
+      "bytes": 78692
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-0b918d2e.parquet",
+      "sha256": "060aba072937a205df20b0c7003aa57cb53733b192ff605761b98a0678c1932e",
+      "bytes": 93748
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-0d8132f5.parquet",
+      "sha256": "60856e035875c3d6b89c8c7a1345cfa06fe21301282ed6983a866b936ece8ca7",
+      "bytes": 103789
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-0dd909b0.parquet",
+      "sha256": "4264958227b905cc1c774cc8f8e6d680a95989ccb29d9ee4b537987b61221dc2",
+      "bytes": 101971
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-10892ed9.parquet",
+      "sha256": "d2a95808bbd9a8e6810193c7298b689a873fbaf5da7fc187c4c9ff79d658c476",
+      "bytes": 93345
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-11bffb5d.parquet",
+      "sha256": "cad4e1640563e347bb7c1965b99b5e40565015d1daad9ef9e06010b87806f71a",
+      "bytes": 97731
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-145090af.parquet",
+      "sha256": "b2065d5d917a849365a4f640c83244fc91d9447e503643224e6e8e5c6dacf66a",
+      "bytes": 43790
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-1574a6a2.parquet",
+      "sha256": "e50920155ba6ad1799e5d12f62307420ce4ffca28880fc978d2e56804466bbf9",
+      "bytes": 98200
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-1658a764.parquet",
+      "sha256": "06ab3ce996a55b880ab1942ad683f2064ca6e4449eed15c0ac65f4e3f3f1fe10",
+      "bytes": 87789
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-1719c8b5.parquet",
+      "sha256": "eddfd15caecf8cbef6420d2537752c63fc5e0dd7cd9728100f990b02c98a7aea",
+      "bytes": 77576
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-17bc5760.parquet",
+      "sha256": "6828fbffaaa89dfca5b2581de86cc48a91841a855e1cbb3f24cdfb3f4ad5f5f9",
+      "bytes": 88981
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-185d0746.parquet",
+      "sha256": "905aa30a8400d53628410d94abd4989bbbb9f38295b047452d731f42cadb7f8c",
+      "bytes": 99286
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-1b7c69d6.parquet",
+      "sha256": "bcc59483c94d5e3482c9f68e3e7b23374cb660bcc0be6a502d966f5acb9d3c57",
+      "bytes": 104171
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-201e9876.parquet",
+      "sha256": "d9d036e87d4ef8d43de9f1c6a2be430a771e6775eeee25328573dddc2f2d5507",
+      "bytes": 75529
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-2222352d.parquet",
+      "sha256": "5d40f5ef189625dbd4956af974424e555ef8c6ba273dcc067126348561c33b1f",
+      "bytes": 98659
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-24246461.parquet",
+      "sha256": "569fe09e2a1d7ca4fbe5716ea9ee43bbc279d6af99677af1e9071c64b4a38147",
+      "bytes": 92485
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-2586405b.parquet",
+      "sha256": "da8efee816922eaee21716c8907258654d6b3e5aa9f7794841bd08d7693b7b90",
+      "bytes": 106164
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-25d1a04b.parquet",
+      "sha256": "8fb28ff8a5ea8f7239c179eb857b8af987e85a09f46c7de6f066ab03e25397e9",
+      "bytes": 82348
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-2a508767.parquet",
+      "sha256": "de8fe9d003014b31fbc1ffd2313fa78769c016d06c4b2fb07c905a4b4aae0291",
+      "bytes": 93129
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-2b1c115f.parquet",
+      "sha256": "9835477698a08d7b0bec15585c00774b15121b7463852ef8b9ffeec101ba75db",
+      "bytes": 88451
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-2e680998.parquet",
+      "sha256": "683aadb12bef0a2f787e45810a83643b9ceb307ca872c0d50459a53c75996bf6",
+      "bytes": 95574
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-32819ca3.parquet",
+      "sha256": "54d2d56e2473c1d5388d841eb3f620bb725ee00252e279c9325e041c78334f33",
+      "bytes": 104109
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-347872a0.parquet",
+      "sha256": "ffce27cf3a3089c52cfb03dae60bf5bde73545db4ac5698a57baa7747bfba5e9",
+      "bytes": 96951
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-34a48180.parquet",
+      "sha256": "0335b566f5457d0938b0d785f7a90edda6033143024eeef1452f04d705cfa6d2",
+      "bytes": 82794
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-35b69f4b.parquet",
+      "sha256": "b042c3a9c1c01e4a0662f59bafcaf5bb22be3d5f96fde2bd21b26f70e6d51567",
+      "bytes": 101296
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-35cb7a32.parquet",
+      "sha256": "f56cad036e904ede26dae1f8c605d9f32171ddc6f5d27e8839ba78852cd11ddf",
+      "bytes": 108182
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-39b35e35.parquet",
+      "sha256": "e7715e9646e111cc298ccc33d3496032ea059173e77e2844af47a4c377a2a021",
+      "bytes": 114458
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-3c6617e8.parquet",
+      "sha256": "d668172abc898e3adb258bc19da3033210ce7c86950194f99ab86cbb9d1bf452",
+      "bytes": 105859
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-3dcb3b3d.parquet",
+      "sha256": "2057e0f96247817e598c81ed75541487e830cb00c01656130f0bfab6cf90277e",
+      "bytes": 100197
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-3e2bacd0.parquet",
+      "sha256": "f45f3d609f5952026f2dd037872208b390b6fa7ac5aaf5b276a0e1b7b5a8428f",
+      "bytes": 91637
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-3e71bbdb.parquet",
+      "sha256": "a3041789882b183cdcc8024d9cd4a3e211c13bd4b2f5b4c48a0b609dc8912eaa",
+      "bytes": 103914
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-40e2d3ed.parquet",
+      "sha256": "9126ac74c11eb981e4cb4883c76dca7ced0e529f66c0384d1080ab8d6871be08",
+      "bytes": 99867
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-42b2ab3b.parquet",
+      "sha256": "15b9140b2b1943de7e70eee66052691407f8508713e446803fb843e2496516ee",
+      "bytes": 108472
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-444bdbeb.parquet",
+      "sha256": "499a80a781756ee65701b42a45a6886bf596e5285ea6bee2ef892d793c315b45",
+      "bytes": 108558
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-4815b42d.parquet",
+      "sha256": "f6bb5b223925aba186a4b6085508aa2c12dd96ab321c033289bb16577e0644be",
+      "bytes": 96216
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-489ea15e.parquet",
+      "sha256": "7b4780f051453f8032c7b5fc1fa3f83467180d7edd8a876a51d2a1d6157cf045",
+      "bytes": 73291
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-48edc3ff.parquet",
+      "sha256": "1b0a25d8e5ddf1336fdca63994042ddfe76ec0652376243b00466bce53bce0ef",
+      "bytes": 91998
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-4a0765cb.parquet",
+      "sha256": "f985ec7a469e11ff2890604c8577db616efd47f91020241134a59b9b19d0634e",
+      "bytes": 79491
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-4bef6fe1.parquet",
+      "sha256": "2bf5fef3b18fbc83737fef3c3a22974a63ff1ec67e480dda0192182ce17a8cb9",
+      "bytes": 59631
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-4ef6781d.parquet",
+      "sha256": "fec0ac31aa9ac96b56aaf88b1d277184a0741cffe6df94212996b8b6fb6a3149",
+      "bytes": 112578
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-528b87f6.parquet",
+      "sha256": "98e422d93809387d428e04645077d6cb1ed41f8037191fe96aad0cb585826254",
+      "bytes": 99945
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-54227c46.parquet",
+      "sha256": "ac2cc7fb21f61666930e51c71c0f6c4052f1b333509742d17dd898e9ac38084a",
+      "bytes": 84347
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-54251ae7.parquet",
+      "sha256": "9bb633002ec5e1599438504af73bf25865571bf91ddd2e1a3a5fb2c9f13b4a85",
+      "bytes": 107226
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-5457b143.parquet",
+      "sha256": "230e59ea8c674328702fb7a0f855c1a05a00ad2c461f30c7274bdf89ed2b04d9",
+      "bytes": 109676
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-556ea573.parquet",
+      "sha256": "872b6e89d1d0ca498ad43ce35f85673d49a7c884533af5934783f1bef42f69fc",
+      "bytes": 108976
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-55d96a26.parquet",
+      "sha256": "17697b68736d4b12b747a6cd8f649aafc40b0844ce8f862af1633989461fe9a4",
+      "bytes": 87706
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-56c0f328.parquet",
+      "sha256": "b12eada04346afe882368cdfa2776c18dfb6cbfa0ec61de54d53c8368e2efe48",
+      "bytes": 84525
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-5d30b5d7.parquet",
+      "sha256": "1fea18039ead94b88824909bdf8497ca5f5d69c96aea04563a7b3bd9a114da3b",
+      "bytes": 132488
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-5d7684b2.parquet",
+      "sha256": "a6929a810fbcfe9fb35e2a1c114ec261738eae22e64477102eda81a97a3137ab",
+      "bytes": 85623
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-61c1c73d.parquet",
+      "sha256": "1c51f52d8d7bb6466473b076a515c94088e6e15a1ff6c64aa066e229b652d310",
+      "bytes": 85422
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-62d35235.parquet",
+      "sha256": "2d598e3672b0dc5a8a7224e3af206f493bfdc76fd86515eacfbe7c2a5d5a60c1",
+      "bytes": 103802
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-644b975c.parquet",
+      "sha256": "972ba144aeffe88c861398e0130488716ef093e16c8c64078eca7465c7289e0a",
+      "bytes": 102279
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-6672109a.parquet",
+      "sha256": "ee2753a82104bbc7c45c0cf18079efc37419143bf9bb242a586f4fc4f178cabd",
+      "bytes": 74584
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-6706c8a2.parquet",
+      "sha256": "c2c1911543803c1e63985f2a223cd2e7f9237cfa718dac3c0a99dfc303530d9c",
+      "bytes": 100775
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-6ac92abd.parquet",
+      "sha256": "6bb8280dc23dbda89d681a7c9e3cc71742e080c48cd1c7f5644814bbdde257f3",
+      "bytes": 94258
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-6aee49bf.parquet",
+      "sha256": "0def3164afcc15893f12507886cc2f8c3a61a2b5961884e5e21196c040d82faf",
+      "bytes": 102017
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-6df9d958.parquet",
+      "sha256": "1dc41ee39f6e8214ff91cc9ed0cfb64e53f7625837a434d8a809fac86edad711",
+      "bytes": 101276
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-6edb5d54.parquet",
+      "sha256": "4bd952d4b838191d9a9f7ed38c8c2a5686920d4fe0a2fd1ad5fdaec6d5684928",
+      "bytes": 107097
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-6f388a63.parquet",
+      "sha256": "24c77648929c1fd98f945eab56cd65c54296e070cc335f9bac76a3e271b85c14",
+      "bytes": 93437
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-708e88a1.parquet",
+      "sha256": "f4a94cc58eb1a6ce36b7329b67f9c1589c5bc081df881db54513ee5c205220dd",
+      "bytes": 88645
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-7268fedb.parquet",
+      "sha256": "8a551cb5b23356852eb310f4cc85a218415c4c036e1ffca9b3966457c30d27f0",
+      "bytes": 79049
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-7311785c.parquet",
+      "sha256": "5afbb875ec1e75dad20f42ece1b11c965959eea7a7d85d092bd1994f1bf7e448",
+      "bytes": 94219
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-751bd9c8.parquet",
+      "sha256": "be46ff50700bc17279fcee3ab2834064004e58b684822044f1e066d2ea24fe49",
+      "bytes": 77163
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-76caf7f0.parquet",
+      "sha256": "85dcb552da57aecbbabc1df99c3f20457b85465f7fdce0e47928b1c99887b3ec",
+      "bytes": 99257
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-7925bdd5.parquet",
+      "sha256": "f0a920042bf63a28e8e4a72527182a6930b212549b8d6fbe187323f6dd75862a",
+      "bytes": 78599
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-7d474adc.parquet",
+      "sha256": "0746e4c715a2d446e96737d3b6cdac05628c82ea12e00ebcdb0bf244086ca28f",
+      "bytes": 87356
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-7d852a7a.parquet",
+      "sha256": "ab477690dce89bb7beff53b48c4fa6f783d2ae21d31c1c71376b9199ae3f0314",
+      "bytes": 104465
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-7f51e483.parquet",
+      "sha256": "0e46935001575053b3f87f983f62fd41cc2a220ebe4484ecd6219295e6dea5a3",
+      "bytes": 85045
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-800ed771.parquet",
+      "sha256": "ff9b6173b048b1e4d6aadca7a17c84979677bc216560909d3dad1af5004d377a",
+      "bytes": 83636
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-80e59117.parquet",
+      "sha256": "6fb1e514a0d919ba77f530b67f6dabd929399272bfe59e70790194ea8ad92d4f",
+      "bytes": 103103
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-84a9c4a7.parquet",
+      "sha256": "b9f4cdd2149e8dffd632060d71e9a0227803532eafe04d1414ebfa94b2ffa282",
+      "bytes": 99522
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-879a6745.parquet",
+      "sha256": "c8e6945098018cb7cdb2b304c64d4bfc6f9283ed7c8ca4c04c3c64d44c39d2da",
+      "bytes": 112353
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-880b122e.parquet",
+      "sha256": "4c5c8a7190a17b2a05f6745de514ee6d07d195b0ea99689a0ef532b3a91f2b9f",
+      "bytes": 77919
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-89712e19.parquet",
+      "sha256": "6a7349e3e60b94c49a320a90c0bd402287e4a6ed5e222abbf5b20dc061e32f2b",
+      "bytes": 99689
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-8bebd74a.parquet",
+      "sha256": "17f226747670e32675524bf61a80889539fd60a9f89df3b8e84780d2076f13a1",
+      "bytes": 115928
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-8db99cf1.parquet",
+      "sha256": "d4bc527b87b59e72a9b6f4f8b826005f28e3c67e5c203002d38326ec521ad435",
+      "bytes": 90899
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-8de2f04b.parquet",
+      "sha256": "31ba293abbf65770572c28e22437586aac74ce771a5f8ee55d3b17639954a072",
+      "bytes": 119082
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-8f27fcb8.parquet",
+      "sha256": "2a6ce42dedf1d5369ac3b7f19f1685b1a149e73f08658723120d768b9de225ff",
+      "bytes": 67834
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-902420d9.parquet",
+      "sha256": "053a2d858149724fb8fc9c478e3b2350375ef040a7102a24276ef0b457d012bb",
+      "bytes": 75130
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-90ba09e0.parquet",
+      "sha256": "27b25a667a4371faf5ee71147d36944ac0c639ca5009466e06fbdfba349aed15",
+      "bytes": 115645
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-918d57f1.parquet",
+      "sha256": "4d6696fd0e73bb9324de1b3123625bceb0519cbc69b7ced14ed665d407438aaa",
+      "bytes": 87050
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-91c30f72.parquet",
+      "sha256": "f6fc9b8fc4087cdc716dffe57735b9e92c696ceffc18fa5e83f386da6db61ce1",
+      "bytes": 98962
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-939f6eaf.parquet",
+      "sha256": "47f6e8f9ee5157556e518b615ef0de7f5ce747eb932e87a503eb5e21bd2c3f71",
+      "bytes": 85983
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-9b395901.parquet",
+      "sha256": "c0f6a6500b3f5365f83a795e093dce328969720e1488d562d3f756c6a1550bea",
+      "bytes": 108068
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-9d7f162b.parquet",
+      "sha256": "561666014baf426f2955cdbca5c709a08acc1d757424c0812f44517e54c69b57",
+      "bytes": 94753
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-a0327671.parquet",
+      "sha256": "2d48e464e3bb487caaad2fc0a9cd93053aff18fe75f6e665299f40fda30ec578",
+      "bytes": 85801
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-a26ddce4.parquet",
+      "sha256": "c5fcc0c8948710c9b9b10808f59006383b73699e4dc6e4aca239f3f9f4e2e686",
+      "bytes": 83607
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-a55efc7a.parquet",
+      "sha256": "68de8cf87aea1406427968e86f113e93632bc7e7a799728507d2a564cd4d109c",
+      "bytes": 79333
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-a7396e87.parquet",
+      "sha256": "f26c9d915179889dd0c7d1a2b5736424de0e99f8ede67fe3c52019b9122a9051",
+      "bytes": 101990
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-a86bcb3f.parquet",
+      "sha256": "6360dec987bee06d7248560b2f0168488ff80c818a381e51af7cdfa57303c73e",
+      "bytes": 86704
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-a9f66529.parquet",
+      "sha256": "e2e4efc388faee2ad53df0369fc0e2fb23f0502a85791e1187dd4e19344e3d4c",
+      "bytes": 85244
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-ac4f6840.parquet",
+      "sha256": "47cd2e9c38c852c512e7e30f180a0300a4128d79f6fcc24f98027bee2a672237",
+      "bytes": 69379
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-b0cf7eb2.parquet",
+      "sha256": "7c3fe1b0ddcb57b69b778fa9bec4bda694cbb0b54a5dfe7b26a51387b409762a",
+      "bytes": 115778
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-b271a63b.parquet",
+      "sha256": "be420f9128f14d4aecfffd33ce536381e00e51218294ee6b221e739d0188bf46",
+      "bytes": 87044
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-b3609172.parquet",
+      "sha256": "a45c0277c402380d89e19d2673a8755ae012d05da375f9a31a5a29bec181c92e",
+      "bytes": 91154
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-b3c43f3a.parquet",
+      "sha256": "dbdf742127c82dd8f6d6f3e7bbe70f14156c4874b48d85cd9c51ab54cababdfe",
+      "bytes": 79822
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-b529dd16.parquet",
+      "sha256": "ffba1ad2dba962defe98d4b2666ed0c75ecd1716be8591a84320f704e1b43751",
+      "bytes": 74993
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-b67709de.parquet",
+      "sha256": "9d6df13d2c0d2458e13e2d340a6083d74cdb449f1302423130fe86c8b5a55207",
+      "bytes": 105111
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-bf60e994.parquet",
+      "sha256": "c39a8374151dd204f254b6d5408e5c8ea2ffed75c35860da718ef3ad6190cad4",
+      "bytes": 98567
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-c07d234c.parquet",
+      "sha256": "3047805498a7814172b9d9692f7d1d94c71a395d51e05f88b2a41ca88c41b3b1",
+      "bytes": 104542
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-ca8f1a92.parquet",
+      "sha256": "56daa2b8f2225ef96d83096ad911cd50578d0ef115ce03a0df7048d76bedf4d5",
+      "bytes": 113019
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-cbbb591f.parquet",
+      "sha256": "bda4d4d489e6103d2e486be08930b7cb2596374c2795dded8e291543186eb533",
+      "bytes": 96395
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-cd84925b.parquet",
+      "sha256": "3607509b7ae14552421dce42e3f2942fa2a2a8de92d672650d157cb4bcfe3aa9",
+      "bytes": 101773
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-cee3a67c.parquet",
+      "sha256": "2cca29393c4dda51dc3b5517bb0f81689406c24d304d511e5bfa07daa8c759d5",
+      "bytes": 86084
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-d2179ac5.parquet",
+      "sha256": "6454242279f7477d2abc9b0b81b3fac28ccc92437c35ca59e4e18e4f15024deb",
+      "bytes": 86453
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-d369ca30.parquet",
+      "sha256": "995c675572ddcd7ab8838d0ffb5fedb55a5e2737e4ab330cb08ae6884d4a69af",
+      "bytes": 94251
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-d587d230.parquet",
+      "sha256": "72b2a3a0404ed7e08fd7c67e17440114ab1514aead2fd260502a65c8e53fa42e",
+      "bytes": 101165
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-db22335d.parquet",
+      "sha256": "392467031342d5f1d0790ddd3e5f711c0e81c0d7dec67db7df8a844d2fed6f0b",
+      "bytes": 122193
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-db24520b.parquet",
+      "sha256": "fb6bc5dfe0b8c7911b94268e89f83980ebb895a3398814c894b5a265e43417f8",
+      "bytes": 71899
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-ded04326.parquet",
+      "sha256": "29254fc65a0c1ac2088f72c943bad147b13303c0a5d74ea22a22a588c05a400d",
+      "bytes": 97319
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-dee5f7a1.parquet",
+      "sha256": "4a2d5a6501806180181613251adc37e3e71144a189b48444d30d938f05b6c6a6",
+      "bytes": 116845
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-e091ea28.parquet",
+      "sha256": "e2ea1b9187942bb766cafba1c1cfe7a64c795a7ec994a972b4c5d9c6575698c8",
+      "bytes": 115046
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-e2593cb6.parquet",
+      "sha256": "795a6ceb0cec06c29434c50a3ec75e6a55decc44d04d59ab1f6fc350e24a2b2f",
+      "bytes": 124575
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-e407f24a.parquet",
+      "sha256": "8c6ea2b20884217a393e62a639a8478434ecb424fa6a546d6b9ceb7404bfaf9a",
+      "bytes": 70234
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-e73ea2a6.parquet",
+      "sha256": "da1fe9eec2e4bd24de5277c160d327f82f510eb63e60233162812ec94fbef47a",
+      "bytes": 75798
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-e98868b4.parquet",
+      "sha256": "56a928ee074e17c735270549272f1333f4bbb8e0be68fc9883850f9a5f4aef93",
+      "bytes": 116311
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-eb05a493.parquet",
+      "sha256": "4299cfd30530716fd7f2c237d5640c659250ae3c0e3c33b5a0aa0c4f43a55db0",
+      "bytes": 107136
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-eba8d717.parquet",
+      "sha256": "83778104ada7804695341001ccc7b2a033d512e408462c3b146e40c4cc8c7f0e",
+      "bytes": 120465
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-f048463e.parquet",
+      "sha256": "73bfb285c4ce024831f124d91421c7021dd2fd7df872a70dd35d0fba7ae56af9",
+      "bytes": 78911
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-f0e90ede.parquet",
+      "sha256": "11fab10e349b71e61e24a4dd19227825248248cb5a1230df3e00b3afa53ac588",
+      "bytes": 121340
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-f1d6eb33.parquet",
+      "sha256": "c98429262eeaa5d2c78cc22e88bf60188d960a92d77ba640d4704c46b67e2fb4",
+      "bytes": 93907
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-f2b5dd02.parquet",
+      "sha256": "6d96a347f944a279288f8e1c24ecd8eea34c7fb38bdc1fe324f38da742b189b2",
+      "bytes": 90196
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-f2c8008c.parquet",
+      "sha256": "f04b79c8ba0f493565694f0a38248f1cf01b46e61919d9974dd8b7f294f64713",
+      "bytes": 92473
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-f426bac4.parquet",
+      "sha256": "aec64a5181f624926b7615fcef87bc2fbfff68a9d4c566ec62dfcfb02622da1b",
+      "bytes": 109213
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-f49c7c76.parquet",
+      "sha256": "38ab9e6647c6d3f8c458860d489b0d9c7fa81c6fab9095b128ce925a38707589",
+      "bytes": 97417
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-f5292d6a.parquet",
+      "sha256": "2a83d86178a5588551a7d5b379836d676a56bfbaaac8e027cb19d4a75b603029",
+      "bytes": 96696
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-f5a1d44d.parquet",
+      "sha256": "a29779ee1225cc566605669c0adb38d104d32f818ea3809d9f5b616e89dfcb83",
+      "bytes": 127286
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-f5c12bb2.parquet",
+      "sha256": "a631aa592f2706cb0d86e53a9bed5eacf37d5f1628564dda7876a8881c28bbd1",
+      "bytes": 97959
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-f604ef6e.parquet",
+      "sha256": "9fc5e199aac91a5c404a37b650f67001f3179f659d56aaab48aa39d5f6b9af55",
+      "bytes": 104481
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-fa2b6c25.parquet",
+      "sha256": "31c2721f6d432397bf9a8f09c045f42b87d5ce5e22666bf4a44ecb71529fe74c",
+      "bytes": 90453
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-faadbe86.parquet",
+      "sha256": "ef88a5373c70ce5646ea08e296db7ee6d9e84878952fd6378aa247e3d432739a",
+      "bytes": 99986
+    },
+    {
+      "path": "data\\metadata\\metadata-europe-fc568125.parquet",
+      "sha256": "e140e628d9e931e4ab856d716db0e6a33b44234aed2ee50a8db184c573bfc2a8",
+      "bytes": 82804
+    }
+  ],
+  "dataset_sha256": "b6a076322ad2bfe2886f3129dffe8a4a6aca116a5fecb19082e77472559bdeb5",
+  "regions_sha256": "b031254d89270ae34b281cf0dc283c23b24b0b507823b9a6c4b7169e1309ab2b",
+  "elapsed_seconds": 186.45299999999952
+}

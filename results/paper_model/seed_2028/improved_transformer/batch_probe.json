@@ -1,0 +1,46 @@
+[
+  {
+    "micro_batch": 1,
+    "longest_train_prefix": 1123,
+    "padded_steps": 1152,
+    "peak_bytes": 843060224,
+    "within_budget": true,
+    "safety_fraction": 0.85
+  },
+  {
+    "micro_batch": 2,
+    "longest_train_prefix": 1123,
+    "padded_steps": 1152,
+    "peak_bytes": 1608779264,
+    "within_budget": true,
+    "safety_fraction": 0.85
+  },
+  {
+    "micro_batch": 4,
+    "longest_train_prefix": 1123,
+    "padded_steps": 1152,
+    "peak_bytes": 3176811008,
+    "within_budget": true,
+    "safety_fraction": 0.85
+  },
+  {
+    "micro_batch": 8,
+    "longest_train_prefix": 1123,
+    "padded_steps": 1152,
+    "peak_bytes": 6269739520,
+    "within_budget": true,
+    "safety_fraction": 0.85
+  },
+  {
+    "micro_batch": 16,
+    "longest_train_prefix": 1123,
+    "padded_steps": 1152,
+    "peak_bytes": 12477914112,
+    "within_budget": true,
+    "safety_fraction": 0.85
+  },
+  {
+    "micro_batch": 32,
+    "oom": true
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "rounds": 1127,
+  "fixed_time_records": 2833,
+  "early_15s_five_alive_known_rounds": 885,
+  "early_matches": 51,
+  "early_training_rounds": 535,
+  "archetypes": 2,
+  "clustering_features": "12 observed CT region occupancy proportions; fixed 15 live seconds, all 5 CT alive",
+  "cluster_fit": "training matches only; K selected by training silhouette over K=2..8; seed2026; n_init20",
+  "equipment_tertile_thresholds": [
+    21500.0,
+    28700.0
+  ],
+  "equipment_semantics": "CT total current equipment value at freeze end, reconstructed from own-player attributes; not cash or income",
+  "selected_team_count": 21,
+  "team_min_matches": 2,
+  "team_min_rounds": 10,
+  "temporal_paired_rounds": 667,
+  "temporal_paired_matches": 51,
+  "descriptive_scope": "All 53 matches including training; one fixed-time observation per eligible round; not predictive holdout performance or causal tactical value"
+}

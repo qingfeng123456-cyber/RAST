@@ -1,0 +1,10 @@
+{
+  "uniform_weight": 0.08333333333333333,
+  "symmetric_difference_limit": 0.6190803647041321,
+  "cases": [
+    64,
+    232,
+    1,
+    8
+  ]
+}

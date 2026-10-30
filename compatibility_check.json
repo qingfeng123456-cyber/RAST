@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "kind": "TINY_CPU_SOFTWARE_CHECK_ONLY",
+  "full_training_performed": false,
+  "test_fixture": "two artificial complete eight-frame prefixes; no actual test-cohort inference",
+  "initialized_parameters_exactly_equal": true,
+  "objective_and_checkpoint_inference_exactly_equal": true,
+  "six_original_checkpoints_loaded_strictly": true,
+  "models": [
+    {
+      "model": "vanilla_transformer",
+      "parameters": 2692422,
+      "initial_state_sha256": "5e146eed9d2e237660e076c5f69bc415c09d1e77226180dd03f8ca395b70f08e",
+      "objective": 5.470529556274414,
+      "finite_backward": true,
+      "loaded_checkpoints": [
+        {
+          "seed": 2026,
+          "nll": [
+            7.123232841491699,
+            7.123232841491699
+          ],
+          "samples_sha256": "0baa39e31de35a82262517ce91f15c29fb773060b775362881e83ee75fd703c1"
+        },
+        {
+          "seed": 2027,
+          "nll": [
+            5.009294509887695,
+            5.009294509887695
+          ],
+          "samples_sha256": "f52705e068d1dbce81364968b63e0e9c4beb8b3454012a7c30966b6731de7757"
+        },
+        {
+          "seed": 2028,
+          "nll": [
+            8.593917846679688,
+            8.593917846679688
+          ],
+          "samples_sha256": "779c435637a93eabda2c575c9d6fa5f0bcef9817b60b28dea3a6b03f973c2011"
+        }
+      ]
+    },
+    {
+      "model": "improved_transformer",
+      "parameters": 2851238,
+      "initial_state_sha256": "f57be5be9158d65c24e86e4a15791c8a39655ba47a55a3454876144aa112ef35",
+      "objective": 5.495076656341553,
+      "finite_backward": true,
+      "loaded_checkpoints": [
+        {
+          "seed": 2026,
+          "nll": [
+            5.778453826904297,
+            5.778453826904297
+          ],
+          "samples_sha256": "4d6f52f9fa8e9c404fa8b979b19100a69ffd2fec0b55d3a336fa488ad8705d48"
+        },
+        {
+          "seed": 2027,
+          "nll": [
+            4.154404163360596,
+            4.154404163360596
+          ],
+          "samples_sha256": "1a8602e116f1e898df82f66ad2b56fa9e5faaed47ea3fe47ad7c6918261ac947"
+        },
+        {
+          "seed": 2028,
+          "nll": [
+            4.259817123413086,
+            4.259817123413086
+          ],
+          "samples_sha256": "a3563272cc98734c463803c4f01295440591e2543ce30772e738ad1cb96a5566"
+        }
+      ]
+    }
+  ]
+}

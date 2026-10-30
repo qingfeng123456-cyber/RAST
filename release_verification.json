@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "publishable_files": 344,
+  "total_publishable_bytes": 374940466,
+  "github_limit_bytes": 104857600,
+  "oversized_files": [],
+  "largest_file": {
+    "path": "results\\paper_model\\all_test_scores.csv",
+    "bytes": 77504906
+  },
+  "dataset_check": "PASS",
+  "offline_prepared_entry": "PASS",
+  "cpu_only_redraw": "PASS",
+  "original_source_compatibility": "PASS",
+  "trained_checkpoints": 6,
+  "saved_prediction_archives": 9,
+  "formal_models": [
+    "knn",
+    "vanilla_transformer",
+    "improved_transformer"
+  ],
+  "raw_demos_included": false,
+  "published_to_github": false,
+  "gitignored_local_check_artifacts": [],
+  "note": "Previous-delivery Python caches and temporary pipeline.log were individually removed and absence verified. Formal experiment evidence retained.",
+  "manuscript_cpu_redraw": "PASS",
+  "source_plot_formats": [
+    "pdf",
+    "svg",
+    "png"
+  ],
+  "final_inventory_note": "Counts exclude local ignored artifacts and manuscript files; scientific checks retain their original recorded results.",
+  "available_model_implementations": [
+    "knn",
+    "vanilla_transformer",
+    "improved_transformer",
+    "lstm_count",
+    "gru_count",
+    "hist_gbdt"
+  ],
+  "new_baseline_software_checks": "PASS",
+  "new_baseline_formal_results": "PENDING",
+  "check_scope": "Completed original three-method evidence; added baselines have software checks only.",
+  "repository_name": "RAST",
+  "contents": "code, data, documentation, numeric results and figures",
+  "manuscript_files_included": false,
+  "manuscript_exclusion_check": "PASS",
+  "analysis_composite_figures": 10,
+  "public_assets_synchronized": true
+}

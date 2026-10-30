@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "neural_training": false,
+  "neural_inference": false,
+  "figures": 7,
+  "formats": [
+    "pdf",
+    "svg",
+    "png"
+  ],
+  "early_rounds": 885,
+  "training_clustering_rounds": 535,
+  "team_profiles": 21,
+  "paired_temporal_rounds": 667,
+  "deployment_evaluation_minimum_live_seconds": 15
+}

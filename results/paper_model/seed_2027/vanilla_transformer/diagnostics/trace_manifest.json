@@ -1,0 +1,36 @@
+{
+  "model": "vanilla_transformer",
+  "samples": 256,
+  "cases": [
+    64,
+    232,
+    1,
+    8,
+    114,
+    255
+  ],
+  "checkpoint_sha256": "ed44edc9a7f2d8051079a7c864a82f7ed2010237035dce2fcec781d9e1fd4aac",
+  "trace_precision": "float32, eval, dropout disabled",
+  "attention": "actual Q/K softmax; temporal last query only, all prefix keys; local no-bias weights keep Q/K fixed",
+  "residual_norm_order": [
+    "carry",
+    "spatial_update",
+    "gated_temporal_update",
+    "ffn_update"
+  ],
+  "evidence_order": [
+    "friendly_smoke_count",
+    "friendly_smoke_age",
+    "radar_age",
+    "radar_ever",
+    "exposed_count",
+    "CT_steps",
+    "T_steps",
+    "footstep_age",
+    "footstep_ever",
+    "audio_available",
+    "CT_alive",
+    "T_alive"
+  ],
+  "interpretation": "Mechanism traces and frozen computational interventions, not causal game effects or proof from attention alone."
+}

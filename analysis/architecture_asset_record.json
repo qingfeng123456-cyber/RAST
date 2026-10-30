@@ -1,0 +1,20 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "purpose": "conceptual architecture only; no measured data generated",
+  "visual_inspiration": {
+    "title": "Is Space-Time Attention All You Need for Video Understanding?",
+    "venue": "ICML 2021",
+    "figure": "Fig.1, page3",
+    "url": "https://proceedings.mlr.press/v139/bertasius21a/bertasius21a.pdf"
+  },
+  "review_findings": [
+    "Decoder loop should learn regions1..11, last regionremainder",
+    "Illustrative counts must sum to N<=5",
+    "Residual scales must multiply updates, not identity skip",
+    "Decoder readout output must feed GRU input; pooled context only initializes state"
+  ],
+  "status": "FINAL_DETAILED_REVISION",
+  "final_asset": "docs/architecture.png",
+  "generation_ledger": "analysis/architecture_generation.json",
+  "review_outcome": "Detailed conceptual architecture: corrected residual update branches, observed-evidence gate, decoder state initialization, legal count support; no empirical data generated."
+}

@@ -1,0 +1,354 @@
+{
+  "status": "PASS",
+  "software_verification_only": true,
+  "formal_training_started": false,
+  "checks": [
+    "eight selected full histories preserved exactly",
+    "both completed cohorts reused without fit or evaluate",
+    "changed cohort contract rejected",
+    "all17 original metric means and sample SDs reproduced to1e-12",
+    "failure and interruption return ZIPs carry honest statuses and exclude caches/raw/priorZIPs",
+    "tiny smoke cohort rejected by formal27034-cutoff alignment guard",
+    "formal output has no trained cohorts or completion marker",
+    "all3completedcohorts reused withoutneural/treefit/evaluation",
+    "completed tree training resumed onlyevaluation withoutfitting anytree",
+    "treewrongcontractrejected",
+    "GBDTsmoke refused byformal27034cutoffalignment",
+    "standalone saved-table redraw passed without training orGPU",
+    "three-model RETURN ZIP includes joblib and excludes manuscript/raw/caches",
+    "all152frozen reference files remain byte-identical"
+  ],
+  "smoke_output": "smoke_checks/20261025_085006_a44080",
+  "aggregation_check": "smoke_checks/aggregation_20261025_082406_eebfed",
+  "expected_new_models": [
+    "lstm_count",
+    "gru_count",
+    "hist_gbdt"
+  ],
+  "expected_formal_cohorts": 18,
+  "code_fingerprints": {
+    "main.py": "4e53b2a29f842640018f1b8adb0a28ba408124ffca0605e7eba4341158de6082",
+    "supplemental_entry.py": "370563c375c462f262699dfe91d2321ae53ab7e16414399e5ee26ea4b87b4ecf",
+    "supplemental_runner.py": "a43bf2b27dc16a393896a9c4fd75c1ef0b7a3656a5da20abb74ac638ba7f99b9",
+    "oneclick_environment.py": "9e5c9063e16ba9a20369080e19e63026f1c8c7fe8b9d6f7f825f552f55c8534c",
+    "cs2/__init__.py": "baa59593b17e7c4d2a8c1d1e5ab01fd88dd8b1948e0dd0912fb5878101f43360",
+    "cs2/audio.py": "d684761a36fe60f2dd65bf7b4a2d072d10cfe36e4e9a4a184a6ce98f61136f73",
+    "cs2/data.py": "06879c6ad86af3f32870e1a10fcc6b35ef5f04313b229c0f030492b8bdda3b72",
+    "cs2/diagnostics.py": "cd700f60f9400b278178f8892b076db35a71c84e4fd292f8f102758acfe7e7a6",
+    "cs2/evaluation.py": "d01f4c14cf629c5014879c151d853d8e2794bb79a51bca7f1e0fbc40fb2670c7",
+    "cs2/gbdt.py": "261c561379315b6444b9a0eebe96ff6274f9a9f09d1106d100f0b440596edf84",
+    "cs2/gradient_audit.py": "25c872032be756db1fffa2ba0ce11c247bf81aa9dbab36de1aa16b0a68c7a648",
+    "cs2/improved.py": "04c9e0668a07ac693fee4980f7d5bb65937e743b16b4b5c168f43ba6bec28eef",
+    "cs2/io.py": "bba314072d83efc98092c4ea4efe2b9a9980a73ef902fe35107a5cc531a6ebe6",
+    "cs2/logbundle.py": "b2387519b66aea81f74aa26974eebc112c93b61a6219b7bc37c5be2220bb531a",
+    "cs2/models.py": "3c5420bdbe4085b6d7b1c51a269dc8479e7c9afea57c3e8e360e444b008f935e",
+    "cs2/packaging.py": "38eec0d027aee44e2cbb63b2cda9a9e31c4ffe5a7bff9ae5a8a89e6eada1cf54",
+    "cs2/paperplots.py": "28191dacb0d920f6dad3dca3682c59e82c6d8a8ffd960ec7ec3ce39d12fccbf7",
+    "cs2/pipeline.py": "92a0a47508c386b91d87d32837d92830ea8753dbd692ceb7be6a36cc74efe1dd",
+    "cs2/prefix.py": "2da775cda2b87ae767845e580374a1642fb87d47141662576e069a173ba45f74",
+    "cs2/recurrent.py": "d20f8047911bd97285759c832a0cdc35acbbb846c295408ddac37b97b86e9470",
+    "cs2/reporting.py": "d49ff4807a165b080c38df73ed9a8a1c39ba405bb61da9473ca8bda9a8d1cd8c",
+    "cs2/skill.py": "874b1422513c988d4a5b8b53dec1883a5f8809f9572dd14b9325b03fc2060cff",
+    "cs2/source_bundle.py": "921826a51eeb5ad3d834e70dfb671b0ce3cb9b5b2f46a86a8a635f94f45cfa9b",
+    "cs2/training.py": "96fbc0dba2cff75388a861874a1eaab7bc6ac49e958abd69408bb0c8e29a6e17"
+  },
+  "end_to_end_smoke_status": "PASS_LSTM_GRU_HIST_GBDT",
+  "final_smoke_output": "smoke_checks/20261025_085006_a44080",
+  "final_smoke_return": "RETURN_SMOKE_20261025_085021_56cbd4_smoke_passed.zip",
+  "preflight": {
+    "status": "prepared_verified",
+    "cohorts_verified": 9,
+    "dataset_sha256": "a624d414d323c096fd5d5ff195f8fa8f7beb9e7ed22494987406b4d6c41b129a",
+    "split_stats": {
+      "train": {
+        "matches": 34,
+        "rounds": 707,
+        "prefixes": 60338
+      },
+      "val": {
+        "matches": 5,
+        "rounds": 127,
+        "prefixes": 10831
+      },
+      "test": {
+        "matches": 14,
+        "rounds": 293,
+        "prefixes": 27034
+      }
+    },
+    "test_alignment_sha256": "6062d0554a4c85bb5ede948f2a799fd640217f4a0962c584aaf283c20c569dc0",
+    "history_mode": "full"
+  },
+  "supplemental_config_sha256": "32ea15c16fef88a11d7792e1644ad79260d3fa3dccd0e29611445a361ca4aab8",
+  "gbdt_unit_report": "tools/check_gbdt.json",
+  "gbdt_fit_info": {
+    "algorithm": "HistGradientBoostingClassifier",
+    "model": "hist_gbdt",
+    "device": "cpu",
+    "parameters": null,
+    "fitted_trees": 2,
+    "epochs": 0,
+    "selected_iterations": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "fit_seconds": 0.41724930000054883,
+    "completed_region_fit_seconds": 0.27638560000195866,
+    "training_objective": "conditional_multiclass_log_loss",
+    "conditional_rps_weight": 0,
+    "validation_draws": null,
+    "selection_objective": "validation_exact_conditional_nll",
+    "selection_aggregation": "cutoff_to_match_then_equal_match_mean",
+    "validation_exact_count_nll": 14.864281220594068,
+    "train_prefixes": 4,
+    "validation_prefixes": 2,
+    "feature_count": 624,
+    "prefix_summary": "last_plus_complete_prefix_mean_known_and_remaining_v1",
+    "zero_remaining_rule": "deterministic_zero_not_fitted",
+    "probability_floor": 1e-06,
+    "settings": {
+      "max_iter": 2,
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 1,
+      "max_bins": 63,
+      "l2_regularization": 1.0,
+      "threads": 2,
+      "probability_floor": 1e-06
+    },
+    "sklearn_version": "1.9.0",
+    "contract_hash": "c9e03e84c37bc77f1e55ab6bb98842768163682ee7dda60c0875f1dc41ff62d2",
+    "regions": [
+      {
+        "region": 0,
+        "selected_iterations": 0,
+        "observed_classes": [
+          0
+        ],
+        "active_training_rows": 4,
+        "training_rows": 4,
+        "validation_rows": 2,
+        "train_conditional_nll": 4.999987499614285e-06,
+        "validation_conditional_nll": 4.999987499614285e-06,
+        "constant_fallback": true,
+        "trees": 0,
+        "fit_seconds": 0.00027459999910206534,
+        "stages": []
+      },
+      {
+        "region": 1,
+        "selected_iterations": 0,
+        "observed_classes": [
+          0
+        ],
+        "active_training_rows": 4,
+        "training_rows": 4,
+        "validation_rows": 2,
+        "train_conditional_nll": 4.999987499614285e-06,
+        "validation_conditional_nll": 4.999987499614285e-06,
+        "constant_fallback": true,
+        "trees": 0,
+        "fit_seconds": 0.00022429999989981297,
+        "stages": []
+      },
+      {
+        "region": 2,
+        "selected_iterations": 0,
+        "observed_classes": [
+          0
+        ],
+        "active_training_rows": 4,
+        "training_rows": 4,
+        "validation_rows": 2,
+        "train_conditional_nll": 4.999987499614285e-06,
+        "validation_conditional_nll": 4.999987499614285e-06,
+        "constant_fallback": true,
+        "trees": 0,
+        "fit_seconds": 0.0002260999990539858,
+        "stages": []
+      },
+      {
+        "region": 3,
+        "selected_iterations": 1,
+        "observed_classes": [
+          1,
+          2
+        ],
+        "active_training_rows": 4,
+        "training_rows": 4,
+        "validation_rows": 2,
+        "train_conditional_nll": 0.5519819250812991,
+        "validation_conditional_nll": 7.609933351375959,
+        "constant_fallback": false,
+        "trees": 1,
+        "fit_seconds": 0.1549021000009816,
+        "stages": [
+          {
+            "iteration": 1,
+            "validation_conditional_nll": 7.609933351375959
+          },
+          {
+            "iteration": 2,
+            "validation_conditional_nll": 7.6188895800259315
+          }
+        ]
+      },
+      {
+        "region": 4,
+        "selected_iterations": 0,
+        "observed_classes": [
+          0
+        ],
+        "active_training_rows": 4,
+        "training_rows": 4,
+        "validation_rows": 2,
+        "train_conditional_nll": 3.249994624696474e-06,
+        "validation_conditional_nll": 2.499995749794167e-06,
+        "constant_fallback": true,
+        "trees": 0,
+        "fit_seconds": 0.00026170000091951806,
+        "stages": []
+      },
+      {
+        "region": 5,
+        "selected_iterations": 1,
+        "observed_classes": [
+          2,
+          3
+        ],
+        "active_training_rows": 4,
+        "training_rows": 4,
+        "validation_rows": 2,
+        "train_conditional_nll": 0.5519801750866744,
+        "validation_conditional_nll": 7.2543303692598595,
+        "constant_fallback": false,
+        "trees": 1,
+        "fit_seconds": 0.11936229999992065,
+        "stages": [
+          {
+            "iteration": 1,
+            "validation_conditional_nll": 7.2543303692598595
+          },
+          {
+            "iteration": 2,
+            "validation_conditional_nll": 7.2543303692598595
+          }
+        ]
+      },
+      {
+        "region": 6,
+        "selected_iterations": 0,
+        "observed_classes": [
+          0
+        ],
+        "active_training_rows": 2,
+        "training_rows": 4,
+        "validation_rows": 2,
+        "train_conditional_nll": 4.999997499695942e-07,
+        "validation_conditional_nll": 0.0,
+        "constant_fallback": true,
+        "trees": 0,
+        "fit_seconds": 0.00026840000100492034,
+        "stages": []
+      },
+      {
+        "region": 7,
+        "selected_iterations": 0,
+        "observed_classes": [
+          1
+        ],
+        "active_training_rows": 2,
+        "training_rows": 4,
+        "validation_rows": 2,
+        "train_conditional_nll": 4.999997499695942e-07,
+        "validation_conditional_nll": 0.0,
+        "constant_fallback": true,
+        "trees": 0,
+        "fit_seconds": 0.00024529999973310623,
+        "stages": []
+      },
+      {
+        "region": 8,
+        "selected_iterations": 0,
+        "observed_classes": [
+          0
+        ],
+        "active_training_rows": 0,
+        "training_rows": 4,
+        "validation_rows": 2,
+        "train_conditional_nll": 0.0,
+        "validation_conditional_nll": 0.0,
+        "constant_fallback": true,
+        "trees": 0,
+        "fit_seconds": 0.00021999999989930075,
+        "stages": []
+      },
+      {
+        "region": 9,
+        "selected_iterations": 0,
+        "observed_classes": [
+          0
+        ],
+        "active_training_rows": 0,
+        "training_rows": 4,
+        "validation_rows": 2,
+        "train_conditional_nll": 0.0,
+        "validation_conditional_nll": 0.0,
+        "constant_fallback": true,
+        "trees": 0,
+        "fit_seconds": 0.00020050000057381112,
+        "stages": []
+      },
+      {
+        "region": 10,
+        "selected_iterations": 0,
+        "observed_classes": [
+          0
+        ],
+        "active_training_rows": 0,
+        "training_rows": 4,
+        "validation_rows": 2,
+        "train_conditional_nll": 0.0,
+        "validation_conditional_nll": 0.0,
+        "constant_fallback": true,
+        "trees": 0,
+        "fit_seconds": 0.00020030000086990185,
+        "stages": []
+      }
+    ]
+  },
+  "historical_recurrent_only_verification": "tools/check_supplement_runner_recurrent_only_20261025.json",
+  "frozen_reference_unchanged": true,
+  "final_protocol": {
+    "new_models": [
+      "lstm_count",
+      "gru_count",
+      "hist_gbdt"
+    ],
+    "reused_models": [
+      "knn",
+      "vanilla_transformer",
+      "improved_transformer"
+    ],
+    "seeds": [
+      2026,
+      2027,
+      2028
+    ],
+    "new_cohorts": 9,
+    "reused_cohorts": 9,
+    "total_cohorts": 18,
+    "methods": 6
+  },
+  "return_zip_verified_joblib": true,
+  "return_zip_excludes_manuscript": true
+}

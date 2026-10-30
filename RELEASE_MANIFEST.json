@@ -1,0 +1,31 @@
+{
+  "status": "LOCAL_READY_FOR_PUBLICATION",
+  "publication_url": null,
+  "public_upload_performed": false,
+  "final_model": "improved_transformer",
+  "retained_methods": [
+    "knn",
+    "vanilla_transformer",
+    "improved_transformer"
+  ],
+  "data_sha256": "a624d414d323c096fd5d5ff195f8fa8f7beb9e7ed22494987406b4d6c41b129a",
+  "raw_demos_included": false,
+  "original_checkpoint_architecture_unchanged": true,
+  "available_implementations": [
+    "knn",
+    "vanilla_transformer",
+    "improved_transformer",
+    "lstm_count",
+    "gru_count",
+    "hist_gbdt"
+  ],
+  "pending_formal_methods": [
+    "lstm_count",
+    "gru_count",
+    "hist_gbdt"
+  ],
+  "new_baseline_software_checks": "PASS",
+  "new_baseline_full_cohort_results": "PENDING",
+  "repository_name": "RAST",
+  "manuscript_files_included": false
+}

@@ -1,0 +1,741 @@
+{
+  "training_seed": 2027,
+  "probe_split": "train",
+  "sample_indices": [
+    0,
+    30169
+  ],
+  "objective": 1.0799537897109985,
+  "optimizer_steps_in_this_audit": 0,
+  "interpretation": "Nonzero gradients verify computational loss connectivity on this fixed training probe. Weight drift can also include weight decay; neither quantity alone proves predictive benefit. Output-level interventions and controlled comparisons are separately saved.",
+  "parameters": [
+    {
+      "parameter": "encoder.region",
+      "elements": 2304,
+      "has_gradient": true,
+      "gradient_l2": 5.905182838439941,
+      "change_from_seeded_initial_rms": 0.09224627912044525
+    },
+    {
+      "parameter": "encoder.regional_input.weight",
+      "elements": 4608,
+      "has_gradient": true,
+      "gradient_l2": 2.2889301776885986,
+      "change_from_seeded_initial_rms": 0.1381668746471405
+    },
+    {
+      "parameter": "encoder.regional_input.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 1.3054171800613403,
+      "change_from_seeded_initial_rms": 0.0201975479722023
+    },
+    {
+      "parameter": "encoder.global_input.weight",
+      "elements": 4416,
+      "has_gradient": true,
+      "gradient_l2": 4.582659721374512,
+      "change_from_seeded_initial_rms": 0.059081390500068665
+    },
+    {
+      "parameter": "encoder.global_input.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 1.3054170608520508,
+      "change_from_seeded_initial_rms": 0.020203839987516403
+    },
+    {
+      "parameter": "encoder.position.weight",
+      "elements": 1536,
+      "has_gradient": true,
+      "gradient_l2": 3.3301525115966797,
+      "change_from_seeded_initial_rms": 0.04532792046666145
+    },
+    {
+      "parameter": "encoder.position.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 1.3054170608520508,
+      "change_from_seeded_initial_rms": 0.020214827731251717
+    },
+    {
+      "parameter": "encoder.blocks.0.spatial_scale",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 2.61907696723938,
+      "change_from_seeded_initial_rms": 0.06313946843147278
+    },
+    {
+      "parameter": "encoder.blocks.0.temporal_scale",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 2.707892656326294,
+      "change_from_seeded_initial_rms": 0.052750587463378906
+    },
+    {
+      "parameter": "encoder.blocks.0.ffn_scale",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 1.566726803779602,
+      "change_from_seeded_initial_rms": 0.047480735927820206
+    },
+    {
+      "parameter": "encoder.blocks.0.spatial.qkv.weight",
+      "elements": 110592,
+      "has_gradient": true,
+      "gradient_l2": 0.9965277910232544,
+      "change_from_seeded_initial_rms": 0.05321591719985008
+    },
+    {
+      "parameter": "encoder.blocks.0.spatial.qkv.bias",
+      "elements": 576,
+      "has_gradient": true,
+      "gradient_l2": 0.04800035059452057,
+      "change_from_seeded_initial_rms": 0.048420313745737076
+    },
+    {
+      "parameter": "encoder.blocks.0.spatial.output.weight",
+      "elements": 36864,
+      "has_gradient": true,
+      "gradient_l2": 1.0241522789001465,
+      "change_from_seeded_initial_rms": 0.03262567147612572
+    },
+    {
+      "parameter": "encoder.blocks.0.spatial.output.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.06328127533197403,
+      "change_from_seeded_initial_rms": 0.01684306003153324
+    },
+    {
+      "parameter": "encoder.blocks.0.temporal.qkv.weight",
+      "elements": 110592,
+      "has_gradient": true,
+      "gradient_l2": 2.9597249031066895,
+      "change_from_seeded_initial_rms": 0.044222425669431686
+    },
+    {
+      "parameter": "encoder.blocks.0.temporal.qkv.bias",
+      "elements": 576,
+      "has_gradient": true,
+      "gradient_l2": 0.12903368473052979,
+      "change_from_seeded_initial_rms": 0.04027240723371506
+    },
+    {
+      "parameter": "encoder.blocks.0.temporal.output.weight",
+      "elements": 36864,
+      "has_gradient": true,
+      "gradient_l2": 1.5547250509262085,
+      "change_from_seeded_initial_rms": 0.03496696799993515
+    },
+    {
+      "parameter": "encoder.blocks.0.temporal.output.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.0751708522439003,
+      "change_from_seeded_initial_rms": 0.016915667802095413
+    },
+    {
+      "parameter": "encoder.blocks.0.norms.0.weight",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.19440342485904694,
+      "change_from_seeded_initial_rms": 0.07365059107542038
+    },
+    {
+      "parameter": "encoder.blocks.0.norms.0.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.06797877699136734,
+      "change_from_seeded_initial_rms": 0.05508676543831825
+    },
+    {
+      "parameter": "encoder.blocks.0.norms.1.weight",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.42168128490448,
+      "change_from_seeded_initial_rms": 0.08824167400598526
+    },
+    {
+      "parameter": "encoder.blocks.0.norms.1.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.21246947348117828,
+      "change_from_seeded_initial_rms": 0.07554345577955246
+    },
+    {
+      "parameter": "encoder.blocks.0.norms.2.weight",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.20783983170986176,
+      "change_from_seeded_initial_rms": 0.04928828030824661
+    },
+    {
+      "parameter": "encoder.blocks.0.norms.2.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.13158708810806274,
+      "change_from_seeded_initial_rms": 0.03214219585061073
+    },
+    {
+      "parameter": "encoder.blocks.0.ffn.0.weight",
+      "elements": 147456,
+      "has_gradient": true,
+      "gradient_l2": 1.5148588418960571,
+      "change_from_seeded_initial_rms": 0.047907665371894836
+    },
+    {
+      "parameter": "encoder.blocks.0.ffn.0.bias",
+      "elements": 768,
+      "has_gradient": true,
+      "gradient_l2": 0.09068427979946136,
+      "change_from_seeded_initial_rms": 0.04644700139760971
+    },
+    {
+      "parameter": "encoder.blocks.0.ffn.3.weight",
+      "elements": 147456,
+      "has_gradient": true,
+      "gradient_l2": 1.1243138313293457,
+      "change_from_seeded_initial_rms": 0.041084107011556625
+    },
+    {
+      "parameter": "encoder.blocks.0.ffn.3.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.07422594726085663,
+      "change_from_seeded_initial_rms": 0.01980658620595932
+    },
+    {
+      "parameter": "encoder.blocks.1.spatial_scale",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 1.9912011623382568,
+      "change_from_seeded_initial_rms": 0.052715908735990524
+    },
+    {
+      "parameter": "encoder.blocks.1.temporal_scale",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 2.4753811359405518,
+      "change_from_seeded_initial_rms": 0.04198654741048813
+    },
+    {
+      "parameter": "encoder.blocks.1.ffn_scale",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.8761540651321411,
+      "change_from_seeded_initial_rms": 0.03986373171210289
+    },
+    {
+      "parameter": "encoder.blocks.1.spatial.qkv.weight",
+      "elements": 110592,
+      "has_gradient": true,
+      "gradient_l2": 1.4188940525054932,
+      "change_from_seeded_initial_rms": 0.0508776530623436
+    },
+    {
+      "parameter": "encoder.blocks.1.spatial.qkv.bias",
+      "elements": 576,
+      "has_gradient": true,
+      "gradient_l2": 0.08101160824298859,
+      "change_from_seeded_initial_rms": 0.047496192157268524
+    },
+    {
+      "parameter": "encoder.blocks.1.spatial.output.weight",
+      "elements": 36864,
+      "has_gradient": true,
+      "gradient_l2": 1.189701795578003,
+      "change_from_seeded_initial_rms": 0.037968408316373825
+    },
+    {
+      "parameter": "encoder.blocks.1.spatial.output.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.0653638020157814,
+      "change_from_seeded_initial_rms": 0.020721936598420143
+    },
+    {
+      "parameter": "encoder.blocks.1.temporal.qkv.weight",
+      "elements": 110592,
+      "has_gradient": true,
+      "gradient_l2": 2.2800798416137695,
+      "change_from_seeded_initial_rms": 0.04657704010605812
+    },
+    {
+      "parameter": "encoder.blocks.1.temporal.qkv.bias",
+      "elements": 576,
+      "has_gradient": true,
+      "gradient_l2": 0.12407142668962479,
+      "change_from_seeded_initial_rms": 0.03790344297885895
+    },
+    {
+      "parameter": "encoder.blocks.1.temporal.output.weight",
+      "elements": 36864,
+      "has_gradient": true,
+      "gradient_l2": 1.755105972290039,
+      "change_from_seeded_initial_rms": 0.03932401165366173
+    },
+    {
+      "parameter": "encoder.blocks.1.temporal.output.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.07864242792129517,
+      "change_from_seeded_initial_rms": 0.019049976021051407
+    },
+    {
+      "parameter": "encoder.blocks.1.norms.0.weight",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.1998012661933899,
+      "change_from_seeded_initial_rms": 0.07213659584522247
+    },
+    {
+      "parameter": "encoder.blocks.1.norms.0.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.1424793004989624,
+      "change_from_seeded_initial_rms": 0.05188184976577759
+    },
+    {
+      "parameter": "encoder.blocks.1.norms.1.weight",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.269749253988266,
+      "change_from_seeded_initial_rms": 0.07673852890729904
+    },
+    {
+      "parameter": "encoder.blocks.1.norms.1.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.1804119050502777,
+      "change_from_seeded_initial_rms": 0.07571166753768921
+    },
+    {
+      "parameter": "encoder.blocks.1.norms.2.weight",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.16387349367141724,
+      "change_from_seeded_initial_rms": 0.05216805636882782
+    },
+    {
+      "parameter": "encoder.blocks.1.norms.2.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.13134384155273438,
+      "change_from_seeded_initial_rms": 0.042460061609745026
+    },
+    {
+      "parameter": "encoder.blocks.1.ffn.0.weight",
+      "elements": 147456,
+      "has_gradient": true,
+      "gradient_l2": 1.5394034385681152,
+      "change_from_seeded_initial_rms": 0.05136760324239731
+    },
+    {
+      "parameter": "encoder.blocks.1.ffn.0.bias",
+      "elements": 768,
+      "has_gradient": true,
+      "gradient_l2": 0.0993291512131691,
+      "change_from_seeded_initial_rms": 0.05341136083006859
+    },
+    {
+      "parameter": "encoder.blocks.1.ffn.3.weight",
+      "elements": 147456,
+      "has_gradient": true,
+      "gradient_l2": 0.9477013945579529,
+      "change_from_seeded_initial_rms": 0.04542230814695358
+    },
+    {
+      "parameter": "encoder.blocks.1.ffn.3.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.08382010459899902,
+      "change_from_seeded_initial_rms": 0.02499367855489254
+    },
+    {
+      "parameter": "encoder.blocks.2.spatial_scale",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 1.7677985429763794,
+      "change_from_seeded_initial_rms": 0.04789350554347038
+    },
+    {
+      "parameter": "encoder.blocks.2.temporal_scale",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 3.1375370025634766,
+      "change_from_seeded_initial_rms": 0.03604558855295181
+    },
+    {
+      "parameter": "encoder.blocks.2.ffn_scale",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 1.5784121751785278,
+      "change_from_seeded_initial_rms": 0.04455762729048729
+    },
+    {
+      "parameter": "encoder.blocks.2.spatial.qkv.weight",
+      "elements": 110592,
+      "has_gradient": true,
+      "gradient_l2": 1.2021677494049072,
+      "change_from_seeded_initial_rms": 0.051063600927591324
+    },
+    {
+      "parameter": "encoder.blocks.2.spatial.qkv.bias",
+      "elements": 576,
+      "has_gradient": true,
+      "gradient_l2": 0.08227627724409103,
+      "change_from_seeded_initial_rms": 0.04757371172308922
+    },
+    {
+      "parameter": "encoder.blocks.2.spatial.output.weight",
+      "elements": 36864,
+      "has_gradient": true,
+      "gradient_l2": 0.9219403862953186,
+      "change_from_seeded_initial_rms": 0.038252267986536026
+    },
+    {
+      "parameter": "encoder.blocks.2.spatial.output.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.06832651048898697,
+      "change_from_seeded_initial_rms": 0.021755458787083626
+    },
+    {
+      "parameter": "encoder.blocks.2.temporal.qkv.weight",
+      "elements": 110592,
+      "has_gradient": true,
+      "gradient_l2": 3.173292398452759,
+      "change_from_seeded_initial_rms": 0.048361893743276596
+    },
+    {
+      "parameter": "encoder.blocks.2.temporal.qkv.bias",
+      "elements": 576,
+      "has_gradient": true,
+      "gradient_l2": 0.17549455165863037,
+      "change_from_seeded_initial_rms": 0.03838568180799484
+    },
+    {
+      "parameter": "encoder.blocks.2.temporal.output.weight",
+      "elements": 36864,
+      "has_gradient": true,
+      "gradient_l2": 1.8889697790145874,
+      "change_from_seeded_initial_rms": 0.04197918623685837
+    },
+    {
+      "parameter": "encoder.blocks.2.temporal.output.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.07849282771348953,
+      "change_from_seeded_initial_rms": 0.020060665905475616
+    },
+    {
+      "parameter": "encoder.blocks.2.norms.0.weight",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.12431657314300537,
+      "change_from_seeded_initial_rms": 0.060467541217803955
+    },
+    {
+      "parameter": "encoder.blocks.2.norms.0.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.17547424137592316,
+      "change_from_seeded_initial_rms": 0.045437101274728775
+    },
+    {
+      "parameter": "encoder.blocks.2.norms.1.weight",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.4000149071216583,
+      "change_from_seeded_initial_rms": 0.07603497803211212
+    },
+    {
+      "parameter": "encoder.blocks.2.norms.1.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.3332599401473999,
+      "change_from_seeded_initial_rms": 0.07307733595371246
+    },
+    {
+      "parameter": "encoder.blocks.2.norms.2.weight",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.35989293456077576,
+      "change_from_seeded_initial_rms": 0.05278798192739487
+    },
+    {
+      "parameter": "encoder.blocks.2.norms.2.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.3078833222389221,
+      "change_from_seeded_initial_rms": 0.06391596794128418
+    },
+    {
+      "parameter": "encoder.blocks.2.ffn.0.weight",
+      "elements": 147456,
+      "has_gradient": true,
+      "gradient_l2": 2.3934125900268555,
+      "change_from_seeded_initial_rms": 0.05399583280086517
+    },
+    {
+      "parameter": "encoder.blocks.2.ffn.0.bias",
+      "elements": 768,
+      "has_gradient": true,
+      "gradient_l2": 0.15160490572452545,
+      "change_from_seeded_initial_rms": 0.0596994049847126
+    },
+    {
+      "parameter": "encoder.blocks.2.ffn.3.weight",
+      "elements": 147456,
+      "has_gradient": true,
+      "gradient_l2": 1.399632215499878,
+      "change_from_seeded_initial_rms": 0.048612769693136215
+    },
+    {
+      "parameter": "encoder.blocks.2.ffn.3.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.07760793715715408,
+      "change_from_seeded_initial_rms": 0.025977985933423042
+    },
+    {
+      "parameter": "encoder.blocks.3.spatial_scale",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 2.028839588165283,
+      "change_from_seeded_initial_rms": 0.05178548023104668
+    },
+    {
+      "parameter": "encoder.blocks.3.temporal_scale",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 1.9419041872024536,
+      "change_from_seeded_initial_rms": 0.03393073007464409
+    },
+    {
+      "parameter": "encoder.blocks.3.ffn_scale",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 1.5455251932144165,
+      "change_from_seeded_initial_rms": 0.044033948332071304
+    },
+    {
+      "parameter": "encoder.blocks.3.spatial.qkv.weight",
+      "elements": 110592,
+      "has_gradient": true,
+      "gradient_l2": 2.8542003631591797,
+      "change_from_seeded_initial_rms": 0.051889605820178986
+    },
+    {
+      "parameter": "encoder.blocks.3.spatial.qkv.bias",
+      "elements": 576,
+      "has_gradient": true,
+      "gradient_l2": 0.17552059888839722,
+      "change_from_seeded_initial_rms": 0.04363889619708061
+    },
+    {
+      "parameter": "encoder.blocks.3.spatial.output.weight",
+      "elements": 36864,
+      "has_gradient": true,
+      "gradient_l2": 1.196101188659668,
+      "change_from_seeded_initial_rms": 0.03804025426506996
+    },
+    {
+      "parameter": "encoder.blocks.3.spatial.output.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.07031936198472977,
+      "change_from_seeded_initial_rms": 0.020962100476026535
+    },
+    {
+      "parameter": "encoder.blocks.3.temporal.qkv.weight",
+      "elements": 110592,
+      "has_gradient": true,
+      "gradient_l2": 2.0273678302764893,
+      "change_from_seeded_initial_rms": 0.050730541348457336
+    },
+    {
+      "parameter": "encoder.blocks.3.temporal.qkv.bias",
+      "elements": 576,
+      "has_gradient": true,
+      "gradient_l2": 0.12311649322509766,
+      "change_from_seeded_initial_rms": 0.04595612362027168
+    },
+    {
+      "parameter": "encoder.blocks.3.temporal.output.weight",
+      "elements": 36864,
+      "has_gradient": true,
+      "gradient_l2": 1.3706989288330078,
+      "change_from_seeded_initial_rms": 0.045924872159957886
+    },
+    {
+      "parameter": "encoder.blocks.3.temporal.output.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.07844672352075577,
+      "change_from_seeded_initial_rms": 0.019230378791689873
+    },
+    {
+      "parameter": "encoder.blocks.3.norms.0.weight",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.4848916232585907,
+      "change_from_seeded_initial_rms": 0.06923751533031464
+    },
+    {
+      "parameter": "encoder.blocks.3.norms.0.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.2773626744747162,
+      "change_from_seeded_initial_rms": 0.04480699822306633
+    },
+    {
+      "parameter": "encoder.blocks.3.norms.1.weight",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.2122245728969574,
+      "change_from_seeded_initial_rms": 0.06030406430363655
+    },
+    {
+      "parameter": "encoder.blocks.3.norms.1.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.20125967264175415,
+      "change_from_seeded_initial_rms": 0.04956221953034401
+    },
+    {
+      "parameter": "encoder.blocks.3.norms.2.weight",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.11561235040426254,
+      "change_from_seeded_initial_rms": 0.05550478398799896
+    },
+    {
+      "parameter": "encoder.blocks.3.norms.2.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.11673123389482498,
+      "change_from_seeded_initial_rms": 0.07545573264360428
+    },
+    {
+      "parameter": "encoder.blocks.3.ffn.0.weight",
+      "elements": 147456,
+      "has_gradient": true,
+      "gradient_l2": 1.0399078130722046,
+      "change_from_seeded_initial_rms": 0.05617570877075195
+    },
+    {
+      "parameter": "encoder.blocks.3.ffn.0.bias",
+      "elements": 768,
+      "has_gradient": true,
+      "gradient_l2": 0.07329250872135162,
+      "change_from_seeded_initial_rms": 0.06609677523374557
+    },
+    {
+      "parameter": "encoder.blocks.3.ffn.3.weight",
+      "elements": 147456,
+      "has_gradient": true,
+      "gradient_l2": 1.205363154411316,
+      "change_from_seeded_initial_rms": 0.053911495953798294
+    },
+    {
+      "parameter": "encoder.blocks.3.ffn.3.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.09914672374725342,
+      "change_from_seeded_initial_rms": 0.02357703261077404
+    },
+    {
+      "parameter": "encoder.pool.0.weight",
+      "elements": 384,
+      "has_gradient": true,
+      "gradient_l2": 0.6605286598205566,
+      "change_from_seeded_initial_rms": 0.10486218333244324
+    },
+    {
+      "parameter": "encoder.pool.0.bias",
+      "elements": 384,
+      "has_gradient": true,
+      "gradient_l2": 0.5953807234764099,
+      "change_from_seeded_initial_rms": 0.041400033980607986
+    },
+    {
+      "parameter": "encoder.pool.1.weight",
+      "elements": 73728,
+      "has_gradient": true,
+      "gradient_l2": 6.496434688568115,
+      "change_from_seeded_initial_rms": 0.05531145632266998
+    },
+    {
+      "parameter": "encoder.pool.1.bias",
+      "elements": 192,
+      "has_gradient": true,
+      "gradient_l2": 0.3039422631263733,
+      "change_from_seeded_initial_rms": 0.02307487651705742
+    },
+    {
+      "parameter": "region.weight",
+      "elements": 2304,
+      "has_gradient": true,
+      "gradient_l2": 0.30830156803131104,
+      "change_from_seeded_initial_rms": 0.062480293214321136
+    },
+    {
+      "parameter": "count.weight",
+      "elements": 1152,
+      "has_gradient": true,
+      "gradient_l2": 0.3345290422439575,
+      "change_from_seeded_initial_rms": 0.06092720851302147
+    },
+    {
+      "parameter": "remaining.weight",
+      "elements": 1152,
+      "has_gradient": true,
+      "gradient_l2": 0.325087308883667,
+      "change_from_seeded_initial_rms": 0.04811213165521622
+    },
+    {
+      "parameter": "cell.weight_ih",
+      "elements": 110592,
+      "has_gradient": true,
+      "gradient_l2": 7.415276050567627,
+      "change_from_seeded_initial_rms": 0.0396839939057827
+    },
+    {
+      "parameter": "cell.weight_hh",
+      "elements": 110592,
+      "has_gradient": true,
+      "gradient_l2": 10.540475845336914,
+      "change_from_seeded_initial_rms": 0.0615900382399559
+    },
+    {
+      "parameter": "cell.bias_ih",
+      "elements": 576,
+      "has_gradient": true,
+      "gradient_l2": 0.3056504428386688,
+      "change_from_seeded_initial_rms": 0.020634984597563744
+    },
+    {
+      "parameter": "cell.bias_hh",
+      "elements": 576,
+      "has_gradient": true,
+      "gradient_l2": 0.28963226079940796,
+      "change_from_seeded_initial_rms": 0.020975900813937187
+    },
+    {
+      "parameter": "head.weight",
+      "elements": 1152,
+      "has_gradient": true,
+      "gradient_l2": 14.597784996032715,
+      "change_from_seeded_initial_rms": 0.070778988301754
+    },
+    {
+      "parameter": "head.bias",
+      "elements": 6,
+      "has_gradient": true,
+      "gradient_l2": 0.49309372901916504,
+      "change_from_seeded_initial_rms": 0.008791684173047543
+    }
+  ]
+}

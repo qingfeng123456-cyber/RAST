@@ -1,0 +1,21 @@
+{
+  "parameters": 2851238,
+  "epochs": 13,
+  "best_epoch": 5,
+  "trainable_parameters": 2851238,
+  "fit_seconds": 2536.7346979267895,
+  "selection_objective": "energy_score",
+  "best_validation_score": 0.8752267046890694,
+  "validation_draws": 64,
+  "stop_reason": "patience",
+  "training_objective": "exact_count_nll_plus_conditional_rps",
+  "conditional_rps_weight": 0.25,
+  "micro_batch_size": 16,
+  "effective_batch_size": 128,
+  "peak_allocated_bytes": 12523719680,
+  "batching": "length_sorted_dynamic",
+  "pad_multiple": 32,
+  "length_bucket_pool_batches": 16,
+  "prefix_frame_capacity": 18432,
+  "amp_bfloat16": true
+}

@@ -1,0 +1,21 @@
+{
+  "test_matches": 14,
+  "test_rounds": 293,
+  "test_cutoffs_per_method_seed": 27034,
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "es_gain_vs_vanilla": 6.199921107696005,
+  "es_gain_vs_knn": 31.998120810667906,
+  "nll_gain_vs_vanilla": 9.992476985590093,
+  "match_es_gain_ci": [
+    0.05162348244052985,
+    0.0774965589542136
+  ],
+  "match_nll_gain_ci": [
+    0.2965615048279894,
+    0.42423220941331014
+  ]
+}

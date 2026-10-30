@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "blocked": [
+    "torch",
+    "demoparser2"
+  ],
+  "figures": [
+    "A1",
+    "A2",
+    "A3",
+    "B1",
+    "B2",
+    "B3",
+    "C1",
+    "C2",
+    "C3",
+    "D1",
+    "D2"
+  ],
+  "primary": "improved_transformer",
+  "retrained": false,
+  "pruned_public_renderer": true
+}

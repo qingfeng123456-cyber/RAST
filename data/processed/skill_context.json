@@ -1,0 +1,548 @@
+{
+  "source": "chronological Elo from archived series outcomes; not official ranking",
+  "lag_days": 1,
+  "initial_elo": 1500,
+  "k_factor": 24,
+  "professional_band": "4, above ordinary highest band 3; user-defined professional event cohort, not Valve rank",
+  "skill_band_protocol": {
+    "scale_max": 4,
+    "ordinary_highest_band": 3,
+    "professional_band": 4,
+    "value_encoding": "band / scale_max, with a separate known-value mask",
+    "semantics": "0..3 ordinary player strata; 4 professional event cohort",
+    "rank_source": "user-defined event-level band; not a Valve rank or official ranking"
+  },
+  "matches": {
+    "2391934": {
+      "Sangal": {
+        "elo": 1500.0,
+        "past_matches": 0
+      },
+      "Nemiga": {
+        "elo": 1500.0,
+        "past_matches": 0
+      }
+    },
+    "2392347": {
+      "Hashiras": {
+        "elo": 1500.0,
+        "past_matches": 0
+      },
+      "RUSTEC": {
+        "elo": 1500.0,
+        "past_matches": 0
+      }
+    },
+    "2391726": {
+      "Back to Back": {
+        "elo": 1500.0,
+        "past_matches": 0
+      },
+      "Keyd Stars": {
+        "elo": 1500.0,
+        "past_matches": 0
+      }
+    },
+    "2392194": {
+      "M1X KS": {
+        "elo": 1500.0,
+        "past_matches": 0
+      },
+      "ESC": {
+        "elo": 1500.0,
+        "past_matches": 0
+      }
+    },
+    "2392455": {
+      "INFURITY": {
+        "elo": 1500.0,
+        "past_matches": 0
+      },
+      "BIG Academy": {
+        "elo": 1500.0,
+        "past_matches": 0
+      }
+    },
+    "2391729": {
+      "Fake do Biru": {
+        "elo": 1500.0,
+        "past_matches": 0
+      },
+      "Bounty Hunters": {
+        "elo": 1500.0,
+        "past_matches": 0
+      }
+    },
+    "2391817": {
+      "Omega": {
+        "elo": 1500.0,
+        "past_matches": 0
+      },
+      "megoshort": {
+        "elo": 1476.414300586377,
+        "past_matches": 2
+      }
+    },
+    "2392279": {
+      "HOTU": {
+        "elo": 1500.0,
+        "past_matches": 0
+      },
+      "BIG": {
+        "elo": 1500.0,
+        "past_matches": 0
+      }
+    },
+    "2392562": {
+      "Misa": {
+        "elo": 1500.0,
+        "past_matches": 0
+      },
+      "ROUNDS": {
+        "elo": 1500.0,
+        "past_matches": 0
+      }
+    },
+    "2392464": {
+      "Atrix": {
+        "elo": 1500.0,
+        "past_matches": 0
+      },
+      "paiN Academy": {
+        "elo": 1500.0,
+        "past_matches": 0
+      }
+    },
+    "2392468": {
+      "METANOIA Wolves": {
+        "elo": 1488.8134683485873,
+        "past_matches": 3
+      },
+      "R2": {
+        "elo": 1500.0,
+        "past_matches": 0
+      }
+    },
+    "2392469": {
+      "Atrix": {
+        "elo": 1488.0,
+        "past_matches": 1
+      },
+      "BESTIA Academy": {
+        "elo": 1489.1439328731117,
+        "past_matches": 1
+      }
+    },
+    "2392591": {
+      "Partizan": {
+        "elo": 1500.0,
+        "past_matches": 0
+      },
+      "Inner Circle": {
+        "elo": 1500.0,
+        "past_matches": 0
+      }
+    },
+    "2392566": {
+      "TNT": {
+        "elo": 1512.0,
+        "past_matches": 1
+      },
+      "QWENTRY": {
+        "elo": 1544.4462441121507,
+        "past_matches": 4
+      }
+    },
+    "2391553": {
+      "Nemesis": {
+        "elo": 1488.414300586377,
+        "past_matches": 1
+      },
+      "QWENTRY": {
+        "elo": 1565.4306407775384,
+        "past_matches": 6
+      }
+    },
+    "2392599": {
+      "fnatic": {
+        "elo": 1488.414300586377,
+        "past_matches": 1
+      },
+      "Sashi": {
+        "elo": 1500.0,
+        "past_matches": 0
+      }
+    },
+    "2392753": {
+      "M1X KS": {
+        "elo": 1498.772327276234,
+        "past_matches": 2
+      },
+      "Omega": {
+        "elo": 1487.186627862611,
+        "past_matches": 1
+      }
+    },
+    "2392378": {
+      "megoshort": {
+        "elo": 1525.4466481070433,
+        "past_matches": 6
+      },
+      "Ursa": {
+        "elo": 1513.9034812437756,
+        "past_matches": 5
+      }
+    },
+    "2392853": {
+      "Chaos": {
+        "elo": 1488.0,
+        "past_matches": 1
+      },
+      "Last Bullet": {
+        "elo": 1465.227672723766,
+        "past_matches": 3
+      }
+    },
+    "2392655": {
+      "3DMAX": {
+        "elo": 1500.0,
+        "past_matches": 2
+      },
+      "WAZABI": {
+        "elo": 1500.0,
+        "past_matches": 0
+      }
+    },
+    "2391562": {
+      "Nemiga": {
+        "elo": 1556.8603665766855,
+        "past_matches": 5
+      },
+      "Nemesis": {
+        "elo": 1503.679835569865,
+        "past_matches": 2
+      }
+    },
+    "2392775": {
+      "HEROIC Academy": {
+        "elo": 1511.9441046490738,
+        "past_matches": 5
+      },
+      "TNC": {
+        "elo": 1501.4689245746981,
+        "past_matches": 6
+      }
+    },
+    "2392915": {
+      "BORING PLAYERS": {
+        "elo": 1488.4000076259508,
+        "past_matches": 1
+      },
+      "BMZ": {
+        "elo": 1499.6142524335135,
+        "past_matches": 2
+      }
+    },
+    "2392292": {
+      "K27": {
+        "elo": 1490.7814729710833,
+        "past_matches": 3
+      },
+      "magic": {
+        "elo": 1523.9857082163928,
+        "past_matches": 2
+      }
+    },
+    "2392307": {
+      "Keyd Stars": {
+        "elo": 1517.2346564182683,
+        "past_matches": 7
+      },
+      "Fake do Biru": {
+        "elo": 1545.166557064712,
+        "past_matches": 6
+      }
+    },
+    "2393073": {
+      "Zomblers": {
+        "elo": 1501.9205088876606,
+        "past_matches": 2
+      },
+      "EMPIRE": {
+        "elo": 1498.0940035846886,
+        "past_matches": 4
+      }
+    },
+    "2391847": {
+      "ESC": {
+        "elo": 1489.2161584222363,
+        "past_matches": 3
+      },
+      "Nemesis": {
+        "elo": 1517.163727900877,
+        "past_matches": 5
+      }
+    },
+    "2393049": {
+      "illwill": {
+        "elo": 1500.6381541761255,
+        "past_matches": 4
+      },
+      "ex-Zero Tenacity": {
+        "elo": 1523.1581451329473,
+        "past_matches": 2
+      }
+    },
+    "2393054": {
+      "magic": {
+        "elo": 1535.3396342635358,
+        "past_matches": 3
+      },
+      "CYBERSHOKE": {
+        "elo": 1500.0,
+        "past_matches": 0
+      }
+    },
+    "2393007": {
+      "The MongolZ": {
+        "elo": 1500.0,
+        "past_matches": 0
+      },
+      "BC.Game": {
+        "elo": 1500.0,
+        "past_matches": 0
+      }
+    },
+    "2392989": {
+      "Club 333": {
+        "elo": 1500.0,
+        "past_matches": 0
+      },
+      "TSG": {
+        "elo": 1500.0,
+        "past_matches": 0
+      }
+    },
+    "2393100": {
+      "Prodigy": {
+        "elo": 1500.0,
+        "past_matches": 0
+      },
+      "Subtop De France": {
+        "elo": 1500.0,
+        "past_matches": 0
+      }
+    },
+    "2392994": {
+      "Zomblers": {
+        "elo": 1525.1654475297962,
+        "past_matches": 6
+      },
+      "regain": {
+        "elo": 1535.112061300295,
+        "past_matches": 7
+      }
+    },
+    "2392909": {
+      "Skele": {
+        "elo": 1487.9861848009427,
+        "past_matches": 1
+      },
+      "Rooster": {
+        "elo": 1511.613824041211,
+        "past_matches": 3
+      }
+    },
+    "2393029": {
+      "The MongolZ": {
+        "elo": 1524.747434716641,
+        "past_matches": 2
+      },
+      "Wildcard": {
+        "elo": 1500.0,
+        "past_matches": 0
+      }
+    },
+    "2392912": {
+      "Rooster": {
+        "elo": 1499.2781685196292,
+        "past_matches": 4
+      },
+      "Arcade": {
+        "elo": 1511.5999923740492,
+        "past_matches": 1
+      }
+    },
+    "2392209": {
+      "KOLESIE": {
+        "elo": 1487.9042718715666,
+        "past_matches": 3
+      },
+      "M1X KS": {
+        "elo": 1496.5016224226574,
+        "past_matches": 4
+      }
+    },
+    "2392941": {
+      "NEXVOID": {
+        "elo": 1512.8773528665902,
+        "past_matches": 5
+      },
+      "Chinggis Warriors": {
+        "elo": 1523.5601555009232,
+        "past_matches": 6
+      }
+    },
+    "2393250": {
+      "EMPIRE": {
+        "elo": 1487.2882177178237,
+        "past_matches": 7
+      },
+      "Clockwork": {
+        "elo": 1488.1354872717773,
+        "past_matches": 3
+      }
+    },
+    "2393151": {
+      "ASTRAL": {
+        "elo": 1566.8168809043636,
+        "past_matches": 8
+      },
+      "Lavked": {
+        "elo": 1508.7553476346498,
+        "past_matches": 12
+      }
+    },
+    "2393157": {
+      "Lavked": {
+        "elo": 1534.4843875091094,
+        "past_matches": 14
+      },
+      "Rune Eaters": {
+        "elo": 1474.403302529085,
+        "past_matches": 11
+      }
+    },
+    "2393129": {
+      "Zomblers": {
+        "elo": 1480.074163112617,
+        "past_matches": 10
+      },
+      "regain": {
+        "elo": 1543.0302149438157,
+        "past_matches": 12
+      }
+    },
+    "2393228": {
+      "Natus Vincere": {
+        "elo": 1500.0,
+        "past_matches": 0
+      },
+      "FURIA": {
+        "elo": 1500.0,
+        "past_matches": 0
+      }
+    },
+    "2393331": {
+      "BRUTE": {
+        "elo": 1484.4224880156073,
+        "past_matches": 3
+      },
+      "Fire Flux": {
+        "elo": 1500.0,
+        "past_matches": 0
+      }
+    },
+    "2393233": {
+      "G2": {
+        "elo": 1580.9010146139447,
+        "past_matches": 9
+      },
+      "3DMAX": {
+        "elo": 1511.8002369583319,
+        "past_matches": 13
+      }
+    },
+    "2393237": {
+      "G2": {
+        "elo": 1580.9010146139447,
+        "past_matches": 9
+      },
+      "Spirit": {
+        "elo": 1512.4391635040745,
+        "past_matches": 1
+      }
+    },
+    "2393236": {
+      "Vitality": {
+        "elo": 1512.7749877124256,
+        "past_matches": 1
+      },
+      "Falcons": {
+        "elo": 1512.8499620215496,
+        "past_matches": 1
+      }
+    },
+    "2393241": {
+      "Vitality": {
+        "elo": 1515.020134795957,
+        "past_matches": 3
+      },
+      "Natus Vincere": {
+        "elo": 1524.7741868781245,
+        "past_matches": 4
+      }
+    },
+    "2393175": {
+      "Acend": {
+        "elo": 1477.053199923346,
+        "past_matches": 4
+      },
+      "GenOne": {
+        "elo": 1479.1678884183996,
+        "past_matches": 6
+      }
+    },
+    "2393242": {
+      "Falcons": {
+        "elo": 1536.9139165745305,
+        "past_matches": 3
+      },
+      "Spirit": {
+        "elo": 1527.3211275151466,
+        "past_matches": 4
+      }
+    },
+    "2393397": {
+      "XI": {
+        "elo": 1500.0,
+        "past_matches": 0
+      },
+      "Rebels": {
+        "elo": 1500.4336217729099,
+        "past_matches": 6
+      }
+    },
+    "2393302": {
+      "SINNERS": {
+        "elo": 1535.146733518371,
+        "past_matches": 5
+      },
+      "Sashi": {
+        "elo": 1498.5070661378788,
+        "past_matches": 4
+      }
+    },
+    "2393408": {
+      "INFINITE": {
+        "elo": 1498.0134041908275,
+        "past_matches": 4
+      },
+      "zajezdzacze": {
+        "elo": 1476.279075160683,
+        "past_matches": 4
+      }
+    }
+  },
+  "skill_note": "All current professional event demos assigned band=4 by user convention, one level above the highest ordinary-player band=3. This constant-band subset cannot validate cross-rank generalization. Chronological Elo is a separate proxy, never an official rank."
+}

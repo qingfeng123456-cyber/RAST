@@ -1,0 +1,458 @@
+{
+  "schema": 9,
+  "kind": "real_demo_radar_proxy",
+  "data_config": {
+    "source": "hf",
+    "repo": "blanchon/opencs2_dataset_demo",
+    "revision": "912a363098feec3f220e41d68634d2f71676c28b",
+    "maps": [
+      "de_dust2"
+    ],
+    "max_demos": 53,
+    "tick_rate": null,
+    "sample_seconds": 0.5,
+    "history_steps": 4,
+    "target_stride": 2,
+    "max_round_seconds": 240,
+    "regions": 12,
+    "region_z_weight": 0.5,
+    "train_fraction": 0.65,
+    "validation_fraction": 0.15,
+    "minimum_match_groups": 10,
+    "skill_lag_days": 1,
+    "default_skill_band": 4,
+    "skill_band_scale_max": 4
+  },
+  "maps": [
+    "de_dust2"
+  ],
+  "samples": 98203,
+  "demos": 53,
+  "match_groups": 53,
+  "zero_hidden_windows_excluded": 2003,
+  "splits": {
+    "train": {
+      "samples": 60338,
+      "matches": 34
+    },
+    "val": {
+      "samples": 10831,
+      "matches": 5
+    },
+    "test": {
+      "samples": 27034,
+      "matches": 14
+    }
+  },
+  "feature_layout": {
+    "base_global_start": 24,
+    "availability_index": 29,
+    "aux_start": 30,
+    "aux_dim": 14,
+    "smoke_start": 198,
+    "memory_start": 222,
+    "extra_global_start": 246,
+    "skill_start": 248,
+    "acoustic_start": 262,
+    "regional_dim": 24,
+    "global_dim": 23
+  },
+  "features_per_frame": 311,
+  "history_protocol": "full sampled round_start-to-cutoff prefix, buy phase included; no sliding window or history dropout",
+  "observation_clock": "round-start grid + freeze + public deaths + friendly smoke lifecycle events",
+  "ct_aux_names": [
+    "health",
+    "armor",
+    "equipment",
+    "velocity_x",
+    "velocity_y",
+    "yaw_sin",
+    "yaw_cos",
+    "flash_duration",
+    "smoke",
+    "flashbang",
+    "he_grenade",
+    "molotov",
+    "defuser",
+    "scoped"
+  ],
+  "limitations": [
+    "radar proxy is not full human perception",
+    "idealized team-level per-frame observation fusion",
+    "no persistent enemy identities",
+    "regions are spatial clusters, not tactical labels",
+    "not a causal or win-rate study"
+  ],
+  "rounds": 1127,
+  "frames": 275577,
+  "clock_corrections": 53,
+  "history_with_radar_sighting_fraction": 0.5139557854648025,
+  "prefix_length": {
+    "min": 11,
+    "max": 1665,
+    "median": 149.0
+  },
+  "feature_frames": 275577,
+  "skill_band_counts": {
+    "4": 98203
+  },
+  "skill_band_protocol": {
+    "scale_max": 4,
+    "ordinary_highest_band": 3,
+    "professional_band": 4,
+    "value_encoding": "band / scale_max, with a separate known-value mask",
+    "semantics": "0..3 ordinary player strata; 4 professional event cohort",
+    "rank_source": "user-defined event-level band; not a Valve rank or official ranking"
+  },
+  "skill_note": "All current professional event demos assigned band=4 by user convention, one level above the highest ordinary-player band=3. This constant-band subset cannot validate cross-rank generalization. Chronological Elo is a separate proxy, never an official rank.",
+  "smoke_note": "Friendly smoke detonation/expiry history only; no hidden enemy smoke positions, volumetric vision reconstruction or movement blockade.",
+  "audio_note": "All logged player_sound step=true events assumed heard and localized to training-fitted regions. Idealized team audio: no walls, distance attenuation, masking, HRTF or hearing uncertainty. No enemy identifiers or exact sound coordinates reach the model.",
+  "audio_audits": [
+    {
+      "match_id": "2391934",
+      "available": true,
+      "footstep_events": 8892
+    },
+    {
+      "match_id": "2392347",
+      "available": true,
+      "footstep_events": 16198
+    },
+    {
+      "match_id": "2391726",
+      "available": true,
+      "footstep_events": 10420
+    },
+    {
+      "match_id": "2392194",
+      "available": true,
+      "footstep_events": 15124
+    },
+    {
+      "match_id": "2392455",
+      "available": true,
+      "footstep_events": 17678
+    },
+    {
+      "match_id": "2391729",
+      "available": true,
+      "footstep_events": 12807
+    },
+    {
+      "match_id": "2391817",
+      "available": true,
+      "footstep_events": 14168
+    },
+    {
+      "match_id": "2392279",
+      "available": true,
+      "footstep_events": 15760
+    },
+    {
+      "match_id": "2392562",
+      "available": false,
+      "footstep_events": 0
+    },
+    {
+      "match_id": "2392464",
+      "available": false,
+      "footstep_events": 0
+    },
+    {
+      "match_id": "2392468",
+      "available": false,
+      "footstep_events": 0
+    },
+    {
+      "match_id": "2392469",
+      "available": false,
+      "footstep_events": 0
+    },
+    {
+      "match_id": "2392591",
+      "available": true,
+      "footstep_events": 11875
+    },
+    {
+      "match_id": "2392566",
+      "available": false,
+      "footstep_events": 0
+    },
+    {
+      "match_id": "2391553",
+      "available": true,
+      "footstep_events": 15312
+    },
+    {
+      "match_id": "2392599",
+      "available": true,
+      "footstep_events": 12549
+    },
+    {
+      "match_id": "2392753",
+      "available": true,
+      "footstep_events": 10399
+    },
+    {
+      "match_id": "2392378",
+      "available": true,
+      "footstep_events": 13228
+    },
+    {
+      "match_id": "2392853",
+      "available": true,
+      "footstep_events": 11158
+    },
+    {
+      "match_id": "2392655",
+      "available": false,
+      "footstep_events": 0
+    },
+    {
+      "match_id": "2391562",
+      "available": true,
+      "footstep_events": 19338
+    },
+    {
+      "match_id": "2392775",
+      "available": true,
+      "footstep_events": 16079
+    },
+    {
+      "match_id": "2392915",
+      "available": true,
+      "footstep_events": 16088
+    },
+    {
+      "match_id": "2392292",
+      "available": false,
+      "footstep_events": 0
+    },
+    {
+      "match_id": "2392307",
+      "available": false,
+      "footstep_events": 0
+    },
+    {
+      "match_id": "2393073",
+      "available": false,
+      "footstep_events": 0
+    },
+    {
+      "match_id": "2391847",
+      "available": true,
+      "footstep_events": 15237
+    },
+    {
+      "match_id": "2393049",
+      "available": true,
+      "footstep_events": 12872
+    },
+    {
+      "match_id": "2393054",
+      "available": true,
+      "footstep_events": 12931
+    },
+    {
+      "match_id": "2393007",
+      "available": true,
+      "footstep_events": 11086
+    },
+    {
+      "match_id": "2392989",
+      "available": true,
+      "footstep_events": 13857
+    },
+    {
+      "match_id": "2393100",
+      "available": false,
+      "footstep_events": 0
+    },
+    {
+      "match_id": "2392994",
+      "available": true,
+      "footstep_events": 32002
+    },
+    {
+      "match_id": "2392909",
+      "available": true,
+      "footstep_events": 12192
+    },
+    {
+      "match_id": "2393029",
+      "available": true,
+      "footstep_events": 18046
+    },
+    {
+      "match_id": "2392912",
+      "available": true,
+      "footstep_events": 15202
+    },
+    {
+      "match_id": "2392209",
+      "available": true,
+      "footstep_events": 16260
+    },
+    {
+      "match_id": "2392941",
+      "available": true,
+      "footstep_events": 27436
+    },
+    {
+      "match_id": "2393250",
+      "available": true,
+      "footstep_events": 19111
+    },
+    {
+      "match_id": "2393151",
+      "available": true,
+      "footstep_events": 22956
+    },
+    {
+      "match_id": "2393157",
+      "available": true,
+      "footstep_events": 15341
+    },
+    {
+      "match_id": "2393129",
+      "available": true,
+      "footstep_events": 13796
+    },
+    {
+      "match_id": "2393228",
+      "available": true,
+      "footstep_events": 12039
+    },
+    {
+      "match_id": "2393331",
+      "available": true,
+      "footstep_events": 18278
+    },
+    {
+      "match_id": "2393233",
+      "available": true,
+      "footstep_events": 9026
+    },
+    {
+      "match_id": "2393237",
+      "available": true,
+      "footstep_events": 17531
+    },
+    {
+      "match_id": "2393236",
+      "available": true,
+      "footstep_events": 11562
+    },
+    {
+      "match_id": "2393241",
+      "available": true,
+      "footstep_events": 13473
+    },
+    {
+      "match_id": "2393175",
+      "available": true,
+      "footstep_events": 14204
+    },
+    {
+      "match_id": "2393242",
+      "available": true,
+      "footstep_events": 13882
+    },
+    {
+      "match_id": "2393397",
+      "available": false,
+      "footstep_events": 0
+    },
+    {
+      "match_id": "2393302",
+      "available": true,
+      "footstep_events": 12327
+    },
+    {
+      "match_id": "2393408",
+      "available": false,
+      "footstep_events": 0
+    }
+  ],
+  "audio_demos_available": 41,
+  "hidden_population_counts": {
+    "1": 7157,
+    "2": 9159,
+    "3": 14237,
+    "4": 20377,
+    "5": 47273
+  },
+  "date_range": [
+    "2026-03-23 19:29:37+00:00",
+    "2026-04-20 18:19:28+00:00"
+  ],
+  "split_policy": "User-requested group-disjoint rebalance: selected old test matches are now training data. Validation groups stay fixed. This is not a strictly chronological extrapolation split. All methods and seeds must share this version.",
+  "strict_chronological_extrapolation": false,
+  "split_rebalance": {
+    "moved_matches": [
+      "2393129",
+      "2393151",
+      "2393157"
+    ],
+    "moved_prefixes": 6759,
+    "actual_fraction_of_original_test_prefixes": 0.2000118367709289,
+    "before": {
+      "train": {
+        "matches": 31,
+        "prefixes": 53579,
+        "rounds": 632
+      },
+      "val": {
+        "matches": 5,
+        "prefixes": 10831,
+        "rounds": 127
+      },
+      "test": {
+        "matches": 17,
+        "prefixes": 33793,
+        "rounds": 368
+      }
+    },
+    "after": {
+      "train": {
+        "matches": 34,
+        "prefixes": 60338,
+        "rounds": 707
+      },
+      "val": {
+        "matches": 5,
+        "prefixes": 10831,
+        "rounds": 127
+      },
+      "test": {
+        "matches": 14,
+        "prefixes": 27034,
+        "rounds": 293
+      }
+    }
+  },
+  "expansion_provenance": {
+    "original_matches": 24,
+    "additional_matches": 29,
+    "original_rounds": 483,
+    "additional_rounds": 644,
+    "original_sources": {
+      "cs2\\data.py": "9bb3cc249e5b9192e53d9577a63c3fef55f552960d14941d4bb722240a31f72f",
+      "cs2\\audio.py": "d684761a36fe60f2dd65bf7b4a2d072d10cfe36e4e9a4a184a6ce98f61136f73",
+      "cs2\\skill.py": "29b793f6cf6d00dd4b70a9b862491e776e25789ed546c9ccfca5a5fd88ed2009",
+      "cs2\\io.py": "bba314072d83efc98092c4ea4efe2b9a9980a73ef902fe35107a5cc531a6ebe6",
+      "data\\processed\\dataset.npz": "261b56f92d3f129cefbd0176462da78f48dfefcbd227ed9139ab03ce8b43e400",
+      "data\\processed\\summary.json": "cd1551c15b0517df40161fc098859b3af9fa6749eeacdb594544b9534ec6ba17",
+      "data\\processed\\split_matches.json": "807c001101a4f52b9d03363a2e0ae92d7d24956b60c165fd570299437577be1a",
+      "data\\processed\\regions.json": "99eae4a9cb89478853754e1b713ecc1d250aaec2f2741b143cea5d57d6f2ab79"
+    },
+    "split_boundaries_utc": {
+      "val": "2026-04-05 09:37:05+00:00",
+      "test": "2026-04-08 17:04:16+00:00"
+    },
+    "excluded_or_unparsed": [],
+    "original_caches_reparsed": false,
+    "limitation": "Copied schema-7 public-clock-migrated cache; cached friendly smoke lifetimes preserved, original 24 raw DEMOs not reparsed",
+    "split_rebalance_note": "User-requested group-disjoint rebalance: selected old test matches are now training data. Validation groups stay fixed. This is not a strictly chronological extrapolation split. All methods and seeds must share this version."
+  }
+}

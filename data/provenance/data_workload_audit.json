@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-25T05:56:04.567150+00:00",
+  "unique_raw_demos": 53,
+  "unique_archived_sha256": 53,
+  "all_local_raw_sizes_rechecked": true,
+  "archived_hashes_recomputed_in_this_audit": false,
+  "hash_note": "The prior preparation verified all 53 raw digests. This inventory rechecked current file presence/size and used those archived digests; it did not reread 25.8 GB to recompute them.",
+  "raw_bytes": 25818929645,
+  "raw_GB_decimal": 25.818929645,
+  "raw_GiB_binary": 24.045752030797303,
+  "acquisition": "Downloaded from the fixed-revision Hugging Face OpenCS2 mirror; original HLTV match/demo URLs are preserved. This study did not directly scrape HLTV pages.",
+  "source_repository": "blanchon/opencs2_dataset_demo",
+  "revision": "912a363098feec3f220e41d68634d2f71676c28b",
+  "upstream_license": "CC BY 4.0 (upstream dataset card)",
+  "unique_event_labels": 31,
+  "source_team_labels": 79,
+  "first_match_utc": "2026-03-23 19:29:37+00:00",
+  "last_match_utc": "2026-04-20 18:19:28+00:00",
+  "event_counts": {
+    "IEM Rio 2026": 6,
+    "BetBoom Storm Season 2": 3,
+    "CCT Season 3 Europe Series 19": 2,
+    "NODWIN Clutch Series 6": 2,
+    "Digital Crusade DraculaN Season 6": 2,
+    "ESEA Season 56 Europe Finals": 2,
+    "CCT Season 3 South America Series 10": 2,
+    "ESL Challenger League Season 51 Europe Cup 3": 2,
+    "ESL Challenger League Season 51 Oceania Cup 3": 2,
+    "NODWIN Clutch Series 7 Closed Qualifier": 2,
+    "ESL Challenger League Season 51 North America Cup 3": 2,
+    "Dust2.us Eagle Masters Series 7": 2,
+    "PGL Bucharest 2026": 2,
+    "ESL Challenger League Season 51 Asia-Pacific Cup 3": 2,
+    "LORGAR RANKINGS Season 1 Closed Qualifier": 2,
+    "Parken Challenger Championship Season 5": 2,
+    "HLC Belgrade PRO 2026": 2,
+    "CCT Season 3 Europe Series 20": 1,
+    "Yuqilin Pinnacle of Battle Season 3": 1,
+    "CCT Season 3 Europe Series 20 Closed Qualifier": 1,
+    "ESL Challenger League Season 51 Europe Cup 2": 1,
+    "United21 League Season 46": 1,
+    "BC Game Masters Championship Season 1": 1,
+    "Parken Challenger Championship Season 3": 1,
+    "Gamers Assembly Festival 2026": 1,
+    "PGL Astana 2026 Europe Closed Qualifier": 1,
+    "PGL Astana 2026 South America Closed Qualifier": 1,
+    "CCT Season 3 North America Series 4": 1,
+    "United21 League Season 47": 1,
+    "NODWIN Clutch Series 7": 1,
+    "Tipsport Conquest of Prague 2026": 1
+  },
+  "frames": 275577,
+  "features_per_frame": 311,
+  "rounds": 1127,
+  "prefixes": 98203,
+  "splits": {
+    "train": {
+      "matches": 34,
+      "rounds": 707,
+      "prefixes": 60338
+    },
+    "val": {
+      "matches": 5,
+      "rounds": 127,
+      "prefixes": 10831
+    },
+    "test": {
+      "matches": 14,
+      "rounds": 293,
+      "prefixes": 27034
+    }
+  },
+  "processed_dataset_bytes": 23090401,
+  "processed_dataset_sha256": "a624d414d323c096fd5d5ff195f8fa8f7beb9e7ed22494987406b4d6c41b129a",
+  "caveats": [
+    "Storage/download size describes data preparation effort, not independent sample size.",
+    "This is an original task-specific derived dataset, not ownership of the original tournament recordings.",
+    "The final group-disjoint split is not a strict chronological extrapolation."
+  ]
+}

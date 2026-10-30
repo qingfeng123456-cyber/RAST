@@ -1,0 +1,34 @@
+{
+  "fig_readout_compact": {
+    "source_figure": "fig_readout",
+    "canvas_scale": 0.86,
+    "sources": [
+      "paper_case_data.npz",
+      "frozen_mechanism_probes.csv",
+      "diagnostic_selection.json"
+    ],
+    "caption": "Regional readout mechanisms of the final model. (a,b) Head-mean attention minus uniform for predefined cases [64, 232]; gray rows have zero remaining population, and the final region is determined by conservation. (c) Exact NLL after frozen readout bypass minus the unmodified checkpoint, averaged within each of the 14 matches, for all three seeds on the same 128 prespecified cutoffs. Positive values show dependence of the learned predictor on its readout. Attention panels use seed 2026, validation-selected epoch 5 after 13 completed epochs. Readout panels are teacher-forced conditional likelihood traces; the right panel is a frozen-checkpoint intervention.",
+    "retraining": false,
+    "source_sha256": {
+      "paper_case_data.npz": "6e977ca59cd4b759dc69feb856fbac6f3a224f3889f3ee6c46149bc7df0299a3",
+      "frozen_mechanism_probes.csv": "9c7323a5dc48af26f0774a39a3be5e2566f0fbeaa4931659aaf54b5b3adbd09f",
+      "diagnostic_selection.json": "1a384a78f677a004e3ea56d4e5fb4be81891de45aef4f30076d0cc8579447ff2"
+    }
+  },
+  "fig_joint_law_compact": {
+    "source_figure": "fig_joint_law",
+    "canvas_scale": 0.82,
+    "sources": [
+      "paper_case_data.npz",
+      "joint_count_law_source.csv",
+      "diagnostic_selection.json"
+    ],
+    "caption": "Two-region joint count laws of the final model in predefined cases [64, 232, 1, 8], estimated from 256 free-running samples. In each case the two regions with the largest predictive count variance are shown. Gray cells have total count greater than the known hidden-alive population; orange crosses mark the single observed target. The shared probability scale is 0\u20131. Seed2026, validation-selected epoch 5.",
+    "retraining": false,
+    "source_sha256": {
+      "paper_case_data.npz": "6e977ca59cd4b759dc69feb856fbac6f3a224f3889f3ee6c46149bc7df0299a3",
+      "joint_count_law_source.csv": "7c1fb88ad9c64fddf8de3d5c6e5ec39a079b12c3fbbc34b5602d898837905576",
+      "diagnostic_selection.json": "1a384a78f677a004e3ea56d4e5fb4be81891de45aef4f30076d0cc8579447ff2"
+    }
+  }
+}

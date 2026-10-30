@@ -1,0 +1,148 @@
+{
+  "status": "PASS",
+  "device": "cpu",
+  "torch_version": "2.12.1+cu126",
+  "training_performed": false,
+  "config": {
+    "hidden_dim": 192,
+    "transformer_dim": 192,
+    "transformer_heads": 8,
+    "transformer_layers": 4,
+    "dropout": 0.1,
+    "conditional_rps_weight": 0.25,
+    "rnn_layers": 3,
+    "lstm_hidden_dim": 320,
+    "gru_hidden_dim": 384,
+    "rnn_time_encoding": true,
+    "region_centers": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        2.0,
+        0.0,
+        0.0
+      ],
+      [
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        2.0,
+        1.0,
+        0.0
+      ],
+      [
+        3.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.0,
+        0.0
+      ],
+      [
+        1.0,
+        2.0,
+        0.0
+      ],
+      [
+        2.0,
+        2.0,
+        0.0
+      ],
+      [
+        3.0,
+        2.0,
+        0.0
+      ]
+    ]
+  },
+  "models": {
+    "lstm_count": {
+      "parameters": 2653830,
+      "supports_amp": false,
+      "exact_nll": true,
+      "rps_weight": 0.25,
+      "long_prefix": {
+        "steps": 1665,
+        "seconds": 0.15230899999914982,
+        "finite_nll": true,
+        "device": "cpu"
+      },
+      "checks": [
+        "finite_loss",
+        "backward_finite_all_parameters",
+        "context_shape",
+        "exact_joint_nll",
+        "objective_identity",
+        "legal_free_running_draws",
+        "legal_known_populations_0_to_5",
+        "right_padding_invariance",
+        "flagged_padding_invariance",
+        "evaluation_target_independence",
+        "state_serialization"
+      ],
+      "status": "PASS"
+    },
+    "gru_count": {
+      "parameters": 2804742,
+      "supports_amp": false,
+      "exact_nll": true,
+      "rps_weight": 0.25,
+      "long_prefix": {
+        "steps": 1665,
+        "seconds": 0.16855240000040794,
+        "finite_nll": true,
+        "device": "cpu"
+      },
+      "checks": [
+        "finite_loss",
+        "backward_finite_all_parameters",
+        "context_shape",
+        "exact_joint_nll",
+        "objective_identity",
+        "legal_free_running_draws",
+        "legal_known_populations_0_to_5",
+        "right_padding_invariance",
+        "flagged_padding_invariance",
+        "evaluation_target_independence",
+        "state_serialization"
+      ],
+      "status": "PASS"
+    }
+  },
+  "retained_model_compatibility": {
+    "vanilla_transformer": {
+      "status": "PASS",
+      "seeded_parameters_identical": true,
+      "construction_rng_identical": true,
+      "loss_and_infer_identical": true
+    },
+    "improved_transformer": {
+      "status": "PASS",
+      "seeded_parameters_identical": true,
+      "construction_rng_identical": true,
+      "loss_and_infer_identical": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+  "platform": "Linux-5.15.0-94-generic-x86_64-with-glibc2.35",
+  "packages": {
+    "torch": "2.6.0+cu124",
+    "numpy": "2.2.5",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "demoparser2": "0.42.0"
+  },
+  "device": "cuda",
+  "cuda": "12.4",
+  "gpu": "NVIDIA GeForce RTX 4090 D"
+}

@@ -1,0 +1,89 @@
+{
+  "source_sha256": {
+    "vanilla_transformer": "6b18aef546faab93d9abeb915570731ecf10c266f0801e21d54977262d4a189b",
+    "improved_transformer": "5919ed7a60d81407ab4beb01a75d4a4bf5cb066aed73837b3b498872d4edad6c"
+  },
+  "settings": [
+    {
+      "key": "vanilla_transformer__s17__p15",
+      "pca_dimensions": 50,
+      "n_components": 2,
+      "perplexity": 15.0,
+      "init": "pca",
+      "learning_rate": "auto",
+      "random_state": 17,
+      "max_iter": 1000
+    },
+    {
+      "key": "vanilla_transformer__s17__p30",
+      "pca_dimensions": 50,
+      "n_components": 2,
+      "perplexity": 30.0,
+      "init": "pca",
+      "learning_rate": "auto",
+      "random_state": 17,
+      "max_iter": 1000
+    },
+    {
+      "key": "vanilla_transformer__s42__p15",
+      "pca_dimensions": 50,
+      "n_components": 2,
+      "perplexity": 15.0,
+      "init": "pca",
+      "learning_rate": "auto",
+      "random_state": 42,
+      "max_iter": 1000
+    },
+    {
+      "key": "vanilla_transformer__s42__p30",
+      "pca_dimensions": 50,
+      "n_components": 2,
+      "perplexity": 30.0,
+      "init": "pca",
+      "learning_rate": "auto",
+      "random_state": 42,
+      "max_iter": 1000
+    },
+    {
+      "key": "improved_transformer__s17__p15",
+      "pca_dimensions": 50,
+      "n_components": 2,
+      "perplexity": 15.0,
+      "init": "pca",
+      "learning_rate": "auto",
+      "random_state": 17,
+      "max_iter": 1000
+    },
+    {
+      "key": "improved_transformer__s17__p30",
+      "pca_dimensions": 50,
+      "n_components": 2,
+      "perplexity": 30.0,
+      "init": "pca",
+      "learning_rate": "auto",
+      "random_state": 17,
+      "max_iter": 1000
+    },
+    {
+      "key": "improved_transformer__s42__p15",
+      "pca_dimensions": 50,
+      "n_components": 2,
+      "perplexity": 15.0,
+      "init": "pca",
+      "learning_rate": "auto",
+      "random_state": 42,
+      "max_iter": 1000
+    },
+    {
+      "key": "improved_transformer__s42__p30",
+      "pca_dimensions": 50,
+      "n_components": 2,
+      "perplexity": 30.0,
+      "init": "pca",
+      "learning_rate": "auto",
+      "random_state": 42,
+      "max_iter": 1000
+    }
+  ],
+  "warning": "Each model is projected independently. Coordinates/global distances are not aligned between models. All four seed/perplexity combinations retained."
+}

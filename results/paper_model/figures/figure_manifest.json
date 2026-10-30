@@ -1,0 +1,335 @@
+{
+  "figures": [
+    {
+      "figure": "A1",
+      "status": "generated",
+      "caption": "Validation-selected epoch 5 checkpoint after 13 completed training epochs; prespecified representative training seed 2026; 256 diagnostic cutoffs from 14 held-out matches. Diagnostic cutoffs were prespecified by live time and match-balanced, without selecting successful predictions. Overlapping prefixes are not independent replicates. Case 64, match 2393228. Head means of spatial attention at the final real timestep. The middle column shows a learned per-head negative bias strength multiplying fixed normalized centroid distances. The right column removes that local bias with Q/K held fixed; it is not the full-model bypass intervention. All heads are retained in the source tensors. Attention is a mechanism trace, not causal attribution.",
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "latex_environment": "figure*",
+      "latex_width": "0.96\\textwidth",
+      "dpi": 300,
+      "training_seeds": [
+        2026
+      ]
+    },
+    {
+      "figure": "A2",
+      "status": "generated",
+      "caption": "Validation-selected epoch 5 checkpoint after 13 completed training epochs; prespecified representative training seed 2026; 256 diagnostic cutoffs from 14 held-out matches. Diagnostic cutoffs were prespecified by live time and match-balanced, without selecting successful predictions. Overlapping prefixes are not independent replicates. Case 64: last-query temporal attention over the entire sampled prefix, summed into fixed 5-second bins and averaged over heads. The displayed range ends at the observed cutoff; boundary bins can contain less than 5 seconds of observations. Negative time is buy phase. Original token weights and timestamps are saved. This is not an attention rollout or evidence-importance score.",
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "latex_environment": "figure*",
+      "latex_width": "0.96\\textwidth",
+      "dpi": 300,
+      "training_seeds": [
+        2026
+      ]
+    },
+    {
+      "figure": "A3",
+      "status": "generated",
+      "caption": "Validation-selected epoch 5 checkpoint after 13 completed training epochs; prespecified representative training seed 2026; 256 diagnostic cutoffs from 14 held-out matches. Diagnostic cutoffs were prespecified by live time and match-balanced, without selecting successful predictions. Overlapping prefixes are not independent replicates. Linear CKA uses corresponding per-cutoff region-mean layer states, with state 0 before the first block. t-SNE shows independently projected vanilla and structured final embeddings, projection seed 17/perplexity 30 (other settings are saved as stability coordinates). Target labels color points only and do not fit the projection. Projection appearance alone cannot establish improved tactical representations.",
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "latex_environment": "figure*",
+      "latex_width": "0.96\\textwidth",
+      "dpi": 300,
+      "training_seeds": [
+        2026
+      ]
+    },
+    {
+      "figure": "B1",
+      "status": "generated",
+      "caption": "Validation-selected epoch 5 checkpoint after 13 completed training epochs; prespecified representative training seed 2026; 256 diagnostic cutoffs from 14 held-out matches. Diagnostic cutoffs were prespecified by live time and match-balanced, without selecting successful predictions. Overlapping prefixes are not independent replicates. Final-timestep temporal gate modulation, measured as channel RMS deviation from unity, for the most frequent public population pair CT=5, T=5. Gate=0.5+sigmoid lies in (0.5,1.5), scales only the temporal update, and is not a modality probability. RMS does not distinguish amplification from attenuation. Region-cutoff means are averaged equally over supporting matches; cells with <2 matches or <5 region-cutoffs are gray. Category labels give region-cutoffs / supporting matches. Missing audio is excluded from footstep contexts. Exact per-cell support is in B1_source.csv. These are conditional associations, not effects of changing tactics.",
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "latex_environment": "figure*",
+      "latex_width": "0.96\\textwidth",
+      "dpi": 300,
+      "training_seeds": [
+        2026
+      ]
+    },
+    {
+      "figure": "B2",
+      "status": "generated",
+      "caption": "Validation-selected epoch 5 checkpoint after 13 completed training epochs; prespecified representative training seed 2026; 256 diagnostic cutoffs from 14 held-out matches. Diagnostic cutoffs were prespecified by live time and match-balanced, without selecting successful predictions. Overlapping prefixes are not independent replicates. Final-timestep output-projected residual updates, including tanh(scale) and the temporal gate. Each update is normalized by its own immediately preceding state RMS, epsilon=1e-8. Left: equal-match mean, after within-cutoff region averaging. Right: predefined case 64. Norm ratios do not add as causal contributions because update vectors can cancel.",
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "latex_environment": "figure*",
+      "latex_width": "0.96\\textwidth",
+      "dpi": 300,
+      "training_seeds": [
+        2026
+      ]
+    },
+    {
+      "figure": "B3",
+      "status": "generated",
+      "caption": "Validation-selected epoch 5 checkpoint after 13 completed training epochs; prespecified representative training seed 2026; 256 diagnostic cutoffs from 14 held-out matches. Diagnostic cutoffs were prespecified by live time and match-balanced, without selecting successful predictions. Overlapping prefixes are not independent replicates. Frozen-checkpoint computational interventions on 128 identical cutoffs from 14 matches. All weights, inputs, full histories and modalities stay fixed. Each point is one match mean; \u0394=intervened\u2212ordinary, so positive values mean the original mechanism gives lower NLL. All signs are retained. This is a sensitivity probe, not a retrained ablation or a causal effect of gameplay changes. Match IDs map in lexicographic order to M1... in interventions.csv.",
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "latex_environment": "figure*",
+      "latex_width": "0.96\\textwidth",
+      "dpi": 300,
+      "training_seeds": [
+        2026
+      ]
+    },
+    {
+      "figure": "C1",
+      "status": "generated",
+      "caption": "Validation-selected epoch 5 checkpoint after 13 completed training epochs; prespecified representative training seed 2026; 256 diagnostic cutoffs from 14 held-out matches. Diagnostic cutoffs were prespecified by live time and match-balanced, without selecting successful predictions. Overlapping prefixes are not independent replicates. Full held-out predictions restricted to n=3 hidden alive enemies: 3462 cutoffs from 14 matches. Each matrix is an equal-match mean of pair-presence probabilities. Diagonal entries are marginal presence. Residual matrices are aggregate agreement diagnostics, not sufficient proof of calibration; pair-presence Brier and reliability data are also saved. Baseline=vanilla_transformer; encoder differs, so effects cannot be attributed to the decoder alone. A multinomial actor model already has dependent region counts due to fixed population; it is not independent region counts.",
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "latex_environment": "figure*",
+      "latex_width": "0.96\\textwidth",
+      "dpi": 300,
+      "training_seeds": [
+        2026
+      ]
+    },
+    {
+      "figure": "C2",
+      "status": "generated",
+      "caption": "Validation-selected epoch 5 checkpoint after 13 completed training epochs; prespecified representative training seed 2026; 256 diagnostic cutoffs from 14 held-out matches. Diagnostic cutoffs were prespecified by live time and match-balanced, without selecting successful predictions. Overlapping prefixes are not independent replicates. Discrete two-region predictive laws estimated from 256 draws per cutoff. a: case 64, R8/R6, n=2; b: case 232, R7/R5, n=1; c: case 1, R8/R10, n=2; d: case 8, R8/R4, n=3. Within each predefined case, the two regions with greatest predictive count variance are selected without using the outcome. Cross marks the single observed realization, not a true conditional distribution. Gray cells are structurally impossible (sum>n); an estimated zero in a possible cell can be Monte Carlo sampling zero. Common [0,1] probability scale.",
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "latex_environment": "figure*",
+      "latex_width": "0.96\\textwidth",
+      "dpi": 300,
+      "training_seeds": [
+        2026
+      ]
+    },
+    {
+      "figure": "C3",
+      "status": "generated",
+      "caption": "Validation-selected epoch 5 checkpoint after 13 completed training epochs; prespecified representative training seed 2026; 256 diagnostic cutoffs from 14 held-out matches. Diagnostic cutoffs were prespecified by live time and match-balanced, without selecting successful predictions. Overlapping prefixes are not independent replicates. Predefined cases [64, 232, 1]: predictive mean (top), predictive count standard deviation (middle), and observed target counts (bottom) at training-fitted region centroids. Shared row color limits use the displayed cases' theoretical support: count 0\u20132, SD 0\u20131. Region numbers are annotated. This is a 2D projection in original game units. If present, the gray backdrop is empirical training-trajectory density only; it is not a navigation mesh, complete walkability map or reconstructed scene. No test trajectories construct that backdrop. Region predictions are not spatially interpolated. The predictive sample count is 256.",
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "latex_environment": "figure*",
+      "latex_width": "0.96\\textwidth",
+      "dpi": 300,
+      "training_seeds": [
+        2026
+      ]
+    },
+    {
+      "figure": "D1",
+      "status": "generated",
+      "caption": "Validation-selected epoch 5 checkpoint after 13 completed training epochs; prespecified representative training seed 2026; 256 diagnostic cutoffs from 14 held-out matches. Diagnostic cutoffs were prespecified by live time and match-balanced, without selecting successful predictions. Overlapping prefixes are not independent replicates. Population-conditioned regional readout for predefined cases [64, 232, 1, 8]; head-mean attention minus the uniform 1/K reference, with shared symmetric color limits \u00b10.6191. Each query accesses the final real-time region tokens produced from the entire observed prefix. These are teacher-forced likelihood diagnostics: earlier region allocations use the observed target counts, not information given to deployed inference. Gray rows have zero remaining population and a deterministic zero count; the final region is determined by conservation and has no decoder query. Raw per-head weights, conditional probabilities and remaining counts are saved. Attention alone does not prove predictive benefit.",
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "latex_environment": "figure*",
+      "latex_width": "0.96\\textwidth",
+      "dpi": 300,
+      "training_seeds": [
+        2026
+      ]
+    },
+    {
+      "figure": "D2",
+      "status": "generated",
+      "caption": "Validation-selected epoch 5 checkpoint after 13 completed training epochs; prespecified representative training seed 2026; 256 diagnostic cutoffs from 14 held-out matches. Diagnostic cutoffs were prespecified by live time and match-balanced, without selecting successful predictions. Overlapping prefixes are not independent replicates. Left: frozen checkpoint readout bypass on 128 identical cutoffs from 14 matches, holding every input, weight and modality fixed. Positive means the active readout gives lower exact NLL; all match signs are shown. Right: actual tanh-scaled update added to the decoder input, measured by channel RMS during the teacher-forced diagnostics in D1. Gray cells have no remaining mass. Update magnitude and frozen sensitivity are mechanism checks, not retrained benefits or game-level causal effects.",
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "latex_environment": "figure*",
+      "latex_width": "0.96\\textwidth",
+      "dpi": 300,
+      "training_seeds": [
+        2026
+      ]
+    }
+  ],
+  "training_seed": 2026,
+  "source_fingerprints": [
+    {
+      "path": "all_test_scores.csv",
+      "sha256": "ef082e20675efcf92cef88a3c5e41e9d81278d17ea42b9344a20e95d212e18de"
+    },
+    {
+      "path": "diagnostic_selection.json",
+      "sha256": "7f2e80e55f6450f03f54c0d4d502cb02ff8d5605b2d41bc91d1fcd67ec91fb38"
+    },
+    {
+      "path": "figures/A2_bins.json",
+      "sha256": "2217046bc7bb059b4ec329581d9726920ea492d321fba3512378c5cce04cc3a5"
+    },
+    {
+      "path": "figures/B1_source.csv",
+      "sha256": "bc5beeec8d1a3e593555bdbbfc1bd1392e5cf2161a12baef5c0ba0a8b9b0ce7c"
+    },
+    {
+      "path": "figures/D1_scale.json",
+      "sha256": "b80ece687cdc55fcc6b57f6e1400f907763001371e03acfcfaeead64987b2acf"
+    },
+    {
+      "path": "figures/D2_source.csv",
+      "sha256": "c82ddffad0c09d7c872e66bd1109e2d91439327c5ed73826f6d9823cb9ffab08"
+    },
+    {
+      "path": "plot_context/data_fingerprint.json",
+      "sha256": "8153e537456e20549cf4664fc6de22680f51b69fdfe6b34045311a000b587403"
+    },
+    {
+      "path": "plot_context/data_summary.json",
+      "sha256": "63afa227b3e06978864bac79fa9b90f22939bcd538b41e5b8c3e95023a68ff9a"
+    },
+    {
+      "path": "plot_context/regions.json",
+      "sha256": "229ff759f580c877241e5cfd4430ec0fd3bd0a1f65f679ce875f5b898b9e8ec6"
+    },
+    {
+      "path": "plot_context/split_matches.json",
+      "sha256": "6962b5313d570788e078d0be47e71e30a333fb81de9573cd28203488044cc77e"
+    },
+    {
+      "path": "projection_cache.npz",
+      "sha256": "548c819aa87cf553313c2c929737cfefbf77e3c98f6fdc7af433bbcf1f1b3d1a"
+    },
+    {
+      "path": "projection_parameters.json",
+      "sha256": "6ee12aeeff7dffac1c064c00cccde94f817d590bf7ff5da4d9bb1acc0b03da35"
+    },
+    {
+      "path": "resolved_config.json",
+      "sha256": "43a5921fb95bff453e277eb9bf2ee4c2599bf7d7f9e0fd22fb25a87329e04ade"
+    },
+    {
+      "path": "seed_2026/improved_transformer/diagnostics/cases.npz",
+      "sha256": "a0cf0acba6d08e60146484fb51b461f39aaff8f0404165a6e04b539cb762a970"
+    },
+    {
+      "path": "seed_2026/improved_transformer/diagnostics/interventions.csv",
+      "sha256": "6edf6a4990b645e562dcf5270d1b8a603314bed02a212653f147e2ab562ceb04"
+    },
+    {
+      "path": "seed_2026/improved_transformer/diagnostics/traces.npz",
+      "sha256": "5919ed7a60d81407ab4beb01a75d4a4bf5cb066aed73837b3b498872d4edad6c"
+    },
+    {
+      "path": "seed_2026/improved_transformer/fit.json",
+      "sha256": "cf35fccb57ab8b054ac7acb202a10fdcc7e1b9d296d5033505d952da13d08305"
+    },
+    {
+      "path": "seed_2026/improved_transformer/test_predictions.npz",
+      "sha256": "2e36f94a3f589cb3ace9088e3d9ea54e6fd3e92af080aa35652f9dd3a6ecac55"
+    },
+    {
+      "path": "seed_2026/vanilla_transformer/diagnostics/traces.npz",
+      "sha256": "6b18aef546faab93d9abeb915570731ecf10c266f0801e21d54977262d4a189b"
+    },
+    {
+      "path": "seed_2026/vanilla_transformer/fit.json",
+      "sha256": "5c36d079b76774ce28c6ba0b5d222d2c4dab9bf2fbea5932557e776c79011741"
+    },
+    {
+      "path": "seed_2026/vanilla_transformer/test_predictions.npz",
+      "sha256": "793e05b7dc1c610054e7cc2c69e5530f9a6e103581821dbaa79f1189dc143eb9"
+    }
+  ],
+  "representative_training_seed": 2026,
+  "configured_training_seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "selection": "at most two nearest cutoffs to 20/60 live seconds per round, match-balanced seeded subsample; cases use input context/population, never prediction quality",
+  "projection_stability": "2 seeds \u00d7 2 perplexities, cached independently for every available model",
+  "aggregation": "within-match mean then equal-weight mean across matches; no token-level independent replication",
+  "model_fit_records": {
+    "improved_transformer": {
+      "parameters": 2851238,
+      "epochs": 13,
+      "best_epoch": 5,
+      "trainable_parameters": 2851238,
+      "fit_seconds": 2536.7346979267895,
+      "selection_objective": "energy_score",
+      "best_validation_score": 0.8752267046890694,
+      "validation_draws": 64,
+      "stop_reason": "patience",
+      "training_objective": "exact_count_nll_plus_conditional_rps",
+      "conditional_rps_weight": 0.25,
+      "micro_batch_size": 16,
+      "effective_batch_size": 128,
+      "peak_allocated_bytes": 12523719680,
+      "batching": "length_sorted_dynamic",
+      "pad_multiple": 32,
+      "length_bucket_pool_batches": 16,
+      "prefix_frame_capacity": 18432,
+      "amp_bfloat16": true
+    },
+    "vanilla_transformer": {
+      "parameters": 2692422,
+      "epochs": 11,
+      "best_epoch": 3,
+      "trainable_parameters": 2692422,
+      "fit_seconds": 1962.8573785815388,
+      "selection_objective": "energy_score",
+      "best_validation_score": 0.8983129029032006,
+      "validation_draws": 64,
+      "stop_reason": "patience",
+      "training_objective": "exact_count_nll",
+      "conditional_rps_weight": 0,
+      "micro_batch_size": 16,
+      "effective_batch_size": 128,
+      "peak_allocated_bytes": 11413969408,
+      "batching": "length_sorted_dynamic",
+      "pad_multiple": 32,
+      "length_bucket_pool_batches": 16,
+      "prefix_frame_capacity": 18432,
+      "amp_bfloat16": true
+    }
+  },
+  "software_check": false,
+  "dpi": 300,
+  "last_rendered_figures": [
+    "A1",
+    "A2",
+    "A3",
+    "B1",
+    "B2",
+    "B3",
+    "C1",
+    "C2",
+    "C3",
+    "D1",
+    "D2"
+  ]
+}

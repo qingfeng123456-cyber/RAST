@@ -1,0 +1,14 @@
+{
+  "kind": "Final-method publication subset",
+  "original_run": "cs2_53matches_bucket_20261024",
+  "original_data_sha256": "a624d414d323c096fd5d5ff195f8fa8f7beb9e7ed22494987406b4d6c41b129a",
+  "retained_methods": [
+    "knn",
+    "vanilla_transformer",
+    "improved_transformer"
+  ],
+  "model_selection_note": "The final presentation emphasizes the evaluated region-aligned model. This is a publication subset of an exploratory development run; the original full evidence remains archived separately.",
+  "predictions_changed": false,
+  "weights_changed": false,
+  "training_performed": false
+}
